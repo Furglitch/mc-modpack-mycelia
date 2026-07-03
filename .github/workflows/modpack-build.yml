@@ -87,7 +87,7 @@ jobs:
       
       - name: Upload Modrinth modpack artifact
         if: ${{ github.event_name != 'pull' }}
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.pack_info.outputs.name }} ${{ steps.pack_info.outputs.version }} - Modrinth
           path: packwiz/${{ steps.pack_info.outputs.name }}-${{ steps.pack_info.outputs.version }}-MODRINTH.mrpack
@@ -144,7 +144,7 @@ jobs:
 
       - name: Upload CurseForge client modpack artifact
         if: ${{ github.event_name != 'pull' }}
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.pack_info.outputs.name }} ${{ steps.pack_info.outputs.version }} - CurseForge Client
           path: packwiz/${{ steps.pack_info.outputs.name }}-${{ steps.pack_info.outputs.version }}-CLIENT-CURSEFORGE.zip
@@ -253,7 +253,7 @@ jobs:
 
       - name: Upload CurseForge server modpack artifact
         if: ${{ github.event_name != 'pull' }}
-        uses: actions/upload-artifact@v6
+        uses: actions/upload-artifact@v7
         with:
           name: ${{ steps.pack_info.outputs.name }}-${{ steps.pack_info.outputs.version }}-SERVER-CURSEFORGE
           path: modpack-server/
