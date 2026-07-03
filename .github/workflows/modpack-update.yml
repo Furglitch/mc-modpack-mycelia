@@ -1,0 +1,174 @@
+name: Update Mods
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+    # - timezone: 'America/New_York' <- Not yet supported : https://github.com/github/roadmap/issues/1187
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: cron-updaters-1211NF-${{ github.ref }}
+  cancel-in-progress: false
+
+env: 
+  origin-branch: ${{ github.ref_name }}
+jobs:
+  update:
+    name: Refresh & Update Mods
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ env.origin-branch }}
+          fetch-depth: 0
+      
+      - name: Create update branch name
+        id: branch_name
+        run: |
+          sanitized_branch=$(printf '%s' "${{ github.ref_name }}" | sed 's/\./-/g')
+          branch="github-actions/${sanitized_branch}/packwiz/update/mods"
+          echo "update-branch=$branch" >> $GITHUB_OUTPUT
+
+      - name: Pull existing PR branch
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
+          if git ls-remote --heads origin ${{ steps.branch_name.outputs.update-branch }} | grep -q ${{ steps.branch_name.outputs.update-branch }}; then
+            echo "exists=true" >> $GITHUB_OUTPUT
+            git fetch origin ${{ steps.branch_name.outputs.update-branch }}
+
+            if git merge -X theirs --no-edit origin/${{ steps.branch_name.outputs.update-branch }}; then
+              echo "Merged origin/${{ env.origin-branch }} into origin/${{ steps.branch_name.outputs.update-branch }}"
+            else
+              echo "Merge produced conflicts — auto-resolving by taking incoming changes..."
+              git ls-files -u | awk '{print $4}' | sort -u | while read -r f; do
+                git checkout --theirs -- "$f" || true
+                git add "$f" || true
+              done
+              git commit -m "Merge origin/${{ env.origin-branch }} into origin/${{ steps.branch_name.outputs.update-branch }}" || true
+            fi
+          else
+            echo "exists=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Download packwiz binary
+        uses: dawidd6/action-download-artifact@v12
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          workflow: go.yml
+          repo: AmberIsFrozen/packwiz
+          name: Linux 64-bit x86
+          path: ./packwiz-bin
+
+      - name: Install packwiz
+        run: |
+          chmod +x ./packwiz-bin/packwiz
+          sudo mv ./packwiz-bin/packwiz /usr/local/bin/
+
+      - name: Refresh pack index
+        working-directory: ./packwiz
+        run: packwiz refresh || true
+
+      - name: Update mods
+        working-directory: ./packwiz
+        run: packwiz update --all --yes | tee /tmp/packwiz_update.out || true
+
+      - name: Parse update output and prepare PR body
+        id: update_parse
+        run: |
+          if [ ! -f "/tmp/packwiz_update.out" ]; then
+            echo "## Updated:" > /tmp/pr_body.txt
+            echo "No updates found (file not found)." >> /tmp/pr_body.txt
+            echo "has_updates=false" >> $GITHUB_OUTPUT
+          else
+            echo "## Updated:" > /tmp/pr_body.txt
+
+            sed -n '/Updates found:/,/Do you want to update\? /p' "/tmp/packwiz_update.out" | \
+            grep ' -> ' | \
+            while IFS= read -r line; do
+              mod_name=$(echo "$line" | sed -E 's/^[[:space:]]*(.*): .* -> .*/\1/')
+              files=$(echo "$line" | sed -E 's/^.*: (.*)/\1/')
+              old_file=$(echo "$files" | sed -E 's/(.*) -> .*/\1/')
+              new_file=$(echo "$files" | sed -E 's/.* -> (.*)/\1/')
+
+              mod_name=$(echo "$mod_name" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+              old_file=$(echo "$old_file" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+              new_file=$(echo "$new_file" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+
+              old_version=$(basename "$old_file")
+              new_version=$(basename "$new_file")
+
+              if [ -n "$old_version" ] && [ -n "$new_version" ]; then
+                echo "**${mod_name}:** ${old_version} ➜ ${new_version}"
+              else
+                echo "**${mod_name}:** ${old_file} ➜ ${new_file}"
+              fi
+            done | sort -f >> /tmp/pr_body.txt
+
+            if grep -q ' -> ' "/tmp/packwiz_update.out" 2>/dev/null; then
+              echo "has_updates=true" >> $GITHUB_OUTPUT
+            else
+              echo "has_updates=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+          {
+            echo "body<<EOF"
+            cat /tmp/pr_body.txt
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      - name: Check for existing PR and fetch body
+        if: steps.update_parse.outputs.has_updates == 'true'
+        id: pr_check
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { data: pullRequests } = await github.rest.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              head: `${context.repo.owner}:${{ steps.branch_name.outputs.update-branch }}`
+            });
+            
+            if (pullRequests.length > 0) {
+              core.setOutput('exists', 'true');
+              core.setOutput('number', pullRequests[0].number);
+              core.setOutput('existing_body', pullRequests[0].body || '');
+              console.log(`Found existing PR #${pullRequests[0].number}`);
+            } else {
+              core.setOutput('exists', 'false');
+              console.log('No existing PR found');
+            }
+      
+      - name: Create or Update Pull Request
+        id: pr_create
+        if: steps.update_parse.outputs.has_updates == 'true'
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore: update mods'
+          title: 'chore: update mods'
+          body: ${{ steps.pr_check.outputs.exists == 'true' && steps.pr_check.outputs.existing_body || steps.update_parse.outputs.body }}
+          branch: ${{ steps.branch_name.outputs.update-branch }}
+          delete-branch: false
+
+      - name: Comment on existing PR with new updates
+        if: steps.update_parse.outputs.has_updates == 'true' && steps.pr_check.outputs.exists == 'true' && steps.pr_create.outputs.pull-request-operation == 'updated'
+        uses: actions/github-script@v8
+        env:
+          PR_NUMBER: ${{ steps.pr_create.outputs['pull-request-number'] }}
+          PR_BODY: ${{ steps.update_parse.outputs.body }}
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const prNumber = parseInt(process.env.PR_NUMBER, 10);
+            const body = `## Updates (${new Date().toISOString().split('T')[0]})\n\n${process.env.PR_BODY}`;
+            await github.rest.issues.createComment({ owner: context.repo.owner, repo: context.repo.repo, issue_number: prNumber, body });

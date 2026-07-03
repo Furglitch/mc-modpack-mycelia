@@ -1,0 +1,147 @@
+name: Update Modloader Version
+
+on:
+  schedule:
+    - cron: '0 0 * * 1'
+    # - timezone: 'America/New_York' <- Not yet supported : https://github.com/github/roadmap/issues/1187
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: cron-updaters-1211NF-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  maven_repo: "https://maven.neoforged.net/releases"
+  maven_path: "net/neoforged/neoforge"
+  prefix: "21.1."
+  pack_file: "packwiz/pack.toml"
+
+jobs:
+  update-modloader:
+    name: Update NeoForge Modloader
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          persist-credentials: true
+
+      - name: Parse latest/current NeoForge Modloader
+        id: parse
+        run: |
+          set -euo pipefail
+          tmp=/tmp/maven-metadata.xml
+          url="$maven_repo/$maven_path/maven-metadata.xml"
+          echo "Fetching $url"
+          curl -fsSL "$url" -o "$tmp"
+          versions=$(awk -F'[<>]' '/<version>/{print $3}' "$tmp" || true)
+          PREFIX_REGEX=$(printf '%s' "$prefix" | sed 's/\./\\./g')
+          latest=$(printf "%s\n" $versions | grep -E "^${PREFIX_REGEX}" | sort -V | tail -n1 || true)
+          current=$(sed -n 's/^neoforge\s*=\s*"\([^"]*\)".*/\1/p' "$pack_file" || true)
+          echo "latest=$latest" >> "$GITHUB_OUTPUT"
+          echo "current=$current" >> "$GITHUB_OUTPUT"
+
+      - name: Update pack.toml
+        if: ${{ steps.parse.outputs.latest != '' && steps.parse.outputs.latest != steps.parse.outputs.current }}
+        run: |
+          set -euo pipefail
+          latest="${{ steps.parse.outputs.latest }}"
+          echo "Updating $pack_file -> $latest"
+          sed -E -i "s/^(neoforge\s*=\s*\").*(\")/\1${latest}\2/" "$pack_file"
+          git add "$pack_file"
+
+      - name: Create branch name
+        id: branch_name
+        if: ${{ steps.parse.outputs.latest != '' && steps.parse.outputs.latest != steps.parse.outputs.current }}
+        run: |
+          sanitized_branch=$(printf '%s' "${{ github.ref_name }}" | sed 's/\./-/g')
+          branch="github-actions/${sanitized_branch}/packwiz/update/neoforge"
+          echo "branch=$branch" >> $GITHUB_OUTPUT
+
+      - name: Prepare git user
+        if: ${{ steps.parse.outputs.latest != '' && steps.parse.outputs.latest != steps.parse.outputs.current }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Compose PR body
+        id: compose
+        if: ${{ steps.parse.outputs.latest != '' && steps.parse.outputs.latest != steps.parse.outputs.current }}
+        run: |
+          set -euo pipefail
+          latest="${{ steps.parse.outputs.latest }}"
+          current="${{ steps.parse.outputs.current }}"
+          pr_file=/tmp/pr_body.txt
+
+          echo "Bumps neoforge in /packwiz/pack.toml from ${current} to ${latest}." > "$pr_file"
+          echo "" >> "$pr_file"
+
+          changelog_url="${{ env.maven_repo }}/${{ env.maven_path }}/${latest}/neoforge-${latest}-changelog.txt"
+          if curl -fsSL "$changelog_url" -o /tmp/changelog.txt; then
+            if [ -n "$current" ]; then
+              awk -v old="$current" 'BEGIN{pat="`"old"`"} $0 ~ pat {exit} {print}' /tmp/changelog.txt > /tmp/changelog_trimmed.txt || true
+              if [ ! -s /tmp/changelog_trimmed.txt ]; then
+                cp /tmp/changelog.txt /tmp/changelog_trimmed.txt || true
+              fi
+            else
+              cp /tmp/changelog.txt /tmp/changelog_trimmed.txt || true
+            fi
+
+            echo "<details>" >> "$pr_file"
+            echo "<summary>Release notes</summary>" >> "$pr_file"
+            echo "" >> "$pr_file"
+            perl -0777 -ne '
+              my $s = $_;
+              while ($s =~ /[-*]?\s*`([^`]+)`\s*(.*?)(?=\n\s*[-*]?\s*`|\z)/msg) {
+                my ($v, $body) = ($1, $2);
+                my @co;
+                while ($body =~ /Co-authored-by:[^\n<]*<([^>]+)>/g) {
+                  my $mail = $1;
+                  my $user;
+                  if ($mail =~ /\+([^@>]+)@/) { $user = $1; }
+                  else { ($user) = $mail =~ /([^@>]+)/; }
+                  push @co, $user if defined $user and $user ne "";
+                }
+                $body =~ s/\n\s*Co-authored-by:[^\n]*//g;
+                $body =~ s/`([^`]+)`/<code>$1<\/code>/g;
+                $body =~ s/\(#(\d+)\)/(<a href="https:\/\/github.com\/neoforged\/NeoForge\/pull\/$1">#$1<\/a>)/g;
+                $body =~ s/(?<=\s)#(\d+)/<a href="https:\/\/github.com\/neoforged\/NeoForge\/pull\/$1">#$1<\/a>/g;
+                $body =~ s/^\s+|\s+$//g;
+                print "<h2>$v<\/h2>\n";
+                print $body . "\n";
+                if (@co) {
+                  print "<h3>Co-Authors<\/h3>\n";
+                  foreach my $u (@co) {
+                    print "<a href=\"https://github.com/$u\"><code>\@$u<\/code><\/a>\n";
+                  }
+                }
+                print "\n";
+              }
+            ' /tmp/changelog_trimmed.txt >> "$pr_file" || true
+
+            echo "</details>" >> "$pr_file"
+          else
+            echo "Release notes not found at $changelog_url" >> "$pr_file"
+          fi
+
+          {
+            echo "body<<EOF"
+            cat "$pr_file"
+            echo "EOF"
+          } >> $GITHUB_OUTPUT
+
+      - name: Create Pull Request
+        if: ${{ steps.parse.outputs.latest != '' && steps.parse.outputs.latest != steps.parse.outputs.current }}
+        uses: peter-evans/create-pull-request@v8
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ steps.branch_name.outputs.branch }}
+          commit-message: "chore(deps): bump neoforge from ${{ steps.parse.outputs.current }} to ${{ steps.parse.outputs.latest }} in /packwiz/pack.toml"
+          title: "chore(deps): bump neoforge from ${{ steps.parse.outputs.current }} to ${{ steps.parse.outputs.latest }} in /packwiz/pack.toml"
+          body: ${{ steps.compose.outputs.body }}
+          delete-branch: false

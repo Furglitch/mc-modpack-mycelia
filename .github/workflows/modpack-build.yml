@@ -1,0 +1,259 @@
+name: Build Modpack
+
+on:
+  push:
+    branches: [ 1.21.1-NeoForge ]
+    paths:
+      - 'packwiz/**'
+      - 'server/**'
+      - '.github/workflows/modpack-build.yml'
+  pull_request:
+    branches: [ 1.21.1-NeoForge ]
+    paths:
+      - 'packwiz/**'
+      - 'server/**'
+      - '.github/workflows/modpack-build.yml'
+  workflow_dispatch:
+
+env:
+  CURSEFORGE: true
+  MODRINTH: false
+
+concurrency:
+  group: check-modpack-1211NF-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  prepare:
+    name: Prepare toggles
+    runs-on: ubuntu-latest
+    outputs:
+      CURSEFORGE: ${{ steps.set.outputs.curseforge }}
+      MODRINTH: ${{ steps.set.outputs.modrinth }}
+    steps:
+      - name: Expose toggles
+        id: set
+        run: |
+          echo "curseforge=${CURSEFORGE}" >> $GITHUB_OUTPUT
+          echo "modrinth=${MODRINTH}" >> $GITHUB_OUTPUT
+
+  build-modrinth:
+    name: Build Modrinth Modpack
+    needs: prepare
+    if: ${{ needs.prepare.outputs.MODRINTH != 'false' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Download packwiz binary
+        uses: dawidd6/action-download-artifact@v12
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          workflow: go.yml
+          repo: AmberIsFrozen/packwiz
+          name: Linux 64-bit x86
+          path: ./packwiz-bin
+
+      - name: Install packwiz
+        run: |
+          chmod +x ./packwiz-bin/packwiz
+          sudo mv ./packwiz-bin/packwiz /usr/local/bin/
+
+      - name: Refresh pack index
+        working-directory: ./packwiz
+        run: packwiz refresh || true
+      - name: Parse pack info
+        id: pack_info
+        run: |
+          NAME=$(grep '^name = ' packwiz/pack.toml | cut -d '"' -f 2)
+          VERSION=$(grep '^version = ' packwiz/pack.toml | cut -d '"' -f 2)
+          SANITIZED_NAME=$(printf '%s' "$NAME" | sed 's/[":<>|*?\\\/]/-/g')
+          echo "name=$SANITIZED_NAME" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Export Modrinth modpack
+        working-directory: ./packwiz
+        run: |
+          packwiz modrinth export --output '${{ steps.pack_info.outputs.name }}-${{ steps.pack_info.outputs.version }}-MODRINTH.mrpack'
+      
+      - name: Upload Modrinth modpack artifact
+        if: ${{ github.event_name != 'pull' }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: ${{ steps.pack_info.outputs.name }} ${{ steps.pack_info.outputs.version }} - Modrinth
+          path: packwiz/${{ steps.pack_info.outputs.name }}-${{ steps.pack_info.outputs.version }}-MODRINTH.mrpack
+          compression-level: 0
+
+
+  build-curseforge-client:
+    name: Build CurseForge Client Modpack
+    needs: prepare
+    if: ${{ needs.prepare.outputs.CURSEFORGE != 'false' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Download packwiz binary
+        uses: dawidd6/action-download-artifact@v12
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          workflow: go.yml
+          repo: AmberIsFrozen/packwiz
+          name: Linux 64-bit x86
+          path: ./packwiz-bin
+
+      - name: Install packwiz
+        run: |
+          chmod +x ./packwiz-bin/packwiz
+          sudo mv ./packwiz-bin/packwiz /usr/local/bin/
+
+      - name: Refresh pack index
+        working-directory: ./packwiz
+        run: packwiz refresh || true
+      - name: Parse pack info
+        id: pack_info
+        run: |
+          NAME=$(grep '^name = ' packwiz/pack.toml | cut -d '"' -f 2)
+          VERSION=$(grep '^version = ' packwiz/pack.toml | cut -d '"' -f 2)
+          SANITIZED_NAME=$(printf '%s' "$NAME" | sed 's/[":<>|*?\\\/]/-/g')
+          echo "name=$SANITIZED_NAME" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Export CurseForge client modpack
+        working-directory: ./packwiz
+        run: |
+          packwiz curseforge export --side client --output '${{ steps.pack_info.outputs.name }}-${{ steps.pack_info.outputs.version }}-CLIENT-CURSEFORGE.zip'
+
+      - name: Upload CurseForge client modpack artifact
+        if: ${{ github.event_name != 'pull' }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: ${{ steps.pack_info.outputs.name }} ${{ steps.pack_info.outputs.version }} - CurseForge Client
+          path: packwiz/${{ steps.pack_info.outputs.name }}-${{ steps.pack_info.outputs.version }}-CLIENT-CURSEFORGE.zip
+
+
+  build-curseforge-server:
+    name: Build CurseForge Server Modpack
+    needs: prepare
+    if: ${{ needs.prepare.outputs.CURSEFORGE != 'false' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Java
+        uses: actions/setup-java@v5
+        with:
+          distribution: 'temurin'
+          java-version: '21'
+
+      - name: Download packwiz binary
+        uses: dawidd6/action-download-artifact@v12
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          workflow: go.yml
+          repo: AmberIsFrozen/packwiz
+          name: Linux 64-bit x86
+          path: ./packwiz-bin
+
+      - name: Install packwiz
+        run: |
+          chmod +x ./packwiz-bin/packwiz
+          sudo mv ./packwiz-bin/packwiz /usr/local/bin/
+
+      - name: Refresh pack index
+        working-directory: ./packwiz
+        run: |
+          packwiz refresh || true
+
+      - name: Create CurseForge server modpack structure
+        run: |
+          mkdir -p modpack-server
+          cp -r server/* modpack-server/ || true
+
+      - name: Set up Neoforge installer
+        working-directory: ./modpack-server
+        run: |
+          NEOFORGE_VERSION=$(grep '^neoforge = ' pack.toml | cut -d '"' -f 2)
+          echo "NeoForge version: $NEOFORGE_VERSION"
+          sed -i "s/\\$NEOFORGE_VERSION/${NEOFORGE_VERSION}/g" startserver.sh || true
+          sed -i "s/%NEOFORGE_VERSION%/${NEOFORGE_VERSION}/g" startserver.bat || true
+          echo "Downloading NeoForge server $NEOFORGE_VERSION..."
+          wget https://maven.neoforged.net/releases/net/neoforged/neoforge/${NEOFORGE_VERSION}/neoforge-${NEOFORGE_VERSION}-installer.jar -O neoforge-$NEOFORGE_VERSION-installer.jar || true
+
+      - name: Parse pack info
+        id: pack_info
+        run: |
+          NAME=$(grep '^name = ' packwiz/pack.toml | cut -d '"' -f 2)
+          VERSION=$(grep '^version = ' packwiz/pack.toml | cut -d '"' -f 2)
+          SANITIZED_NAME=$(printf '%s' "$NAME" | sed 's/[":<>|*?\\\/]/-/g')
+          echo "name=$SANITIZED_NAME" >> $GITHUB_OUTPUT
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+
+      - name: Export CurseForge server modpack
+        working-directory: ./modpack-server
+        run: |
+          wget https://github.com/packwiz/packwiz-installer-bootstrap/releases/latest/download/packwiz-installer-bootstrap.jar
+          
+          echo "Running first pass to collect CurseForge-excluded files..."
+          java -jar packwiz-installer-bootstrap.jar -g -s server ../packwiz/pack.toml 2>&1 | tee install.log || true
+          
+          echo "Downloading CurseForge-excluded files from CDN..."
+          while IFS= read -r line; do
+            cf_url=$(echo "$line" | sed -nE 's#.*Please go to (\[)?(https://www\.curseforge\.com[^]) ]+).*#\2#p')
+            file_id=$(echo "$cf_url" | sed -nE 's#.*/files/([0-9]+).*#\1#p')
+            dest_path=$(echo "$line" | sed -nE 's#.*save this file to (.+)$#\1#p')
+
+            if [ -z "$file_id" ] || [ -z "$dest_path" ]; then
+              echo "Skipping unparsable manual-download line: $line"
+              continue
+            fi
+
+            id_part1=$(echo "$file_id" | sed 's/\(.*\)\(...\)/\1/')
+            id_part2=$(echo "$file_id" | sed 's/.*\(...\)/\1/')
+            filename=$(basename "$dest_path")
+            encoded_filename=$(echo "$filename" | sed 's/ /%20/g' | sed "s/'/%27/g")
+            cdn_url="https://edge.forgecdn.net/files/${id_part1}/${id_part2}/${encoded_filename}"
+            echo "Downloading: $cdn_url -> $dest_path"
+            mkdir -p "$(dirname "$dest_path")"
+            wget -q "$cdn_url" -O "$dest_path" || echo "Failed to download $cdn_url"
+          done < <(grep -F "Please go to" install.log || true)
+          
+          echo "Running second pass to complete installation..."
+          java -jar packwiz-installer-bootstrap.jar -g -s server ../packwiz/pack.toml
+          
+          echo "Removing client-only folders (resourcepacks, shaderpacks)..."
+          rm -rf resourcepacks shaderpacks || true
+
+          echo "Removing packwiz installer files..."
+          rm -f install.log || true
+          rm -f packwiz.json || true
+          rm -f packwiz-installer.jar || true
+          rm -f packwiz-installer-bootstrap.jar || true
+
+      - name: Upload CurseForge server modpack artifact
+        if: ${{ github.event_name != 'pull' }}
+        uses: actions/upload-artifact@v6
+        with:
+          name: ${{ steps.pack_info.outputs.name }}-${{ steps.pack_info.outputs.version }}-SERVER-CURSEFORGE
+          path: modpack-server/

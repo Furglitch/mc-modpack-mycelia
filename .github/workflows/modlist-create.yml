@@ -1,0 +1,107 @@
+name: Create Modlist
+
+on:
+  push:
+    branches: [ 1.21.1-NeoForge ]
+    paths:
+      - 'packwiz/**'
+      - '.github/workflows/modlist-create.yml'
+
+concurrency:
+  group: commit-updaters-1211NF-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  gather-data:
+    name: Gather data
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Pull changes from other workflows
+        run: git pull --rebase
+
+      - name: Gather mod data
+        id: gather-mod-data
+        run: |
+          for file in $(find packwiz/mods -name "*.pw.toml"); do
+            name=$(grep -m 1 '^name =' "$file" | cut -d '"' -f 2)
+            side=$(grep -m 1 '^side =' "$file" | cut -d '"' -f 2)
+            project_id=$(grep -m 1 '^project-id =' "$file" | sed 's/.*= *//')
+
+            if [ "$side" = "client" ]; then
+              indicator="Ⓒ"
+            elif [ "$side" = "server" ]; then
+              indicator="Ⓢ"
+            else
+              indicator=""
+            fi
+
+            echo "- [$name](https://curseforge.com/projects/${project_id}) $indicator"
+          done > modlist_entries.txt
+
+          {
+            echo "entries<<EOF"
+            cat modlist_entries.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
+      - name: Gather resourcepack data
+        id: gather-resourcepack-data
+        run: |
+          for file in $(find packwiz/resourcepacks -name "*.pw.toml"); do
+            name=$(grep -m 1 '^name =' "$file" | cut -d '"' -f 2)
+            side=$(grep -m 1 '^side =' "$file" | cut -d '"' -f 2)
+            project_id=$(grep -m 1 '^project-id =' "$file" | sed 's/.*= *//')
+
+            if [ "$side" = "client" ]; then
+              indicator="Ⓒ"
+            elif [ "$side" = "server" ]; then
+              indicator="Ⓢ"
+            else
+              indicator=""
+            fi
+
+            echo "- [$name](https://curseforge.com/projects/${project_id}) $indicator"
+          done > resourcepack_entries.txt
+
+          {
+            echo "entries<<EOF"
+            cat resourcepack_entries.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+      
+      - name: Create modlist file
+        run: |
+          mkdir -p docs/modlist
+          echo "---" >> modlist.md
+          echo "title: Modlist" >> modlist.md
+          echo "layout: default" >> modlist.md
+          echo "nav_order: 1" >> modlist.md
+          echo "parent: Mycelia" >> modlist.md
+          echo "---" >> modlist.md
+          echo "# Modlist" >> modlist.md
+          echo "" >> modlist.md
+          echo "> Ⓒ - Client-Side Only <br/>" >> modlist.md
+          echo "> Ⓢ - Server-Side Only <br/>" >> modlist.md
+          echo "" >> modlist.md
+          echo "" >> modlist.md
+          echo "## Mods" >> modlist.md
+          echo "" >> modlist.md
+          echo "${{ steps.gather-mod-data.outputs.entries }}" >> modlist.md
+          echo "" >> modlist.md
+          echo "## Resource Packs" >> modlist.md
+          echo "" >> modlist.md
+          echo "${{ steps.gather-resourcepack-data.outputs.entries }}" >> modlist.md
+          rm -f modlist_entries.txt resourcepack_entries.txt
+          mv modlist.md docs/modlist/index.md
+      
+      - name: Commit and push modlist file
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: "github-actions"
+          author_email: "github-actions[bot]@users.noreply.github.com"
+          message: "Update modlist"

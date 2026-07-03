@@ -1,0 +1,10 @@
+# Minimum RAM (default: 2 GB)
+-Xms2G
+
+# Maximum RAM (default: 8 GB)
+-Xmx8G
+
+# Misc recommended JVM arguments
+-XX:+UseG1GC
+-XX:+ParallelRefProcEnabled
+-XX:MaxGCPauseMillis=200

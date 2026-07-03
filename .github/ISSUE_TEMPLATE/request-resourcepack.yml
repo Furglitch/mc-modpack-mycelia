@@ -1,0 +1,34 @@
+name: "Resource Pack Addition Request"
+description: "Request a new resource pack to be added to the modpack."
+title: "[Resource Pack Addition] {{resource_pack_name}}"
+labels: [enhancement]
+assignees: []
+body:
+- type: markdown
+  attributes:
+    value: |
+      **Do NOT remove `'{{resource_pack_name}}'` from the title.**  
+      This will be automatically replaced with the information you provide below.
+- type: input
+  id: resource_pack_name
+  attributes:
+    label: "Resource Pack name"
+    placeholder: "e.g. Example Resource Pack"
+  validations:
+    required: true
+- type: input
+  id: resource_pack_url
+  attributes:
+    label: "Resource Pack URL"
+    placeholder: "e.g. https://curseforge.com/minecraft/texture-packs/pack"
+  validations:
+    required: true
+- type: textarea
+  id: alternatives_considered
+  attributes:
+    label: "Alternatives considered"
+    description: "Describe any alternatives you've considered."
+- type: textarea
+  id: additional_info
+  attributes:
+    label: "Additional information"

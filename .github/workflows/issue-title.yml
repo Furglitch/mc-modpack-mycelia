@@ -1,0 +1,114 @@
+name: Adjust Issue Title
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs: 
+
+  process-bug-report: 
+    name: Update Bug Report Title
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, '[Bug -')
+    steps:
+      - name: Update title
+        uses: actions/github-script@v8
+        with: 
+          script: |
+            const body = context.payload.issue.body || '';
+            let title = context.payload.issue.title || '';
+
+            if (!title.includes('{{')) {
+              console.log('No placeholders in title');
+              return;
+            }
+
+            const versionMatch = body.match(/### Modpack version\s*\n\s*(.+)/i);
+            if (versionMatch && versionMatch[1]) {
+              const version = versionMatch[1].trim();
+              title = title.replace('{{modpack_version}}', version);
+              console.log('Replaced modpack_version with:', version);
+            }
+
+            if (title !== context.payload.issue.title) {
+              await github. rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number:  context.payload.issue.number,
+                title: title
+              });
+              console.log('Updated title to:', title);
+            }
+
+  process-mod-request:
+    name: Update Mod Request Title
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, '[Mod Addition]')
+    steps:
+      - name: Update title
+        uses: actions/github-script@v8
+        with: 
+          script: |
+            const body = context.payload.issue.body || '';
+            let title = context.payload.issue.title || '';
+
+            if (!title.includes('{{')) {
+              console.log('No placeholders in title');
+              return;
+            }
+
+            const nameMatch = body.match(/### Mod name\s*\n\s*(.+)/i);
+            if (nameMatch && nameMatch[1]) {
+              const modName = nameMatch[1].trim();
+              title = title.replace('{{mod_name}}', modName);
+              console.log('Replaced mod_name with:', modName);
+            }
+
+            if (title !== context.payload.issue.title) {
+              await github. rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number:  context.payload.issue.number,
+                title: title
+              });
+              console.log('Updated title to:', title);
+            }
+
+
+  process-resource-pack-request:
+    name: Update Resource Pack Request Title
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.title, '[Resource Pack Addition]')
+    steps:
+      - name: Update resource pack request title
+        uses: actions/github-script@v8
+        with: 
+          script: |
+            const body = context.payload.issue.body || '';
+            let title = context.payload.issue.title || '';
+
+            if (!title.includes('{{')) {
+              console.log('No placeholders in title');
+              return;
+            }
+
+            const nameMatch = body.match(/### Resource Pack name\s*\n\s*(.+)/i);
+            if (nameMatch && nameMatch[1]) {
+              const resourcePackName = nameMatch[1].trim();
+              title = title.replace('{{resource_pack_name}}', resourcePackName);
+              console.log('Replaced resource_pack_name with:', resourcePackName);
+            }
+
+            if (title !== context.payload.issue.title) {
+              await github. rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number:  context.payload.issue.number,
+                title: title
+              });
+              console.log('Updated title to:', title);
+            }
