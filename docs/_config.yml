@@ -1,7 +1,0 @@
-title: Minecraft Modpack Template
-remote_theme: furglitch/furglitch.github.io
-repository: furglitch/mc-modpack-template
-baseurl: "mc-modpack-template"
-
-plugins:
-  - jekyll-remote-theme

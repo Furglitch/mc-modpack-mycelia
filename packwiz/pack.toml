@@ -1,6 +1,6 @@
-name = "MODPACK-NAME"
-author = "MODPACK-AUTHOR"
-version = "MODPACK-VERSION"
+name = "Mycelia"
+author = "Furglitch"
+version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
