@@ -12,12 +12,17 @@ parent: Mycelia
 
 ## Mods
 
+- [Paxi (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015157) Ⓒ
 - [Clumps](https://curseforge.com/projects/256717) 
 - [Memory Settings](https://curseforge.com/projects/526901) 
 - [Configured Defaults](https://curseforge.com/projects/930131) 
+- [Modpack Update Checker](https://curseforge.com/projects/847414) Ⓒ
 - [Startup Time](https://curseforge.com/projects/1171760) Ⓒ
+- [Searchables](https://curseforge.com/projects/858542) Ⓒ
 - [FerriteCore ((Neo)Forge)](https://curseforge.com/projects/429235) 
 - [Crash Assistant](https://curseforge.com/projects/1154099) Ⓒ
+- [KeybindsPurger](https://curseforge.com/projects/1099143) Ⓒ
+- [Rebind Narrator](https://curseforge.com/projects/296996) Ⓒ
 - [ModernFix](https://curseforge.com/projects/790626) 
 - [Lithostitched](https://curseforge.com/projects/936015) 
 - [BadOptimizations](https://curseforge.com/projects/949555) Ⓒ
@@ -43,11 +48,14 @@ parent: Mycelia
 - [GeckoLib](https://curseforge.com/projects/388172) 
 - [YUNG's Cave Biomes (Forge/NeoForge)](https://curseforge.com/projects/1111586) 
 - [Sodium](https://curseforge.com/projects/394468) Ⓒ
+- [Rhino](https://curseforge.com/projects/416294) 
 - [Biomes O' Plenty](https://curseforge.com/projects/220318) 
 - [LambDynamicLights](https://curseforge.com/projects/393442) Ⓒ
 - [Noisiumed](https://curseforge.com/projects/1430156) 
 - [YUNG's Better Caves (Forge/NeoForge)](https://curseforge.com/projects/340583) 
 - [Krypton Reno](https://curseforge.com/projects/1269169) 
+- [KubeJS](https://curseforge.com/projects/238086) 
+- [Controlling](https://curseforge.com/projects/250398) Ⓒ
 - [Lithium (Fabric/NeoForge)](https://curseforge.com/projects/360438) 
 - [spark](https://curseforge.com/projects/361579) Ⓒ
 
