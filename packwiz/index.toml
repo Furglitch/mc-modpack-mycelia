@@ -21,12 +21,16 @@ file = "config/lambdynlights.toml"
 hash = "2c7df8ab7656ef886b76e3bc8bb57e4ab4eb5b67353a9e042a47913d8ee5461d"
 
 [[files]]
+file = "config/modpack-update-checker/config.json"
+hash = "5b4cf02cf37b63b4f978cb2dacc766ae619b471177776950e9153c36862f7e3f"
+
+[[files]]
 file = "config/reeses_sodium_options.json"
 hash = "1dcde942147f38f4aa41f6aae22101975cdbdb5abb317eb7e5c28be7ac641f56"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "d5d0e445b7f59e186452c2c21471e8b9661253a8143f59068c0af5f6d61d47f3"
+hash = "bc3b5c1a0bbc9f825680335c5de0c7b0609c1cb9ce81bba6868f31d8f0344f4b"
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
@@ -56,6 +60,11 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "81105a1a363873f3675a861d228abcf0f2a8356f1a17850c06f6d6c47e454634"
+metafile = true
+
+[[files]]
+file = "mods/controlling.pw.toml"
+hash = "616036c38fafbcaf00c0720d947ec39f571d885a014f0c81b5eeeb4193784e0e"
 metafile = true
 
 [[files]]
@@ -104,8 +113,18 @@ hash = "3e6d3262ebbf9838ab67178f71480edf47f55a074b4abd8527e862cdeb57d362"
 metafile = true
 
 [[files]]
+file = "mods/keybindspurger.pw.toml"
+hash = "3b3250f8a02d7b9db0ecfe92017c351b9f657a5c92ae7c45c4e103aa3b337de0"
+metafile = true
+
+[[files]]
 file = "mods/krypton-fnp.pw.toml"
 hash = "90ddefcf8c4a77e108d4465c7dc1928e3305cde39bce388b526f404d6cd52d37"
+metafile = true
+
+[[files]]
+file = "mods/kubejs.pw.toml"
+hash = "018fd970193f808f8c28f873d8b8c69ac9ba134712c7db27fc8d639cb226c9a6"
 metafile = true
 
 [[files]]
@@ -139,6 +158,11 @@ hash = "bca4d23861040d069b25d0e4bb0c2c763a4e4f54ac51b513c22462253e8cd340"
 metafile = true
 
 [[files]]
+file = "mods/modpack-update-checker.pw.toml"
+hash = "f68b0d9ceb8a96237a5c55cf8fb33110339cd30a805c910c47a608dd49db3768"
+metafile = true
+
+[[files]]
 file = "mods/noisiumed.pw.toml"
 hash = "f72390140bb3183c602ab8b0ec164a81b54320f36041e48d1b190d2cfd755ca5"
 metafile = true
@@ -159,13 +183,33 @@ hash = "966dde29551f96d0cdec76c659bdec9b5a16c4a102ed053cb5a6e1e36860c75a"
 metafile = true
 
 [[files]]
+file = "mods/paxi-neoforge.pw.toml"
+hash = "c60eebd5f0a4f7cedc82cc0b72848dee2ac8d6ec4e2e5c6059920aed8dea4886"
+metafile = true
+
+[[files]]
 file = "mods/placebo.pw.toml"
 hash = "201e0be56d2d9430843688b4a04dea207732b6d60f8001fb9e6396d48aea287f"
 metafile = true
 
 [[files]]
+file = "mods/rebind-narrator.pw.toml"
+hash = "79e2f176e10b8a0d400842814aa48f26e7ba24cd1da1eef1dfdde8631c9843c3"
+metafile = true
+
+[[files]]
 file = "mods/reeses-sodium-options.pw.toml"
 hash = "f449daf9f88099c8af7e9981bbbc24c2a5530ad2a3c37ef3b35b1e3c4f3299a1"
+metafile = true
+
+[[files]]
+file = "mods/rhino.pw.toml"
+hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
+metafile = true
+
+[[files]]
+file = "mods/searchables.pw.toml"
+hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
 metafile = true
 
 [[files]]
