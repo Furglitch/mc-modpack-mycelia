@@ -1,2 +1,146 @@
 hash-format = "sha256"
-files = []
+
+[[files]]
+file = "config/crash_assistant/catppuccin-mocha.theme.json"
+hash = "89ea24ae540b25f0f221f9af363163f3a6cf19b05752e7012798d59f511bda87"
+
+[[files]]
+file = "config/crash_assistant/config.toml"
+hash = "e8d865a5630a9e960761644aa16bb2be5e9791619b3cc0053e03b175f797a17e"
+
+[[files]]
+file = "config/lambdynlights.toml"
+hash = "2c7df8ab7656ef886b76e3bc8bb57e4ab4eb5b67353a9e042a47913d8ee5461d"
+
+[[files]]
+file = "config/reeses_sodium_options.json"
+hash = "1dcde942147f38f4aa41f6aae22101975cdbdb5abb317eb7e5c28be7ac641f56"
+
+[[files]]
+file = "configureddefaults/options.txt"
+hash = "d5d0e445b7f59e186452c2c21471e8b9661253a8143f59068c0af5f6d61d47f3"
+
+[[files]]
+file = "mods/alltheleaks.pw.toml"
+hash = "7e03652d2003566873ab5103454f7c537471d6c2fea1c2f614507b33ef4434f7"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "8b4cb33940d2a5771439131c9b80d68b099efaf5c957ced3ab5ba6c59a0e85ae"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
+metafile = true
+
+[[files]]
+file = "mods/configured-defaults.pw.toml"
+hash = "48e86845338e9e6127ff6bb6e3c34563717d7a883719b82824720ff1c5948464"
+metafile = true
+
+[[files]]
+file = "mods/connectivity.pw.toml"
+hash = "81105a1a363873f3675a861d228abcf0f2a8356f1a17850c06f6d6c47e454634"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+hash = "2de399fb6edc699bf32a9c300864aebd3552e6b29a8283031204d9f4ce3f0796"
+metafile = true
+
+[[files]]
+file = "mods/cupboard.pw.toml"
+hash = "0eaf99546b07ea456f4b8f198b646a06f5b9446fb735494f034871f70d36c569"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "83e60a73e109258def123fbcab5cf606857f36feca621a4c40c9d7c10b285bca"
+metafile = true
+
+[[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
+metafile = true
+
+[[files]]
+file = "mods/flerovium.pw.toml"
+hash = "774884dae409a13fc957c5f5e92178079fe813de4046b779d202059cacc57c20"
+metafile = true
+
+[[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "3e6d3262ebbf9838ab67178f71480edf47f55a074b4abd8527e862cdeb57d362"
+metafile = true
+
+[[files]]
+file = "mods/krypton-fnp.pw.toml"
+hash = "90ddefcf8c4a77e108d4465c7dc1928e3305cde39bce388b526f404d6cd52d37"
+metafile = true
+
+[[files]]
+file = "mods/lambdynamiclights.pw.toml"
+hash = "dd331e2defccb518233c14dd551cc7983b1b3004c290ded6b8da108b8d4e91bb"
+metafile = true
+
+[[files]]
+file = "mods/lithium.pw.toml"
+hash = "fb6171c8f7ff0d83513b3f75ee5d7a98659559c427d79fb69eb0219639af8a37"
+metafile = true
+
+[[files]]
+file = "mods/loading-profiler-forge-neoforge.pw.toml"
+hash = "7987274116332328a712e5fd3d708541a0f5c39698072cb8da085d4c3eeae51e"
+metafile = true
+
+[[files]]
+file = "mods/memory-settings.pw.toml"
+hash = "a271fc14aa67bc08206873e51e1aa07bf1f3b9de5b7f9b49773e0ff8ff9a584e"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "bca4d23861040d069b25d0e4bb0c2c763a4e4f54ac51b513c22462253e8cd340"
+metafile = true
+
+[[files]]
+file = "mods/noisiumed.pw.toml"
+hash = "f72390140bb3183c602ab8b0ec164a81b54320f36041e48d1b190d2cfd755ca5"
+metafile = true
+
+[[files]]
+file = "mods/obe.pw.toml"
+hash = "9afe98fbd7e6d1e535e4acfcc20b841d13a0c07ec8c04d6e111824dec60ccf2a"
+metafile = true
+
+[[files]]
+file = "mods/placebo.pw.toml"
+hash = "201e0be56d2d9430843688b4a04dea207732b6d60f8001fb9e6396d48aea287f"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "f449daf9f88099c8af7e9981bbbc24c2a5530ad2a3c37ef3b35b1e3c4f3299a1"
+metafile = true
+
+[[files]]
+file = "mods/sodium-extra.pw.toml"
+hash = "7b501ee86fe91386a05da04a65315906b5b663425643f1917565d7a827e7ef7f"
+metafile = true
+
+[[files]]
+file = "mods/sodium.pw.toml"
+hash = "2d91f5eb645318ec44fce398d7f3587df9492cf3bb40450570a9e0e865cdceed"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "8ee9d5aa38755269cdd4c5e066ed9bd08eee6acaf684b8f4321bda92301b74e0"
+metafile = true
+
+[[files]]
+file = "mods/startup-time.pw.toml"
+hash = "8f33c3fd08e54b5f2afcd70570c141c72b7451b074a8a5da1fcc49c2dcd08c60"
+metafile = true

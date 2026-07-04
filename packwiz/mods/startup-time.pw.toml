@@ -1,0 +1,13 @@
+name = "Startup Time"
+filename = "startuptime-1.0.0-nf.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "bfabeee170e12ce438ec2e22976d0c8f5e534819"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6053309
+project-id = 1171760

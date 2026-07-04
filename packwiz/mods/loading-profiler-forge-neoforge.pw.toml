@@ -1,0 +1,13 @@
+name = "Startup / Loading Profiler"
+filename = "loadingprofiler-1.0.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "5f5534e8955ca2626ec205d46ecfa6c41b9373a9"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6638718
+project-id = 1181186
