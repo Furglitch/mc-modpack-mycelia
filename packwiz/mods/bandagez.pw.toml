@@ -1,0 +1,13 @@
+name = "Bandagez – Realistic Health & Bandages"
+filename = "bandagez-1.21.1-neoforge-0.2.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "92646abdc24ecf6c989a654209204b76c4e9108e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8224026
+project-id = 1290254

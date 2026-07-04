@@ -1,0 +1,13 @@
+name = "GraveStone x Backpacked Compat"
+filename = "gravestone_backpacked-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "71cf37185c4c0defc60a8ac2269f5f487dc0f7c1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8071258
+project-id = 1539903

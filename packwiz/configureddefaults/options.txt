@@ -122,10 +122,17 @@ key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
+key_key.accessorify.open_widget:key.keyboard.unknown
+key_key.accessorify.open_ender_chest:key.keyboard.unknown
+key_key.accessorify.use_spyglass:key.keyboard.unknown
 key_key.kubejs.kubedex:key.keyboard.unknown
 key_placebo.toggleTrails:key.keyboard.unknown
 key_placebo.toggleWings:key.keyboard.unknown
 key_key.modernfix.config:key.keyboard.unknown
+key_key.solonion.open_food_book:key.keyboard.unknown
+key_accessories.key.open_accessories_screen:key.keyboard.h
+key_key.backpacked.open_backpack:key.keyboard.b
+key_key.backpacked.open_management:key.keyboard.unknown
 key_options.narrator:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:0.10

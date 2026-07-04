@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/accessories.json5"
+hash = "7d0d0d005ad9fe0627a296f85c0e6b63ef8f3e65bb27484f4022acb49cfc0fc3"
+
+[[files]]
+file = "config/backpacked.client.toml"
+hash = "729ac54e91d44f11f5a6165363e1495961fa91eedc385c71839807c1f24cc5c0"
+
+[[files]]
 file = "config/biomesoplenty/biome_toggles.json"
 hash = "26abec23e54106c8dbee8fbf579e2750b935c2ba7cbc17248105fb286afa1409"
 
@@ -29,8 +37,31 @@ file = "config/reeses_sodium_options.json"
 hash = "1dcde942147f38f4aa41f6aae22101975cdbdb5abb317eb7e5c28be7ac641f56"
 
 [[files]]
+file = "config/sereneseasons/fertility.toml"
+hash = "722f7545a5a592f0aed25ae8dd0a4f53f7abaf0bb53da96417d87e9096e75631"
+
+[[files]]
+file = "config/sereneseasons/seasons.toml"
+hash = "35bb85dcd57da83572560a5caf8b5d21ef115493888df4c899a9666ee3facfc2"
+
+[[files]]
 file = "configureddefaults/options.txt"
-hash = "bc3b5c1a0bbc9f825680335c5de0c7b0609c1cb9ce81bba6868f31d8f0344f4b"
+hash = "dc6169362bf0e827878627ee5ba1877cd1676346c689813a2f4cf6cd070e4d58"
+
+[[files]]
+file = "mods/accessories-compat-layer.pw.toml"
+hash = "0085d9a1eb73a68fe1d07f26b27fb93b0e1a582ab0f47d068fc94d055165aa99"
+metafile = true
+
+[[files]]
+file = "mods/accessories.pw.toml"
+hash = "39ec3cac812f819f45b88a70f6b83eb8c0e6007e9272bbccfb3f364b421d2631"
+metafile = true
+
+[[files]]
+file = "mods/accessorify.pw.toml"
+hash = "d265ac189584179fe5ec32151e57f4ea4a1bd3ffda02a1f7c47e778266639eba"
+metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
@@ -38,8 +69,33 @@ hash = "7e03652d2003566873ab5103454f7c537471d6c2fea1c2f614507b33ef4434f7"
 metafile = true
 
 [[files]]
+file = "mods/augmented-backpacks.pw.toml"
+hash = "c36036ee91374a412059a69869f87a281c60e73398cc7a0c90501159214b992c"
+metafile = true
+
+[[files]]
+file = "mods/backpacked-world-of-color.pw.toml"
+hash = "1a1913a40687738684d414b9f5ef711e8e5c3e6672996fb95086e517057babb6"
+metafile = true
+
+[[files]]
+file = "mods/backpacked.pw.toml"
+hash = "e0a479fef621fd91d0a022358046eb6af947fd5d4191b1286504f6b958605686"
+metafile = true
+
+[[files]]
 file = "mods/badoptimizations.pw.toml"
 hash = "8b4cb33940d2a5771439131c9b80d68b099efaf5c957ced3ab5ba6c59a0e85ae"
+metafile = true
+
+[[files]]
+file = "mods/baguettelib.pw.toml"
+hash = "1a52b3a6071fa86dc0854189e110e7dd6c27c0944856fee39a781f58275e1cdd"
+metafile = true
+
+[[files]]
+file = "mods/bandagez.pw.toml"
+hash = "3abf0f52c4653e2172be21071f477a25b03923eb0c09e1a07ab7d578bb4924f5"
 metafile = true
 
 [[files]]
@@ -50,6 +106,11 @@ metafile = true
 [[files]]
 file = "mods/clumps.pw.toml"
 hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
+metafile = true
+
+[[files]]
+file = "mods/cold-sweat.pw.toml"
+hash = "73392256d10dc5a21b57b65e33fa0bc14301fba174d8348759dc614cc9281bc0"
 metafile = true
 
 [[files]]
@@ -78,8 +139,18 @@ hash = "2de399fb6edc699bf32a9c300864aebd3552e6b29a8283031204d9f4ce3f0796"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "51851da1eec44c74801f9b00525c119aa136be6b4c4ba2b5bd8b6d0dcf4791df"
+metafile = true
+
+[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "0eaf99546b07ea456f4b8f198b646a06f5b9446fb735494f034871f70d36c569"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
@@ -98,6 +169,16 @@ hash = "774884dae409a13fc957c5f5e92178079fe813de4046b779d202059cacc57c20"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "dd0153bc05a3ffc8592dfaf35b4e8014127e6e1b352d7c18462d49a1ed7a5035"
+metafile = true
+
+[[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "0b7687a29b0dd4400e6c2db295a81b9543c7275674f8b357f57dc64b9d5f49be"
+metafile = true
+
+[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "65ac18556f91ebb4f303a39731e93e94ffa94ddc690b0fbf35346bdcb3b05919"
 metafile = true
@@ -108,6 +189,21 @@ hash = "fa2d61b9c6b4446bbad9767e20bbd43c8c1e25bf0f7ecc9a237bf995456d02f5"
 metafile = true
 
 [[files]]
+file = "mods/gravestone-mod.pw.toml"
+hash = "f6bcf591a91c87fe02187642c7311ce08ed9d0d997be0fb5befc41b7fb61b868"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-x-backpacked-compat.pw.toml"
+hash = "154dc7f942436267861dc8968b0e78a928bb33fb540b07f4d7802523d0825feb"
+metafile = true
+
+[[files]]
+file = "mods/gravestone-x-curios-api-compat.pw.toml"
+hash = "37e62ad6e7cde4983ac6c4a4173e7332e0b157f080dd71d615a9aa7423c985d4"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "3e6d3262ebbf9838ab67178f71480edf47f55a074b4abd8527e862cdeb57d362"
 metafile = true
@@ -115,6 +211,11 @@ metafile = true
 [[files]]
 file = "mods/keybindspurger.pw.toml"
 hash = "3b3250f8a02d7b9db0ecfe92017c351b9f657a5c92ae7c45c4e103aa3b337de0"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "1506a3d749a45bc760b3ad57ef1fbb959f0c166b6d1d4955114fd66db7a4855d"
 metafile = true
 
 [[files]]
@@ -183,6 +284,11 @@ hash = "966dde29551f96d0cdec76c659bdec9b5a16c4a102ed053cb5a6e1e36860c75a"
 metafile = true
 
 [[files]]
+file = "mods/owo-lib.pw.toml"
+hash = "3db5943419e6b6f4e33946266be8797230434573bc68dbe3a77d72f19001ae0c"
+metafile = true
+
+[[files]]
 file = "mods/paxi-neoforge.pw.toml"
 hash = "c60eebd5f0a4f7cedc82cc0b72848dee2ac8d6ec4e2e5c6059920aed8dea4886"
 metafile = true
@@ -190,6 +296,11 @@ metafile = true
 [[files]]
 file = "mods/placebo.pw.toml"
 hash = "201e0be56d2d9430843688b4a04dea207732b6d60f8001fb9e6396d48aea287f"
+metafile = true
+
+[[files]]
+file = "mods/playerrevive.pw.toml"
+hash = "998704b5cdd52b78a94a5088c5e90b3a9318f0fd5435084da8ae6e9f6fc2671f"
 metafile = true
 
 [[files]]
@@ -213,6 +324,11 @@ hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
 metafile = true
 
 [[files]]
+file = "mods/serene-seasons.pw.toml"
+hash = "eb438b9d4a49c0cc65560cdc295bf927cabc6f34319375a0cfbf3aece662add8"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "7b501ee86fe91386a05da04a65315906b5b663425643f1917565d7a827e7ef7f"
 metafile = true
@@ -228,6 +344,11 @@ hash = "8ee9d5aa38755269cdd4c5e066ed9bd08eee6acaf684b8f4321bda92301b74e0"
 metafile = true
 
 [[files]]
+file = "mods/spice-of-life-onion.pw.toml"
+hash = "f23fe0578a48a6649171a7e5a90eed1490308388fc74bce6017b0517ee2018a6"
+metafile = true
+
+[[files]]
 file = "mods/startup-time.pw.toml"
 hash = "8f33c3fd08e54b5f2afcd70570c141c72b7451b074a8a5da1fcc49c2dcd08c60"
 metafile = true
@@ -240,6 +361,16 @@ metafile = true
 [[files]]
 file = "mods/terrablender-neoforge.pw.toml"
 hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
+metafile = true
+
+[[files]]
+file = "mods/thirst-was-taken.pw.toml"
+hash = "3075fc48ec8c914d9d0a2f5277bf1f103a59c7bf642610011174703c8282bc43"
+metafile = true
+
+[[files]]
+file = "mods/tyzs-skills.pw.toml"
+hash = "917ce5cfc74d68eaf4b9425e9600261164cca580a4f6f94fa45bc5c88919b0ac"
 metafile = true
 
 [[files]]
