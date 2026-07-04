@@ -1,0 +1,7 @@
+title: Mycelia
+remote_theme: furglitch/furglitch.github.io
+repository: furglitch/mc-modpack-mycelia
+baseurl: "mc-modpack-mycelia"
+
+plugins:
+  - jekyll-remote-theme
