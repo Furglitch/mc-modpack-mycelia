@@ -1,0 +1,13 @@
+name = "Underground Rivers"
+filename = "underground-rivers-1.0.1-neoforge-1.21.7.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "37aa2f0252fd4961f71c2113145b9e625d885a58"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6761656
+project-id = 1108285

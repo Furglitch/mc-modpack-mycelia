@@ -1,6 +1,14 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/biomesoplenty/biome_toggles.json"
+hash = "26abec23e54106c8dbee8fbf579e2750b935c2ba7cbc17248105fb286afa1409"
+
+[[files]]
+file = "config/biomeswevegone/world_generation.json"
+hash = "cf6edda9a5ea791547928ce8dd61826cbb3cf766ecf0e9ab52409bbeea65d8e3"
+
+[[files]]
 file = "config/crash_assistant/catppuccin-mocha.theme.json"
 hash = "89ea24ae540b25f0f221f9af363163f3a6cf19b05752e7012798d59f511bda87"
 
@@ -31,6 +39,11 @@ hash = "8b4cb33940d2a5771439131c9b80d68b099efaf5c957ced3ab5ba6c59a0e85ae"
 metafile = true
 
 [[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "f6f723c2d15da3b36a2c29408deb914f6c4bdbe4a20aa652f3f07642011fce8e"
+metafile = true
+
+[[files]]
 file = "mods/clumps.pw.toml"
 hash = "2e6a2f8c477128a76ef059dfef7ca8a1befa2ae0ebe7ae2171e716f0c905cd00"
 metafile = true
@@ -43,6 +56,11 @@ metafile = true
 [[files]]
 file = "mods/connectivity.pw.toml"
 hash = "81105a1a363873f3675a861d228abcf0f2a8356f1a17850c06f6d6c47e454634"
+metafile = true
+
+[[files]]
+file = "mods/corgilib.pw.toml"
+hash = "5c0fb5558f40b2eadcda6d7035961f48fa4c7ff24b0b440e59ba505edff97930"
 metafile = true
 
 [[files]]
@@ -71,6 +89,16 @@ hash = "774884dae409a13fc957c5f5e92178079fe813de4046b779d202059cacc57c20"
 metafile = true
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+hash = "65ac18556f91ebb4f303a39731e93e94ffa94ddc690b0fbf35346bdcb3b05919"
+metafile = true
+
+[[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "fa2d61b9c6b4446bbad9767e20bbd43c8c1e25bf0f7ecc9a237bf995456d02f5"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "3e6d3262ebbf9838ab67178f71480edf47f55a074b4abd8527e862cdeb57d362"
 metafile = true
@@ -88,6 +116,11 @@ metafile = true
 [[files]]
 file = "mods/lithium.pw.toml"
 hash = "fb6171c8f7ff0d83513b3f75ee5d7a98659559c427d79fb69eb0219639af8a37"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+hash = "8c48430e5553c00173143180b8067b25a7f1122cfe2668fd376350be3044f580"
 metafile = true
 
 [[files]]
@@ -113,6 +146,16 @@ metafile = true
 [[files]]
 file = "mods/obe.pw.toml"
 hash = "9afe98fbd7e6d1e535e4acfcc20b841d13a0c07ec8c04d6e111824dec60ccf2a"
+metafile = true
+
+[[files]]
+file = "mods/oh-the-biomes-weve-gone.pw.toml"
+hash = "a1d2f413c7810edc5d7df5cba9c6893b5c7c17887012c4a264f8cee8be40bed6"
+metafile = true
+
+[[files]]
+file = "mods/oh-the-trees-youll-grow.pw.toml"
+hash = "966dde29551f96d0cdec76c659bdec9b5a16c4a102ed053cb5a6e1e36860c75a"
 metafile = true
 
 [[files]]
@@ -143,4 +186,34 @@ metafile = true
 [[files]]
 file = "mods/startup-time.pw.toml"
 hash = "8f33c3fd08e54b5f2afcd70570c141c72b7451b074a8a5da1fcc49c2dcd08c60"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "003fc4f0346ef9fc643692f85236055b820830a531bc284275c3cc7a4ce7c8b3"
+metafile = true
+
+[[files]]
+file = "mods/terrablender-neoforge.pw.toml"
+hash = "d77e4dc337b6090358c1ef01b0f99a8357e5279443e0e23e511de1be865c01c9"
+metafile = true
+
+[[files]]
+file = "mods/underground-rivers.pw.toml"
+hash = "146163421ece1d8d1547dbd1f8140b8fd34bf10d4ddd23808c5fbb22dbbf7d93"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api-neoforge.pw.toml"
+hash = "7cb2156566e58df780f1e1248bc7c336fda5be86d8e5828e3485b951e3934471"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-caves.pw.toml"
+hash = "10815a3aa6dc436f8aa9b86dbb68368fbbcaff26f15fb06113b519b678e1a480"
+metafile = true
+
+[[files]]
+file = "mods/yungs-cave-biomes.pw.toml"
+hash = "895288a3b51192f27cbf3e7e7ebfefd0d31e5660157864a4da40828d5c1dac05"
 metafile = true
