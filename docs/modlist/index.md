@@ -17,6 +17,7 @@ parent: Mycelia
 - [Cable Facades](https://curseforge.com/projects/1140577) 
 - [Backpacked](https://curseforge.com/projects/352835) 
 - [Clumps](https://curseforge.com/projects/256717) 
+- [[EMF] Entity Model Features [Fabric & Forge]](https://curseforge.com/projects/844662) Ⓒ
 - [Memory Settings](https://curseforge.com/projects/526901) 
 - [Configured Defaults](https://curseforge.com/projects/930131) 
 - [Chat Heads](https://curseforge.com/projects/407206) Ⓒ
@@ -45,6 +46,7 @@ parent: Mycelia
 - [Create: Enchantment Industry](https://curseforge.com/projects/688768) 
 - [Just Enough Effect Descriptions (JEED)](https://curseforge.com/projects/532286) 
 - [Create: Vibrant Vaults](https://curseforge.com/projects/1251719) 
+- [Forge CIT](https://curseforge.com/projects/912099) Ⓒ
 - [FTB Library (NeoForge)](https://curseforge.com/projects/404465) 
 - [Crash Assistant](https://curseforge.com/projects/1154099) Ⓒ
 - [CreativeCore](https://curseforge.com/projects/257814) 
@@ -99,6 +101,7 @@ parent: Mycelia
 - [BaguetteLib](https://curseforge.com/projects/1264423) 
 - [TerraBlender (NeoForge)](https://curseforge.com/projects/940057) 
 - [Durability Tooltip](https://curseforge.com/projects/511040) Ⓒ
+- [[ETF] Entity Texture Features - [Fabric & Forge]](https://curseforge.com/projects/568563) Ⓒ
 - [CleanView](https://curseforge.com/projects/226889) Ⓒ
 - [Ritchie's Projectile Library](https://curseforge.com/projects/1279407) 
 - [Fragmentum [NeoForge Edition]](https://curseforge.com/projects/1123977) 
@@ -171,8 +174,40 @@ parent: Mycelia
 
 ## Resource Packs
 
-- [Create Touch-Ups](https://curseforge.com/projects/656900) 
-- [Clarity Tooltips](https://curseforge.com/projects/1443141) 
-- [Better Sophisticated Backpack Upgrades (BSBU)](https://curseforge.com/projects/1138140) 
-- [Pretty Pretty Pipes](https://curseforge.com/projects/1420405) 
-- [Suren's Sophisticated Storage](https://curseforge.com/projects/1093096) 
+- [Ice Cream](https://curseforge.com/projects/1182183) Ⓒ
+- [Modded Omelet - Modern Spawn Eggs](https://curseforge.com/projects/1296468) Ⓒ
+- [Overflowing Bars + Mandala's GUI Compat](https://curseforge.com/projects/1151726) Ⓒ
+- [Fresh Moves](https://curseforge.com/projects/990406) Ⓒ
+- [F.M.R.P](https://curseforge.com/projects/961754) Ⓒ
+- [(Unofficial) Mandala's GUI - Dark Mode Mod Compatibility](https://curseforge.com/projects/1040251) Ⓒ
+- [Create Touch-Ups](https://curseforge.com/projects/656900) Ⓒ
+- [Low Fire (by Oculie)](https://curseforge.com/projects/1406432) Ⓒ
+- [Living Dragon](https://curseforge.com/projects/465262) Ⓒ
+- [AmongstReality's Bow](https://curseforge.com/projects/876432) Ⓒ
+- [Stay True](https://curseforge.com/projects/353554) Ⓒ
+- [Colourful Containers Text Extension](https://curseforge.com/projects/1093961) Ⓒ
+- [Fresh Animations](https://curseforge.com/projects/453763) Ⓒ
+- [Mandalas GUI-KOTS Compat](https://curseforge.com/projects/1452633) Ⓒ
+- [Obscuria's Tools](https://curseforge.com/projects/559926) Ⓒ
+- [Clarity Tooltips](https://curseforge.com/projects/1443141) Ⓒ
+- [Better Sophisticated Backpack Upgrades (BSBU)](https://curseforge.com/projects/1138140) Ⓒ
+- [Cubic Sun & Moon](https://curseforge.com/projects/1241234) Ⓒ
+- [Pretty Pretty Pipes](https://curseforge.com/projects/1420405) Ⓒ
+- [Colourful Containers Dark Mode GUI](https://curseforge.com/projects/563780) Ⓒ
+- [Suren's Sophisticated Storage](https://curseforge.com/projects/1093096) Ⓒ
+- [Mobs Refreshed](https://curseforge.com/projects/870866) Ⓒ
+- [Noticably Suspicious](https://curseforge.com/projects/1420427) Ⓒ
+- [(Bee's) Fancy Crops](https://curseforge.com/projects/884709) Ⓒ
+- [AL's Boss Rush](https://curseforge.com/projects/1000607) Ⓒ
+- [Rojak](https://curseforge.com/projects/1550713) Ⓒ
+- [Low Shield](https://curseforge.com/projects/1052630) Ⓒ
+- [(Unofficial) Mandala's GUI - Dark Mode Compatibility Neo](https://curseforge.com/projects/1230872) Ⓒ
+- [Mobs Refreshed + Fresh Animations](https://curseforge.com/projects/897371) Ⓒ
+- [Der's Smooth Shaded Font (Faithful 32x)](https://curseforge.com/projects/1247214) Ⓒ
+- [Bibliophilia | Enchanted Books](https://curseforge.com/projects/657574) Ⓒ
+- [Abibliophobia | Enchanted Books](https://curseforge.com/projects/1394777) Ⓒ
+- [Mandala's GUI - Dark mode](https://curseforge.com/projects/664719) Ⓒ
+- [Colourful Containers: Modded Dark Mode GUI Compat](https://curseforge.com/projects/1160244) Ⓒ
+- [Zero's Modern Crosshair](https://curseforge.com/projects/896543) Ⓒ
+- [AL's Boss Rush x Fresh Animations](https://curseforge.com/projects/1000702) Ⓒ
+- [Mandala's GUI - Dark mode - Utopia extension](https://curseforge.com/projects/1193697) Ⓒ
