@@ -28,8 +28,10 @@ parent: Mycelia
 - [Serene Seasons](https://curseforge.com/projects/291874) 
 - [SuperMartijn642's Core Lib](https://curseforge.com/projects/454372) 
 - [Just Enough Professions (JEP)](https://curseforge.com/projects/417645) 
+- [More Relics](https://curseforge.com/projects/1269280) 
 - [Create Contraption Terminals](https://curseforge.com/projects/1059879) 
 - [Bookshelf](https://curseforge.com/projects/228525) 
+- [MinecraftCapes Mod](https://curseforge.com/projects/359836) Ⓒ
 - [Startup Time](https://curseforge.com/projects/1171760) Ⓒ
 - [ItemPhysic Lite](https://curseforge.com/projects/270441) Ⓒ
 - [Better Advancements](https://curseforge.com/projects/272515) Ⓒ
@@ -47,17 +49,26 @@ parent: Mycelia
 - [Framework](https://curseforge.com/projects/549225) 
 - [Snow Under Trees](https://curseforge.com/projects/353942) 
 - [Trash Cans](https://curseforge.com/projects/394535) 
+- [Simply Tooltips](https://curseforge.com/projects/1475755) 
 - [Sable](https://curseforge.com/projects/1312371) 
+- [Cosmetic Armor Reworked](https://curseforge.com/projects/237307) 
 - [Konkrete](https://curseforge.com/projects/410295) 
+- [Relics](https://curseforge.com/projects/445274) 
 - [Create: Enchantment Industry](https://curseforge.com/projects/688768) 
 - [Just Enough Effect Descriptions (JEED)](https://curseforge.com/projects/532286) 
+- [Collective](https://curseforge.com/projects/342584) 
+- [TaCZ_Attributes](https://curseforge.com/projects/1113285) 
 - [Create: Vibrant Vaults](https://curseforge.com/projects/1251719) 
 - [Forge CIT](https://curseforge.com/projects/912099) Ⓒ
+- [Biome Spawn Point](https://curseforge.com/projects/695238) 
 - [FTB Library (NeoForge)](https://curseforge.com/projects/404465) 
 - [Crash Assistant](https://curseforge.com/projects/1154099) Ⓒ
 - [CreativeCore](https://curseforge.com/projects/257814) 
+- [DarkSleep - RPG Sleep Percentage](https://curseforge.com/projects/1106281) 
 - [KeybindsPurger](https://curseforge.com/projects/1099143) Ⓒ
 - [Rebind Narrator](https://curseforge.com/projects/296996) Ⓒ
+- [[TaCZ] Tactical Breaching](https://curseforge.com/projects/1552880) 
+- [Let Me Sleep](https://curseforge.com/projects/322764) 
 - [ModernFix](https://curseforge.com/projects/790626) 
 - [Spyglass Improvements: Zoom, Quick Access... [Fabric/NeoForge]](https://curseforge.com/projects/571264) 
 - [Create: EasyFilling](https://curseforge.com/projects/1381155) 
@@ -71,6 +82,8 @@ parent: Mycelia
 - [Loot Journal: Pickup Notifier [NeoForge Edition]](https://curseforge.com/projects/1120395) Ⓒ
 - [Jade 🔍](https://curseforge.com/projects/324717) 
 - [YUNG's API (NeoForge) [1.20.4-1.21.1 ONLY]](https://curseforge.com/projects/1015100) 
+- [Simply Swords [Fabric & Forge]](https://curseforge.com/projects/659887) 
+- [playerAnimator](https://curseforge.com/projects/658587) 
 - [Create: Cardboard Things](https://curseforge.com/projects/1268423) 
 - [FastSuite](https://curseforge.com/projects/475117) 
 - [Create: Mobile Packages](https://curseforge.com/projects/1232978) 
@@ -83,7 +96,9 @@ parent: Mycelia
 - [Modern World Creation](https://curseforge.com/projects/485245) Ⓒ
 - [Scholar](https://curseforge.com/projects/961802) 
 - [Create Crafts & Additions](https://curseforge.com/projects/439890) 
+- [Better Combat [Fabric & Forge]](https://curseforge.com/projects/639842) 
 - [Extreme sound muffler - (Neo)Forge](https://curseforge.com/projects/363363) Ⓒ
+- [[UNOFFICIAL] TaCZ NeoForge Port](https://curseforge.com/projects/1353462) 
 - [CorgiLib](https://curseforge.com/projects/693313) 
 - [Accessories Compatibility Layer](https://curseforge.com/projects/1315611) 
 - [Fancy Toasts | Better Advancements](https://curseforge.com/projects/1326436) Ⓒ
@@ -109,6 +124,7 @@ parent: Mycelia
 - [Placebo](https://curseforge.com/projects/283644) 
 - [Pretty Pipes](https://curseforge.com/projects/376737) 
 - [BaguetteLib](https://curseforge.com/projects/1264423) 
+- [Axes Are Weapons](https://curseforge.com/projects/456457) 
 - [TerraBlender (NeoForge)](https://curseforge.com/projects/940057) 
 - [Durability Tooltip](https://curseforge.com/projects/511040) Ⓒ
 - [[ETF] Entity Texture Features - [Fabric & Forge]](https://curseforge.com/projects/568563) Ⓒ
@@ -124,6 +140,7 @@ parent: Mycelia
 - [FancyMenu](https://curseforge.com/projects/367706) Ⓒ
 - [Sophisticated Core](https://curseforge.com/projects/618298) 
 - [Create Mechanical Extruder](https://curseforge.com/projects/686100) 
+- [TACZ ATTRIBUTES ADDON](https://curseforge.com/projects/1482794) 
 - [Accessories](https://curseforge.com/projects/938917) 
 - [Startup / Loading Profiler](https://curseforge.com/projects/1181186) Ⓒ
 - [GlitchCore](https://curseforge.com/projects/955399) 
@@ -147,6 +164,7 @@ parent: Mycelia
 - [ImmediatelyFast](https://curseforge.com/projects/686911) Ⓒ
 - [Ambient Environment](https://curseforge.com/projects/320163) Ⓒ
 - [Obscure Tooltips](https://curseforge.com/projects/715660) Ⓒ
+- [TACZ Aeronautics compat](https://curseforge.com/projects/1530288) 
 - [Fzzy Config](https://curseforge.com/projects/1005914) 
 - [Packed Packs](https://curseforge.com/projects/1260514) Ⓒ
 - [Sophisticated Storage in Motion](https://curseforge.com/projects/1166930) 
@@ -162,6 +180,7 @@ parent: Mycelia
 - [Create: Connected](https://curseforge.com/projects/947914) 
 - [M.R.U](https://curseforge.com/projects/669659) Ⓒ
 - [Create Big Cannons](https://curseforge.com/projects/646668) 
+- [TACZ: Durability (Timeless and Classics Guns)](https://curseforge.com/projects/1065328) 
 - [Rhino](https://curseforge.com/projects/416294) 
 - [Biomes O' Plenty](https://curseforge.com/projects/220318) 
 - [LambDynamicLights](https://curseforge.com/projects/393442) Ⓒ
@@ -172,6 +191,7 @@ parent: Mycelia
 - [Pretty Pipes: Fluids](https://curseforge.com/projects/479142) 
 - [YUNG's Better Caves (Forge/NeoForge)](https://curseforge.com/projects/340583) 
 - [oωo (owo-lib)](https://curseforge.com/projects/532610) 
+- [Apothic Attributes](https://curseforge.com/projects/898963) 
 - [Krypton Reno](https://curseforge.com/projects/1269169) 
 - [GraveStone Mod](https://curseforge.com/projects/238551) 
 - [KubeJS](https://curseforge.com/projects/238086) 
