@@ -61,6 +61,10 @@ file = "config/fbp/config.json"
 hash = "ad3e5e1f8e3a25c2a532501bf3af43491c45776fe99afd45c802407f21ffe469"
 
 [[files]]
+file = "config/ftbultimine-server.snbt"
+hash = "c2bddcde7204cb95f35b506794b08bf7df6c07870c471b29537b29054f35a5a8"
+
+[[files]]
 file = "config/lambdynlights.toml"
 hash = "2c7df8ab7656ef886b76e3bc8bb57e4ab4eb5b67353a9e042a47913d8ee5461d"
 
@@ -83,6 +87,22 @@ hash = "47d725e2c061cab8e41afdb8714777112dfcef337e5cc2d2daf42514441cb5da"
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Mycelia Default.profile.json"
 hash = "bea4b9b7e2a8a6f40e9d9ccc34c7d2d456bb54cbc54cb0080b88bb8017fa5f49"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/mycelia/textures/gui/skills/coldsweat_cold.png"
+hash = "03ba14301b3dcf6ff2ac067740105e8627bdd2872ea53704a219e7a4f02e1863"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/mycelia/textures/gui/skills/coldsweat_heat.png"
+hash = "4a8d16b5a347a4b76ded45d763127e95bedb1a3548551f615b05490440198862"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/mycelia/textures/gui/skills/ultimine_range.png"
+hash = "39a92289e921b611534cf99a7fdb8d6ff10319ae7b525a54dfa1a892fb698fb5"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/pack.mcmeta"
+hash = "fee7601901bf04ed55b6858dc5ded667c97a9293b3d39c3086a9a8461eb7d8c5"
 
 [[files]]
 file = "config/ponder-client.toml"
@@ -119,6 +139,18 @@ hash = "65516baffd8aa69bfa908f0179d02d2f546fc948f5dd597e66241b21ed89532a"
 [[files]]
 file = "config/structurify.json"
 hash = "a8dc3f4ee2bfee2625a55c98e985205387ea51a580bec498a65923082cde99fc"
+
+[[files]]
+file = "config/tyzs_skills/skills/custom/cold_sweat/cold_resist.json"
+hash = "a47b5becf805258b7afb50888a16e1a4db619b5be1157e4cabe90efdb9d4a05f"
+
+[[files]]
+file = "config/tyzs_skills/skills/custom/cold_sweat/heat_resist.json"
+hash = "2ea5483a932e58961d828ebf585a9d33b7a93914a7f2e47155d788e62968cb05"
+
+[[files]]
+file = "config/tyzs_skills/skills/custom/ultimine/ultimine.json"
+hash = "a3a8d5648a46e8ed670896d1adf2df7c3e80285c6b2c19d2e53de098fc1e1467"
 
 [[files]]
 file = "config/unionlib-client.toml"
@@ -188,11 +220,6 @@ metafile = true
 [[files]]
 file = "mods/antique-atlas.pw.toml"
 hash = "d5048142116637b820bff30b6c5afbe83a293a71968483c6eb8c323390827e3d"
-metafile = true
-
-[[files]]
-file = "mods/apothic-attributes.pw.toml"
-hash = "014ee07aad95d234a4be89ab018d7cc72b9b41999bf0d5f45de11b509a10bd5e"
 metafile = true
 
 [[files]]
@@ -506,6 +533,11 @@ hash = "73ffac269e3ce480c7dd3a17e7f2f027e73727fcc375d4e1cef4c490cdd36686"
 metafile = true
 
 [[files]]
+file = "mods/create-ultimine.pw.toml"
+hash = "15842d4b438ac8537662f798b80621a876fc9ec7483c2917e41fc852ed07a364"
+metafile = true
+
+[[files]]
 file = "mods/create-vibrant-vaults.pw.toml"
 hash = "edfc5cfd0224c45873c197c9352eadbe17171f737784581fe32ab963f59f27a3"
 metafile = true
@@ -658,6 +690,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "5fb287ddb204cc2460dc51984099b0010462f781d00b2d6ed2a37046accf2560"
+metafile = true
+
+[[files]]
+file = "mods/ftb-ultimine-forge.pw.toml"
+hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
 metafile = true
 
 [[files]]

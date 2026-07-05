@@ -1,0 +1,33 @@
+{
+  "active": true,
+  "id": "coldsweat_heat_resist",
+  "maximumLevel": 5,
+  "prices": [
+    5,
+    10,
+    15,
+    20,
+    25
+  ],
+  "type": "CUSTOM",
+  "category": "nature",
+  "purchasable": true,
+  "icon": "mycelia:textures/gui/skills/coldsweat_heat.png",
+  "displayName": "Heat Resistance",
+  "description": "Reduces the impact of higher temperatures.",
+  "modifiers": [
+    {
+      "attribute": "cold_sweat:heat_dampening",
+      "operation": "ADD_VALUE",
+      "values": [
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ],
+      "unit": "skill.tyzs_skills.unit.percentage"
+    }
+  ],
+  "customValues": {}
+}

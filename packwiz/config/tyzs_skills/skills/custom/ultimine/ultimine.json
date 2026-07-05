@@ -1,0 +1,39 @@
+{
+  "active": true,
+  "id": "ultimine_range",
+  "maximumLevel": 8,
+  "prices": [
+    2,
+    4,
+    6,
+    10,
+    15,
+    20,
+    25,
+    30
+  ],
+  "type": "CUSTOM",
+  "category": "abilities",
+  "purchasable": true,
+  "icon": "mycelia:textures/gui/skills/ultimine_range.png",
+  "displayName": "Ultimine Range",
+  "description": "Increases the maximum number of blocks that can be mined with one use of Ultimine.",
+  "modifiers": [
+    {
+      "attribute": "ftbultimine:max_blocks_modifier",
+      "operation": "ADD_VALUE",
+      "values": [
+        16.0,
+        32.0,
+        48.0,
+        64.0,
+        80.0,
+        96.0,
+        112.0,
+        128.0
+      ],
+      "unit": "skill.tyzs_skills.unit.blocks"
+    }
+  ],
+  "customValues": {}
+}
