@@ -41,6 +41,10 @@ file = "config/create_mobile_packages-server.toml"
 hash = "4f4d15ba82f210ac556c725005b8e49c498aaf9f93c07fad39bc8730ab9bbfe1"
 
 [[files]]
+file = "config/fbp/config.json"
+hash = "ad3e5e1f8e3a25c2a532501bf3af43491c45776fe99afd45c802407f21ffe469"
+
+[[files]]
 file = "config/lambdynlights.toml"
 hash = "2c7df8ab7656ef886b76e3bc8bb57e4ab4eb5b67353a9e042a47913d8ee5461d"
 
@@ -97,6 +101,10 @@ file = "config/unionlib-client.toml"
 hash = "b2f23384abaa7f5ccc4d9d6c3af972ccb5e36043939e7263cf0d2fb57d5f7c97"
 
 [[files]]
+file = "configureddefaults/ESM/soundsMuffled.dat"
+hash = "604a8e26c9cccc0e5d89edde7af3d07d85f6dae1382ce1ec84818d620acfe9ba"
+
+[[files]]
 file = "configureddefaults/options.txt"
 hash = "5ec65f1d1b476decceffe43b4e8196bc08ccf972c5c7b09553a67d5ba2ab2cbc"
 
@@ -118,6 +126,11 @@ metafile = true
 [[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "7e03652d2003566873ab5103454f7c537471d6c2fea1c2f614507b33ef4434f7"
+metafile = true
+
+[[files]]
+file = "mods/ambient-environment.pw.toml"
+hash = "edfdc75fd970599b6b3bf0d9455c04d6e97293989a9406a19aff9f5747e1c37a"
 metafile = true
 
 [[files]]
@@ -191,6 +204,21 @@ hash = "f6f723c2d15da3b36a2c29408deb914f6c4bdbe4a20aa652f3f07642011fce8e"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
+metafile = true
+
+[[files]]
+file = "mods/burnt-cold-sweat-compat.pw.toml"
+hash = "ec0655acdbc787a494b36180923cd5528eda25f48ca2a6bc0f2cbd4255572b11"
+metafile = true
+
+[[files]]
+file = "mods/burnt.pw.toml"
+hash = "e7a3d24405fe48ec8268c9810483667be7028a80dfe973c41343b29bcaf9eeff"
+metafile = true
+
+[[files]]
 file = "mods/cable-facades.pw.toml"
 hash = "fc76a6254c251ebde067cfe0ab7726673d215cba814fe1dcfe3030d1311a313c"
 metafile = true
@@ -203,6 +231,11 @@ metafile = true
 [[files]]
 file = "mods/cleanview.pw.toml"
 hash = "fc0666b3051c3a570387f06232642828dcbc88bb58eb18558c24acf7132029fd"
+metafile = true
+
+[[files]]
+file = "mods/cloth-config.pw.toml"
+hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
 metafile = true
 
 [[files]]
@@ -278,6 +311,11 @@ metafile = true
 [[files]]
 file = "mods/create-cardboarded-conveynience.pw.toml"
 hash = "9f3b847913725457cb194b65a559c2555b82975667d224a590e16a4a17119ca6"
+metafile = true
+
+[[files]]
+file = "mods/create-cold-sweat.pw.toml"
+hash = "8ea508083cf31e00b95eb5536732a88f21f86f528243674267a8500f0af56f6a"
 metafile = true
 
 [[files]]
@@ -386,6 +424,11 @@ hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
 metafile = true
 
 [[files]]
+file = "mods/distant-horizons.pw.toml"
+hash = "563e9267e594bec6a5c32843b34ac8a188ebc8f09e1936d700a9db185cba394b"
+metafile = true
+
+[[files]]
 file = "mods/durability-tooltip.pw.toml"
 hash = "4fa72931e628ff5e0c406e79dfc27e647e31729d40f45920740b3d86ed2d161c"
 metafile = true
@@ -398,6 +441,11 @@ metafile = true
 [[files]]
 file = "mods/entity-texture-features-fabric.pw.toml"
 hash = "cc68235aff068c4a38af04e4091516720bb731cbb3789b1f6736f096523b336f"
+metafile = true
+
+[[files]]
+file = "mods/extreme-sound-muffler.pw.toml"
+hash = "82d72ac4b1d62c7a1d14de30f403513dead518f1218f94ddba452f2f4bca21c2"
 metafile = true
 
 [[files]]
@@ -418,6 +466,11 @@ metafile = true
 [[files]]
 file = "mods/fastsuite.pw.toml"
 hash = "83e60a73e109258def123fbcab5cf606857f36feca621a4c40c9d7c10b285bca"
+metafile = true
+
+[[files]]
+file = "mods/fbp-renewed.pw.toml"
+hash = "2120300501fd5b044841b2e5bcbde6adbf58815d96d97c60c0dc8f0cb0900a02"
 metafile = true
 
 [[files]]
@@ -488,6 +541,11 @@ metafile = true
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
 hash = "3a3a1797ca23ac82f89374cfa7060c27a243af1dbb16e0263338c866547ece27"
+metafile = true
+
+[[files]]
+file = "mods/itemphysic-lite.pw.toml"
+hash = "3dfe492fc8fe5a0c019a2582df4e7e96df6fffd6159a58f907e1ad6fb4ea8b91"
 metafile = true
 
 [[files]]
@@ -591,6 +649,11 @@ hash = "4f750b521fd54d83923f364fe3f87bf3ffb0fe3975b1579e9104360dd6762dfd"
 metafile = true
 
 [[files]]
+file = "mods/matmos2.pw.toml"
+hash = "a513f510bcd83458f2d9aa3887d7e1cef39f528b0edb4237337d6354a695c8bb"
+metafile = true
+
+[[files]]
 file = "mods/mechanicals-lib.pw.toml"
 hash = "d72350dca8378ce73e91d05e5625c0134118c0d5add2c5888ac39d73b92fb445"
 metafile = true
@@ -633,6 +696,21 @@ metafile = true
 [[files]]
 file = "mods/more-enchantment-info.pw.toml"
 hash = "671e4917243512e2c2efa83df30ef9af90427d96fb667377a7130c528988b61d"
+metafile = true
+
+[[files]]
+file = "mods/more-sound.pw.toml"
+hash = "d02aa263997985413fcded2dd31dce1a8c3285030b8905edf8e5eb270ed596ae"
+metafile = true
+
+[[files]]
+file = "mods/mru.pw.toml"
+hash = "98846bdef22ff0f98130828bef684377b80dd8fabbe9fffc6e3e55a71f8765ee"
+metafile = true
+
+[[files]]
+file = "mods/no-global-sounds.pw.toml"
+hash = "ad8a389f97015a601049d444e8d4630118a281e308054a1212ac7a7be0e91631"
 metafile = true
 
 [[files]]
@@ -716,6 +794,11 @@ hash = "ecc09650c61404c8b18f82d0d864365d29c15cc097b7353fda2a5389070e10d8"
 metafile = true
 
 [[files]]
+file = "mods/prickle.pw.toml"
+hash = "eab2f56ff9135b3b7253ea5a73deae2f887e2876f5f0432936044a6e926937b4"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "6a07261762a29c6108ea6030ec71ff6801e03127a0004cf105490004c77eacf5"
 metafile = true
@@ -771,6 +854,11 @@ hash = "c923ae43d9a62ea023a5641b5f144dbe8ea85715f162eb924159b8b719af1da6"
 metafile = true
 
 [[files]]
+file = "mods/snow-under-trees.pw.toml"
+hash = "47c46327364e22244eddf4e3ce8d0bd88ebf8f561d8511e76b0f0e5aeb8419a4"
+metafile = true
+
+[[files]]
 file = "mods/sodium-extra.pw.toml"
 hash = "7b501ee86fe91386a05da04a65315906b5b663425643f1917565d7a827e7ef7f"
 metafile = true
@@ -806,6 +894,16 @@ hash = "0feac0d169ba331a3d64a0133656b38da864d589d0d19a464774a1e066183286"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "cf4e5f63253b423171e41bbe4a55891a48cbabd9cb029952f7c8df70d74553b7"
+metafile = true
+
+[[files]]
+file = "mods/sound.pw.toml"
+hash = "a3060b1d5a7b39e084cad66292d2258cc78d6e028b3e3d1a5925636cac5472c4"
+metafile = true
+
+[[files]]
 file = "mods/spark.pw.toml"
 hash = "8ee9d5aa38755269cdd4c5e066ed9bd08eee6acaf684b8f4321bda92301b74e0"
 metafile = true
@@ -836,6 +934,11 @@ hash = "83dae761dae86cc140fe971ce6a8cac9bfe0f9eb39417a71666441a2bcc634a8"
 metafile = true
 
 [[files]]
+file = "mods/tct-core.pw.toml"
+hash = "d06fa2021d5ff02fe9a6f1ccc57477cc996a4c9d37ffcd1766c759d239c70c03"
+metafile = true
+
+[[files]]
 file = "mods/tectonic.pw.toml"
 hash = "003fc4f0346ef9fc643692f85236055b820830a531bc284275c3cc7a4ce7c8b3"
 metafile = true
@@ -851,6 +954,11 @@ hash = "3075fc48ec8c914d9d0a2f5277bf1f103a59c7bf642610011174703c8282bc43"
 metafile = true
 
 [[files]]
+file = "mods/tips.pw.toml"
+hash = "80c337f39bf8842d0e927f8a2fbe50566549e094ac84ee134a3cfd6977afcfea"
+metafile = true
+
+[[files]]
 file = "mods/toms-storage.pw.toml"
 hash = "700c583ec20a3fca340e444e8ce72383b84b623d1272cb34355944ba9c924ee6"
 metafile = true
@@ -858,6 +966,11 @@ metafile = true
 [[files]]
 file = "mods/trash-cans.pw.toml"
 hash = "98796f38bc82aacfb155506a662df4f19a26e810962a1ca2337dd584718badcd"
+metafile = true
+
+[[files]]
+file = "mods/twod-projectiles.pw.toml"
+hash = "8e34dc13b6f114fd9811fc414feeb3a8ffab28cd56c1a341e596823c5e74be58"
 metafile = true
 
 [[files]]
@@ -873,6 +986,11 @@ metafile = true
 [[files]]
 file = "mods/unionlib.pw.toml"
 hash = "381686059e3d448c157f3fc7e0ed2993b74ad2e1eea81a1c2a63baf158234982"
+metafile = true
+
+[[files]]
+file = "mods/visual-workbench.pw.toml"
+hash = "f28ceb27bc3ed0a9825de1f853d177b69495deab9128aa05694616e4504ddb52"
 metafile = true
 
 [[files]]

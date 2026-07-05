@@ -1,0 +1,13 @@
+name = "Lazyboy's No Global Sounds"
+filename = "noglobalsounds-neoforge-1.21.1-1.0.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "887c1d63e4939a1eec8a8c33071bca674b40f111"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7324340
+project-id = 1402788

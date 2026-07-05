@@ -1,0 +1,13 @@
+name = "Gaura's 2D Projectiles"
+filename = "twod_projectiles-neoforge-1.1.1.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "468ab0162d8f51e9628361d6f3c2657a3ae6ce7a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6963140
+project-id = 1294149

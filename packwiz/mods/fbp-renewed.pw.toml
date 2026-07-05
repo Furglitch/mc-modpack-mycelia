@@ -1,0 +1,13 @@
+name = "Fancy Block Particles - Renewed"
+filename = "FancyBlockParticles-1.21.1-neoforge-21.1.6.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "e27f4641138331f4b3371923dc4853c7cac4707f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7270748
+project-id = 937011
