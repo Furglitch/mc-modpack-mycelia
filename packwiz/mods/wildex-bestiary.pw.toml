@@ -1,0 +1,13 @@
+name = "Wildex Bestiary"
+filename = "wildex-3.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b23f7d5959f196f724c450f0ce9b3c26dd2d08a3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7785157
+project-id = 1458326

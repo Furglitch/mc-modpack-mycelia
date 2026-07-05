@@ -5,6 +5,14 @@ file = "config/accessories.json5"
 hash = "7d0d0d005ad9fe0627a296f85c0e6b63ef8f3e65bb27484f4022acb49cfc0fc3"
 
 [[files]]
+file = "config/alexsmobs-common.toml"
+hash = "199780a11fff42f04e8806677fff6255d51e815493b52fa7224be8b6b344306d"
+
+[[files]]
+file = "config/animalweights.json"
+hash = "eac717b3780423a000d891801a69eb4bbb4f61f8477649c52e4695d5fd85cad7"
+
+[[files]]
 file = "config/apotheosis/apothic_attributes.cfg"
 hash = "f5df71513fdbd7fdfe335388c6675a3c8dabc055fe3e41fde7cdbb5f1ddc70b7"
 
@@ -105,12 +113,20 @@ file = "config/sophisticatedstorage-server.toml"
 hash = "b3d6cb1e2351b68ba9def8116a8248855dc253a885fa496901a676dc5cb21ecb"
 
 [[files]]
+file = "config/spore-startup.toml"
+hash = "65516baffd8aa69bfa908f0179d02d2f546fc948f5dd597e66241b21ed89532a"
+
+[[files]]
 file = "config/structurify.json"
 hash = "a8dc3f4ee2bfee2625a55c98e985205387ea51a580bec498a65923082cde99fc"
 
 [[files]]
 file = "config/unionlib-client.toml"
 hash = "b2f23384abaa7f5ccc4d9d6c3af972ccb5e36043939e7263cf0d2fb57d5f7c97"
+
+[[files]]
+file = "config/wildex/wildex-common.toml"
+hash = "db3b9ff51799baaa56e1184bfedac7d33126d7cd474f57fb272ca4ea71f24751"
 
 [[files]]
 file = "configureddefaults/ESM/soundsMuffled.dat"
@@ -136,8 +152,18 @@ hash = "d265ac189584179fe5ec32151e57f4ea4a1bd3ffda02a1f7c47e778266639eba"
 metafile = true
 
 [[files]]
+file = "mods/alexs-mobs-1-21-1-port.pw.toml"
+hash = "e3bbf8c3650fd5fc795b36b0b38fdb5bd287b22b6b7d94cde7e35561b0bf5000"
+metafile = true
+
+[[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "7e03652d2003566873ab5103454f7c537471d6c2fea1c2f614507b33ef4434f7"
+metafile = true
+
+[[files]]
+file = "mods/almanac-lib.pw.toml"
+hash = "9e414657b3a5e60c99e241c58c33cd1e6444780d29aa64c5f897ce1aaf24a00d"
 metafile = true
 
 [[files]]
@@ -151,6 +177,11 @@ hash = "edfdc75fd970599b6b3bf0d9455c04d6e97293989a9406a19aff9f5747e1c37a"
 metafile = true
 
 [[files]]
+file = "mods/animal-weight.pw.toml"
+hash = "e7f2c5075cfd1a7d6e25be8e1333bf0b974895d541656fb5980a771fddb1821a"
+metafile = true
+
+[[files]]
 file = "mods/antique-atlas.pw.toml"
 hash = "d5048142116637b820bff30b6c5afbe83a293a71968483c6eb8c323390827e3d"
 metafile = true
@@ -161,8 +192,23 @@ hash = "014ee07aad95d234a4be89ab018d7cc72b9b41999bf0d5f45de11b509a10bd5e"
 metafile = true
 
 [[files]]
+file = "mods/aquaculture.pw.toml"
+hash = "fbbea448bb6a8bdab5d9f10fb5d27d177a0e7998fb4d797287f0a83b6f89e6d2"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
+metafile = true
+
+[[files]]
+file = "mods/astikor-carts-redux.pw.toml"
+hash = "862032c74a95cbf73638bb5afed2de24e96f3665fe22c6c1b14f1203c46e437c"
+metafile = true
+
+[[files]]
+file = "mods/attributefix.pw.toml"
+hash = "a445471ac6843bcf9fb76eabb4357de0357dfa7782be536a7827a26764fe45c1"
 metafile = true
 
 [[files]]
@@ -268,6 +314,11 @@ metafile = true
 [[files]]
 file = "mods/choicetheorems-overhauled-village.pw.toml"
 hash = "000217304bbb5971cb9dde9081fcb5ea92cc7edcae83321effdcd92b36e2f490"
+metafile = true
+
+[[files]]
+file = "mods/citadel-1-21-1-port.pw.toml"
+hash = "3a0f7208a7863c154b7dbc6418c4686a7e5956444d6f9b05d9a33b0393cbafef"
 metafile = true
 
 [[files]]
@@ -471,6 +522,11 @@ hash = "51851da1eec44c74801f9b00525c119aa136be6b4c4ba2b5bd8b6d0dcf4791df"
 metafile = true
 
 [[files]]
+file = "mods/creeper-overhaul.pw.toml"
+hash = "09f8e2af6cb0a5151a44390389ec62012296ec069dd21eb418079e17b48c2f18"
+metafile = true
+
+[[files]]
 file = "mods/cupboard.pw.toml"
 hash = "0eaf99546b07ea456f4b8f198b646a06f5b9446fb735494f034871f70d36c569"
 metafile = true
@@ -483,6 +539,11 @@ metafile = true
 [[files]]
 file = "mods/darksleep.pw.toml"
 hash = "157fde2866101ad91b70f154a5c51156308e30e4408dc19045762865a8f750e3"
+metafile = true
+
+[[files]]
+file = "mods/data-anchor.pw.toml"
+hash = "269ec2e84dda586fcc3bcf843c23357e3f9cc5bcb075fb7a04b7cbc50f5b6836"
 metafile = true
 
 [[files]]
@@ -501,6 +562,16 @@ hash = "dabdd4071bef81076c7fe7ff6bfa85830f5d87efd25b069fb78eb7134304b567"
 metafile = true
 
 [[files]]
+file = "mods/doggy-talents-next.pw.toml"
+hash = "72a58cd1cec23bfb9a76ae07a82ad4569ff476cad5b7d2560da4633cdcc51936"
+metafile = true
+
+[[files]]
+file = "mods/dtn-palette-of-paws.pw.toml"
+hash = "6127b657d5856678e6555ed01051ada5ab438fc75ece699abbeeb8f2bbb6557c"
+metafile = true
+
+[[files]]
 file = "mods/dungeon-and-taverns.pw.toml"
 hash = "042ff6bd1253a58e93d7ee172a2d565b0c8dedb1b88d0cb5ff7d2c9e73a04141"
 metafile = true
@@ -508,6 +579,11 @@ metafile = true
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
 hash = "4fa72931e628ff5e0c406e79dfc27e647e31729d40f45920740b3d86ed2d161c"
+metafile = true
+
+[[files]]
+file = "mods/enhanced-celestials.pw.toml"
+hash = "39cbab92fb61fa1809540a828858e16c2386ff6fbd5bc01140d180c74ad94002"
 metafile = true
 
 [[files]]
@@ -581,6 +657,11 @@ hash = "5fb287ddb204cc2460dc51984099b0010462f781d00b2d6ed2a37046accf2560"
 metafile = true
 
 [[files]]
+file = "mods/fungal-infection-spore.pw.toml"
+hash = "824a383560cd997e0c2603f74843b42e9d44a84a09da732094e6edbfbb3f4a18"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "0b7687a29b0dd4400e6c2db295a81b9543c7275674f8b357f57dc64b9d5f49be"
 metafile = true
@@ -608,6 +689,11 @@ metafile = true
 [[files]]
 file = "mods/gravestone-x-curios-api-compat.pw.toml"
 hash = "37e62ad6e7cde4983ac6c4a4173e7332e0b157f080dd71d615a9aa7423c985d4"
+metafile = true
+
+[[files]]
+file = "mods/guard-villagers.pw.toml"
+hash = "6424aa354655682483ec2a0db6b6f24b1f09b349d93d9e6bfeeb73733fdfa759"
 metafile = true
 
 [[files]]
@@ -713,6 +799,11 @@ metafile = true
 [[files]]
 file = "mods/leave-my-bars-alone.pw.toml"
 hash = "e64b844bba321f90b915452e486945f54107f65c3416b1ca5b1f1ef63d8ce572"
+metafile = true
+
+[[files]]
+file = "mods/let-me-despawn.pw.toml"
+hash = "dd4dd28e505ef8a6dae0569c92b03732302094e952068db010924fe945a27170"
 metafile = true
 
 [[files]]
@@ -856,6 +947,11 @@ hash = "d02aa263997985413fcded2dd31dce1a8c3285030b8905edf8e5eb270ed596ae"
 metafile = true
 
 [[files]]
+file = "mods/more-villagers-re-employed.pw.toml"
+hash = "e917152214e0921f9c2dbbe901e2fbcb668fba550a856c18130a07da8e297b87"
+metafile = true
+
+[[files]]
 file = "mods/mru.pw.toml"
 hash = "98846bdef22ff0f98130828bef684377b80dd8fabbe9fffc6e3e55a71f8765ee"
 metafile = true
@@ -976,6 +1072,21 @@ hash = "b8343a89b5bca7976f6aac6a977b22d477230f486b2a65dcde64649ae828da8c"
 metafile = true
 
 [[files]]
+file = "mods/resourceful-config.pw.toml"
+hash = "89d21f5da7fea8b1197c6e8e5215d45f7400844560e0f7c179d3c6145bd36a95"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "aa83553db30adc47f86010f6443340251323a62ee3f9415a0c4332cb6d502419"
+metafile = true
+
+[[files]]
+file = "mods/respawning-animals.pw.toml"
+hash = "a8e3f25e035519ef1a0fe62ae165fd19459a06560d4eee744e9717f0e23742aa"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
@@ -988,6 +1099,11 @@ metafile = true
 [[files]]
 file = "mods/sable.pw.toml"
 hash = "56c47f4f4732d86a144c8c86af80411238c3ea74f6b96b0bc5174d2f20073a98"
+metafile = true
+
+[[files]]
+file = "mods/savage-ender-dragon.pw.toml"
+hash = "5874198322a41899c1211ad7b21d075649ef8d5f3cb91e1eda4cf3de1d660627"
 metafile = true
 
 [[files]]
@@ -1201,8 +1317,23 @@ hash = "381686059e3d448c157f3fc7e0ed2993b74ad2e1eea81a1c2a63baf158234982"
 metafile = true
 
 [[files]]
+file = "mods/villager-names.pw.toml"
+hash = "388fbd62cfb03e35262ecee9e3a03f8b7861a5c311b959878b8331aae2bb7463"
+metafile = true
+
+[[files]]
+file = "mods/villagerapi.pw.toml"
+hash = "c048a9c57424f85a39a8ed14e2fd72a3bdfdd1e734133e73ca075f9ed29fc4ad"
+metafile = true
+
+[[files]]
 file = "mods/visual-workbench.pw.toml"
 hash = "f28ceb27bc3ed0a9825de1f853d177b69495deab9128aa05694616e4504ddb52"
+metafile = true
+
+[[files]]
+file = "mods/wildex-bestiary.pw.toml"
+hash = "0edec43735d07dbb5d86ba7d90718977cbed40c41ca0bac7cda120ab5dbbd191"
 metafile = true
 
 [[files]]
