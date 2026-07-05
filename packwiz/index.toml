@@ -137,6 +137,10 @@ file = "configureddefaults/options.txt"
 hash = "93617976d882baf46c3c540e05704ab483f1b79ddb03d28bfa510d427188951e"
 
 [[files]]
+file = "kubejs/server_scripts/spawns.spore.cold.js"
+hash = "72fa63a0aa73ac86599ffd337ed8e0d0a6bf02ddfb2c09cd71b0c52a6d66a7a0"
+
+[[files]]
 file = "mods/accessories-compat-layer.pw.toml"
 hash = "0085d9a1eb73a68fe1d07f26b27fb93b0e1a582ab0f47d068fc94d055165aa99"
 metafile = true
