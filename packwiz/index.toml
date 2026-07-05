@@ -105,6 +105,10 @@ file = "config/sophisticatedstorage-server.toml"
 hash = "b3d6cb1e2351b68ba9def8116a8248855dc253a885fa496901a676dc5cb21ecb"
 
 [[files]]
+file = "config/structurify.json"
+hash = "a8dc3f4ee2bfee2625a55c98e985205387ea51a580bec498a65923082cde99fc"
+
+[[files]]
 file = "config/unionlib-client.toml"
 hash = "b2f23384abaa7f5ccc4d9d6c3af972ccb5e36043939e7263cf0d2fb57d5f7c97"
 
@@ -134,6 +138,11 @@ metafile = true
 [[files]]
 file = "mods/alltheleaks.pw.toml"
 hash = "7e03652d2003566873ab5103454f7c537471d6c2fea1c2f614507b33ef4434f7"
+metafile = true
+
+[[files]]
+file = "mods/almostunified.pw.toml"
+hash = "3e902846339c2bb422d614993ba499fef007f185c9c29cb55804e3270ebb5ef7"
 metafile = true
 
 [[files]]
@@ -237,13 +246,13 @@ hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
 
 [[files]]
-file = "mods/burnt-cold-sweat-compat.pw.toml"
-hash = "ec0655acdbc787a494b36180923cd5528eda25f48ca2a6bc0f2cbd4255572b11"
+file = "mods/burnt-basic.pw.toml"
+hash = "68eada5bafcc5f5b9cfdda94e842abafc20b518cc5c9beec326bee4953adee99"
 metafile = true
 
 [[files]]
-file = "mods/burnt.pw.toml"
-hash = "e7a3d24405fe48ec8268c9810483667be7028a80dfe973c41343b29bcaf9eeff"
+file = "mods/burnt-cold-sweat-compat.pw.toml"
+hash = "ec0655acdbc787a494b36180923cd5528eda25f48ca2a6bc0f2cbd4255572b11"
 metafile = true
 
 [[files]]
@@ -254,6 +263,11 @@ metafile = true
 [[files]]
 file = "mods/chat-heads.pw.toml"
 hash = "9cbe070b269ec57ecb6f69c2130e8839b06b5ba462df4bce81a41d087bc74ec8"
+metafile = true
+
+[[files]]
+file = "mods/choicetheorems-overhauled-village.pw.toml"
+hash = "000217304bbb5971cb9dde9081fcb5ea92cc7edcae83321effdcd92b36e2f490"
 metafile = true
 
 [[files]]
@@ -407,6 +421,11 @@ hash = "374c57525f5d252ff41b2b72b38b9b36340d3e42ce9d2fc37789e246e669b610"
 metafile = true
 
 [[files]]
+file = "mods/create-o-plenty.pw.toml"
+hash = "69429e784359ecf3a08374d8dc910a9e5bb146f4aa9441c732d6ca489afa77d9"
+metafile = true
+
+[[files]]
 file = "mods/create-pattern-schematics.pw.toml"
 hash = "933542ef6b68b15a91e20f9d87cb1f03546d0081b12c2e489df860fd47b3be28"
 metafile = true
@@ -469,6 +488,21 @@ metafile = true
 [[files]]
 file = "mods/distant-horizons.pw.toml"
 hash = "563e9267e594bec6a5c32843b34ac8a188ebc8f09e1936d700a9db185cba394b"
+metafile = true
+
+[[files]]
+file = "mods/dnt-stronghold-overhaul.pw.toml"
+hash = "88901e62bd4c195ae07dc7b53bf54f52d1a330b0c84da0edd24e938d1022f8b1"
+metafile = true
+
+[[files]]
+file = "mods/dnt-woodland-mansion-overhaul.pw.toml"
+hash = "dabdd4071bef81076c7fe7ff6bfa85830f5d87efd25b069fb78eb7134304b567"
+metafile = true
+
+[[files]]
+file = "mods/dungeon-and-taverns.pw.toml"
+hash = "042ff6bd1253a58e93d7ee172a2d565b0c8dedb1b88d0cb5ff7d2c9e73a04141"
 metafile = true
 
 [[files]]
@@ -574,6 +608,16 @@ metafile = true
 [[files]]
 file = "mods/gravestone-x-curios-api-compat.pw.toml"
 hash = "37e62ad6e7cde4983ac6c4a4173e7332e0b157f080dd71d615a9aa7423c985d4"
+metafile = true
+
+[[files]]
+file = "mods/hopo-better-ruined-portals.pw.toml"
+hash = "87c111d2a61cf5bebcbd755596a97962856c443e8afccd48eb8b5a152bb23263"
+metafile = true
+
+[[files]]
+file = "mods/hopo-better-underwater-ruins.pw.toml"
+hash = "68c48eeaee34bdd0d22981a4f85105bc1037d558be74d2c115696430049f839d"
 metafile = true
 
 [[files]]
@@ -692,8 +736,38 @@ hash = "7987274116332328a712e5fd3d708541a0f5c39698072cb8da085d4c3eeae51e"
 metafile = true
 
 [[files]]
+file = "mods/loot-integrations-choicetheorems-overhauled.pw.toml"
+hash = "01be52ea84fb04197908d5d27e0747a8c2a2c487ae0ca328d25e44de04ed096c"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-dungeons-and-taverns.pw.toml"
+hash = "27213a9e82777d657d7680c01e2a7043defb37ceb09b86842104d3c8bf35a7b6"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-hopo-better-mineshaft-ruins.pw.toml"
+hash = "f732c8da220bd5609620f3aafee407ea10f024a9524c6c98d9d98d8cca7c2620"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations-moogs-voyager-soaring-end-nether.pw.toml"
+hash = "1d1900af1cdbab0494705ff36698c1bb40eb307df68688d079e5e18e7781a80e"
+metafile = true
+
+[[files]]
+file = "mods/loot-integrations.pw.toml"
+hash = "543b8a8ff5796648146f3102dea686e806f793052d329d0fa3efee8194d4df52"
+metafile = true
+
+[[files]]
 file = "mods/loot-journal-neoforge.pw.toml"
 hash = "4f750b521fd54d83923f364fe3f87bf3ffb0fe3975b1579e9104360dd6762dfd"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "da2695e249cd30861e78ad909d5fd769b6f931862049f17165f41fc18f43129c"
 metafile = true
 
 [[files]]
@@ -727,6 +801,11 @@ hash = "f00cc04edaaa975afc3f3f4dd8f2ea9016b13f940ac23e0dbdab4853f2b105b0"
 metafile = true
 
 [[files]]
+file = "mods/mns-moogs-nether-structures.pw.toml"
+hash = "a24c2abc1668181c40097d14889286ab50b426c8c6470ec2dc8116249d020b24"
+metafile = true
+
+[[files]]
 file = "mods/moderately-enough-effect-descriptions-meed.pw.toml"
 hash = "105667604ee89692ac33d2df77e83f0c1b0fb1d94671ee40a8a1ae92e4f19c29"
 metafile = true
@@ -744,6 +823,21 @@ metafile = true
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
 hash = "f68b0d9ceb8a96237a5c55cf8fb33110339cd30a805c910c47a608dd49db3768"
+metafile = true
+
+[[files]]
+file = "mods/moogs-end-structures.pw.toml"
+hash = "d320f7c6591bce3b9e6a808db01e57a1c337422209ee53ffa1d6d84383c24bde"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
+hash = "da57ae4d0ddbfecbe5957422b19687873d61dcc6be6c46f58f1f0a064a5c1467"
+metafile = true
+
+[[files]]
+file = "mods/moogs-voyager-structures.pw.toml"
+hash = "29c06b3e0967fc14ae933578876dbb94132f98c89e46449c9f33edf60bb3c762"
 metafile = true
 
 [[files]]
@@ -1002,6 +1096,11 @@ hash = "8f33c3fd08e54b5f2afcd70570c141c72b7451b074a8a5da1fcc49c2dcd08c60"
 metafile = true
 
 [[files]]
+file = "mods/structurify.pw.toml"
+hash = "9f23f95929784227a92ddd95f59d88e4dd03501daaeee3dac55f8aaf75683232"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 hash = "2e42245826ce70d4ad673addb0e5244da388841f1484f03ee5a9426ee33b2229"
 metafile = true
@@ -1092,6 +1191,11 @@ hash = "146163421ece1d8d1547dbd1f8140b8fd34bf10d4ddd23808c5fbb22dbbf7d93"
 metafile = true
 
 [[files]]
+file = "mods/unified-crops.pw.toml"
+hash = "02a5ea65ab2360b2d2cb28f11553f96c86d201dfd37b210e36052b3aab0c0726"
+metafile = true
+
+[[files]]
 file = "mods/unionlib.pw.toml"
 hash = "381686059e3d448c157f3fc7e0ed2993b74ad2e1eea81a1c2a63baf158234982"
 metafile = true
@@ -1107,6 +1211,11 @@ hash = "492daa3391b6079b541685db276007b286774bab3b9881505127b7aef6b3f16c"
 metafile = true
 
 [[files]]
+file = "mods/yung-structures-addon-for-loot-integrations.pw.toml"
+hash = "c55a7700633fe3bf1e490aad3166bad5381902822ad8bc86c74663603698e036"
+metafile = true
+
+[[files]]
 file = "mods/yungs-api-neoforge.pw.toml"
 hash = "7cb2156566e58df780f1e1248bc7c336fda5be86d8e5828e3485b951e3934471"
 metafile = true
@@ -1117,8 +1226,58 @@ hash = "10815a3aa6dc436f8aa9b86dbb68368fbbcaff26f15fb06113b519b678e1a480"
 metafile = true
 
 [[files]]
+file = "mods/yungs-better-desert-temples-neoforge.pw.toml"
+hash = "a383e14bfb10544f993b68c1b5054be9364043878ba965091612fe100f55220c"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-dungeons-neoforge.pw.toml"
+hash = "c79a58526fab23bdac3e652a1696cb603fc94197c1173ebe48743659ee5656a5"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-end-island-neoforge.pw.toml"
+hash = "2e763194942381a7829dc6eb0503930a97408ee31ad7d05c77c6d094499e40d3"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-jungle-temples-neoforge.pw.toml"
+hash = "45b08aedb7926aaf079a98b037265aca98bff49a13cc1eb9740bec40f0f02cfb"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-mineshafts-neoforge.pw.toml"
+hash = "c2053af07ae41f932040eaa078a7d22438cbb0bf16ebcf0926740dd8777f9498"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-nether-fortresses-neoforge.pw.toml"
+hash = "e467ffe83dd4e8d2d64f41d46067ddf52d0ca6f3271c56e5858829c15def3e3e"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-ocean-monuments-neoforge.pw.toml"
+hash = "499a8fffeca4ff272bfcc0ad266add8fb729a6419fec921d4b8a63f7b9bc2877"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-witch-huts-neoforge.pw.toml"
+hash = "a8145065cddbb2e4110de30af522f39dc666d2834537f87cd062c969c38fb978"
+metafile = true
+
+[[files]]
+file = "mods/yungs-bridges-neoforge.pw.toml"
+hash = "245e967489d88447ce203fe1db768657a95bd2b110ea3430516508d0f0aec29f"
+metafile = true
+
+[[files]]
 file = "mods/yungs-cave-biomes.pw.toml"
 hash = "895288a3b51192f27cbf3e7e7ebfefd0d31e5660157864a4da40828d5c1dac05"
+metafile = true
+
+[[files]]
+file = "mods/yungs-extras-neoforge.pw.toml"
+hash = "cd321f6365bc3938e0671450aadcd40c8e03af5cb24d0a545fb07c890b4793ac"
 metafile = true
 
 [[files]]

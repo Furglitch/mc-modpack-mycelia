@@ -1,0 +1,13 @@
+name = "Unified Crops"
+filename = "unifiedcrops-1.21.1-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e5da7d6f3ab4a65d78a36fa479377bb7c3971932"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6332967
+project-id = 1222826
