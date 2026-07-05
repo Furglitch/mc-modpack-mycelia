@@ -29,10 +29,15 @@ parent: Mycelia
 - [SuperMartijn642's Core Lib](https://curseforge.com/projects/454372) 
 - [Just Enough Professions (JEP)](https://curseforge.com/projects/417645) 
 - [Create Contraption Terminals](https://curseforge.com/projects/1059879) 
+- [Bookshelf](https://curseforge.com/projects/228525) 
 - [Startup Time](https://curseforge.com/projects/1171760) Ⓒ
+- [ItemPhysic Lite](https://curseforge.com/projects/270441) Ⓒ
 - [Better Advancements](https://curseforge.com/projects/272515) Ⓒ
+- [TCT Core](https://curseforge.com/projects/1060479) 
+- [Distant Horizons: A Level of Detail mod](https://curseforge.com/projects/508933) 
 - [Create Aeronautics](https://curseforge.com/projects/676721) 
 - [Accessorify](https://curseforge.com/projects/1169634) 
+- [Sound Physics Remastered](https://curseforge.com/projects/535489) Ⓒ
 - [Searchables](https://curseforge.com/projects/858542) Ⓒ
 - [FerriteCore ((Neo)Forge)](https://curseforge.com/projects/429235) 
 - [Create Encased](https://curseforge.com/projects/829380) 
@@ -40,6 +45,7 @@ parent: Mycelia
 - [Leave My Bars Alone](https://curseforge.com/projects/281715) Ⓒ
 - [Jade Addons (Neo/Forge)](https://curseforge.com/projects/583345) 
 - [Framework](https://curseforge.com/projects/549225) 
+- [Snow Under Trees](https://curseforge.com/projects/353942) 
 - [Trash Cans](https://curseforge.com/projects/394535) 
 - [Sable](https://curseforge.com/projects/1312371) 
 - [Konkrete](https://curseforge.com/projects/410295) 
@@ -68,13 +74,16 @@ parent: Mycelia
 - [Create: Cardboard Things](https://curseforge.com/projects/1268423) 
 - [FastSuite](https://curseforge.com/projects/475117) 
 - [Create: Mobile Packages](https://curseforge.com/projects/1232978) 
+- [Burnt: Cold Sweat Compat](https://curseforge.com/projects/1512898) 
 - [Curios API (Forge/NeoForge)](https://curseforge.com/projects/309927) 
+- [Burnt: Better Vanilla Fire](https://curseforge.com/projects/998916) 
 - [Create Stuff 'N Additions](https://curseforge.com/projects/466792) 
 - [Create Aeronautics: Transmission & Linkage](https://curseforge.com/projects/1548056) 
 - [Flerovium](https://curseforge.com/projects/1142875) Ⓒ
 - [Modern World Creation](https://curseforge.com/projects/485245) Ⓒ
 - [Scholar](https://curseforge.com/projects/961802) 
 - [Create Crafts & Additions](https://curseforge.com/projects/439890) 
+- [Extreme sound muffler - (Neo)Forge](https://curseforge.com/projects/363363) Ⓒ
 - [CorgiLib](https://curseforge.com/projects/693313) 
 - [Accessories Compatibility Layer](https://curseforge.com/projects/1315611) 
 - [Fancy Toasts | Better Advancements](https://curseforge.com/projects/1326436) Ⓒ
@@ -96,6 +105,7 @@ parent: Mycelia
 - [Create](https://curseforge.com/projects/328085) 
 - [Cupboard](https://curseforge.com/projects/326652) 
 - [Just Enough Archaeology](https://curseforge.com/projects/890755) 
+- [Lazyboy's No Global Sounds](https://curseforge.com/projects/1402788) Ⓒ
 - [Placebo](https://curseforge.com/projects/283644) 
 - [Pretty Pipes](https://curseforge.com/projects/376737) 
 - [BaguetteLib](https://curseforge.com/projects/1264423) 
@@ -105,17 +115,21 @@ parent: Mycelia
 - [CleanView](https://curseforge.com/projects/226889) Ⓒ
 - [Ritchie's Projectile Library](https://curseforge.com/projects/1279407) 
 - [Fragmentum [NeoForge Edition]](https://curseforge.com/projects/1123977) 
+- [MAtmos ambient sound](https://curseforge.com/projects/548114) 
 - [Overflowing Bars](https://curseforge.com/projects/852662) Ⓒ
 - [Mechanicals Lib](https://curseforge.com/projects/1253573) 
 - [Cursors Extended](https://curseforge.com/projects/1184736) Ⓒ
 - [ShatterLib | OctoLib](https://curseforge.com/projects/916747) 
+- [Prickle](https://curseforge.com/projects/1023259) 
 - [FancyMenu](https://curseforge.com/projects/367706) Ⓒ
 - [Sophisticated Core](https://curseforge.com/projects/618298) 
 - [Create Mechanical Extruder](https://curseforge.com/projects/686100) 
 - [Accessories](https://curseforge.com/projects/938917) 
 - [Startup / Loading Profiler](https://curseforge.com/projects/1181186) Ⓒ
 - [GlitchCore](https://curseforge.com/projects/955399) 
+- [Create: Cold Sweat](https://curseforge.com/projects/1184450) 
 - [Better Creative Mode Tabs](https://curseforge.com/projects/1046557) Ⓒ
+- [Gaura's 2D Projectiles](https://curseforge.com/projects/1294149) Ⓒ
 - [Moderately Enough Effect Descriptions (MEED)](https://curseforge.com/projects/918638) 
 - [Create: Trading Floor](https://curseforge.com/projects/1102591) 
 - [Antique Atlas](https://curseforge.com/projects/227795) 
@@ -123,12 +137,15 @@ parent: Mycelia
 - [UnionLib](https://curseforge.com/projects/367806) 
 - [Connectivity](https://curseforge.com/projects/470193) 
 - [Reese's Sodium Options](https://curseforge.com/projects/511319) Ⓒ
+- [Cloth Config API (Fabric/Forge/NeoForge)](https://curseforge.com/projects/348521) 
+- [Sound​s](https://curseforge.com/projects/925889) Ⓒ
 - [Tom's Simple Storage Mod](https://curseforge.com/projects/378609) 
 - [Sodium Extra](https://curseforge.com/projects/447673) Ⓒ
 - [AllTheLeaks (Memory Leak Fix)](https://curseforge.com/projects/1091339) 
 - [Underground Rivers](https://curseforge.com/projects/1108285) 
 - [Create: Pattern Schematics](https://curseforge.com/projects/1072349) 
 - [ImmediatelyFast](https://curseforge.com/projects/686911) Ⓒ
+- [Ambient Environment](https://curseforge.com/projects/320163) Ⓒ
 - [Obscure Tooltips](https://curseforge.com/projects/715660) Ⓒ
 - [Fzzy Config](https://curseforge.com/projects/1005914) 
 - [Packed Packs](https://curseforge.com/projects/1260514) Ⓒ
@@ -143,11 +160,13 @@ parent: Mycelia
 - [PlayerRevive](https://curseforge.com/projects/266890) 
 - [Sodium](https://curseforge.com/projects/394468) Ⓒ
 - [Create: Connected](https://curseforge.com/projects/947914) 
+- [M.R.U](https://curseforge.com/projects/669659) Ⓒ
 - [Create Big Cannons](https://curseforge.com/projects/646668) 
 - [Rhino](https://curseforge.com/projects/416294) 
 - [Biomes O' Plenty](https://curseforge.com/projects/220318) 
 - [LambDynamicLights](https://curseforge.com/projects/393442) Ⓒ
 - [Noisiumed](https://curseforge.com/projects/1430156) 
+- [Fancy Block Particles - Renewed](https://curseforge.com/projects/937011) Ⓒ
 - [KotlinLangForge](https://curseforge.com/projects/1244682) 
 - [Gravestone x Curios API Compat](https://curseforge.com/projects/1139062) 
 - [Pretty Pipes: Fluids](https://curseforge.com/projects/479142) 
@@ -159,6 +178,7 @@ parent: Mycelia
 - [Kotlin for Forge](https://curseforge.com/projects/351264) 
 - [Architectury API](https://curseforge.com/projects/419699) 
 - [Fadeless](https://curseforge.com/projects/861310) Ⓒ
+- [Visual Workbench](https://curseforge.com/projects/500273) 
 - [Controlling](https://curseforge.com/projects/250398) Ⓒ
 - [Cold Sweat](https://curseforge.com/projects/506194) 
 - [Lithium (Fabric/NeoForge)](https://curseforge.com/projects/360438) 
@@ -167,9 +187,11 @@ parent: Mycelia
 - [Create: Copycats+](https://curseforge.com/projects/968398) 
 - [Not Enough Recipe Book [NERB]](https://curseforge.com/projects/738663) 
 - [Sophisticated Storage](https://curseforge.com/projects/619320) 
+- [Tips](https://curseforge.com/projects/306549) 
 - [YetAnotherConfigLib](https://curseforge.com/projects/667299) 
 - [Create : Misc & Things](https://curseforge.com/projects/652202) 
 - [spark](https://curseforge.com/projects/361579) Ⓒ
+- [More Sound](https://curseforge.com/projects/1269340) Ⓒ
 - [SuperMartijn642's Config Lib](https://curseforge.com/projects/438332) 
 
 ## Resource Packs
