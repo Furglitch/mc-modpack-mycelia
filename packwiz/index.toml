@@ -114,7 +114,7 @@ hash = "604a8e26c9cccc0e5d89edde7af3d07d85f6dae1382ce1ec84818d620acfe9ba"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "5ec65f1d1b476decceffe43b4e8196bc08ccf972c5c7b09553a67d5ba2ab2cbc"
+hash = "93617976d882baf46c3c540e05704ab483f1b79ddb03d28bfa510d427188951e"
 
 [[files]]
 file = "mods/accessories-compat-layer.pw.toml"
