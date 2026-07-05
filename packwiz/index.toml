@@ -578,8 +578,18 @@ hash = "157fde2866101ad91b70f154a5c51156308e30e4408dc19045762865a8f750e3"
 metafile = true
 
 [[files]]
+file = "mods/darksmithing.pw.toml"
+hash = "9ea25b423045348b72f5db5ad4f0bb3a7419db7f61d967cf867fc1a769a47948"
+metafile = true
+
+[[files]]
 file = "mods/data-anchor.pw.toml"
 hash = "269ec2e84dda586fcc3bcf843c23357e3f9cc5bcb075fb7a04b7cbc50f5b6836"
+metafile = true
+
+[[files]]
+file = "mods/dis-enchanting-table.pw.toml"
+hash = "a35abc9918ab470587cb18f05a37918a921ec0ae59f1c256ebec3c20d819904e"
 metafile = true
 
 [[files]]
@@ -615,6 +625,16 @@ metafile = true
 [[files]]
 file = "mods/durability-tooltip.pw.toml"
 hash = "4fa72931e628ff5e0c406e79dfc27e647e31729d40f45920740b3d86ed2d161c"
+metafile = true
+
+[[files]]
+file = "mods/easy-anvils.pw.toml"
+hash = "541520814421d829976fbb2162e7a195b18e9d82ed3b3c8dc9c7fbc50b2cb491"
+metafile = true
+
+[[files]]
+file = "mods/enchanting-infuser.pw.toml"
+hash = "e9c8cc452257839c6d84e5ffc8c367e6f51b51cc3cd00fa07baeadb1f4dce79f"
 metafile = true
 
 [[files]]
@@ -775,6 +795,11 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "84cc0d40e518c782dbed6f582163b034d4d7f82d1e41e38dc907ed77e2836eaa"
+metafile = true
+
+[[files]]
+file = "mods/just-better-recipes.pw.toml"
+hash = "51ea039172465b662b19defa36525f3da23093764ec0e510c3df2f6aeed94937"
 metafile = true
 
 [[files]]
@@ -955,6 +980,11 @@ metafile = true
 [[files]]
 file = "mods/modpack-update-checker.pw.toml"
 hash = "f68b0d9ceb8a96237a5c55cf8fb33110339cd30a805c910c47a608dd49db3768"
+metafile = true
+
+[[files]]
+file = "mods/monolib.pw.toml"
+hash = "11fb01369bb143bcf8ff4cba665ba9583f9b66e7fd17103ae36e52cc934a05d1"
 metafile = true
 
 [[files]]
@@ -1148,6 +1178,11 @@ hash = "5874198322a41899c1211ad7b21d075649ef8d5f3cb91e1eda4cf3de1d660627"
 metafile = true
 
 [[files]]
+file = "mods/sawmill.pw.toml"
+hash = "e2e27e5f9e3d1214ec7ab26c2de4384e45237330f0894f8d5712aa41e31c7782"
+metafile = true
+
+[[files]]
 file = "mods/scholar.pw.toml"
 hash = "9d0f131d5114c6aaa5fb79ac4cd17053861646005f3fefa051891f504205da69"
 metafile = true
@@ -1155,6 +1190,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "b210b54498abff891f524a0ce32b7b81bfc88043604065bd4ece9e71c36427f4"
+metafile = true
+
+[[files]]
+file = "mods/selene.pw.toml"
+hash = "d318efaa5190d251642c7a6de7f327a35d32a587bc72ec2c180603e72563c9e7"
 metafile = true
 
 [[files]]
