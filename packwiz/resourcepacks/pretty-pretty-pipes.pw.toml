@@ -1,0 +1,13 @@
+name = "Pretty Pretty Pipes"
+filename = "Pretty Pretty Pipes.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "103a4bb65a0bcfd05ada7c945581fc5ede634e83"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7415555
+project-id = 1420405

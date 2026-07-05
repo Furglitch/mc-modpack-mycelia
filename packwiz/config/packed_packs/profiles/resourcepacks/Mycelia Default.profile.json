@@ -3,6 +3,10 @@
   "name": "Mycelia Default",
   "overrides": {},
   "packIds": [
+    "file/Better SB Upgrades.zip",
+    "file/Suren Sophisticated Storage v2.0.0 1.21-1.21.1.zip",
+    "file/Pretty Pretty Pipes.zip",
+    "file/Create Touch-Ups v1.0.zip",
     "file/Clarity-Tooltips.zip",
     "generated/fragmentum_layer",
     "scholar:chiseled_bookshelf_colored_books",
