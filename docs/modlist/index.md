@@ -64,6 +64,7 @@ parent: Mycelia
 - [Create: Enchantment Industry](https://curseforge.com/projects/688768) 
 - [Just Enough Effect Descriptions (JEED)](https://curseforge.com/projects/532286) 
 - [Collective](https://curseforge.com/projects/342584) 
+- [Create Ultimine](https://curseforge.com/projects/1231381) 
 - [TaCZ_Attributes](https://curseforge.com/projects/1113285) 
 - [Create: Vibrant Vaults](https://curseforge.com/projects/1251719) 
 - [Forge CIT](https://curseforge.com/projects/912099) Ⓒ
@@ -238,7 +239,6 @@ parent: Mycelia
 - [Pretty Pipes: Fluids](https://curseforge.com/projects/479142) 
 - [YUNG's Better Caves (Forge/NeoForge)](https://curseforge.com/projects/340583) 
 - [oωo (owo-lib)](https://curseforge.com/projects/532610) 
-- [Apothic Attributes](https://curseforge.com/projects/898963) 
 - [Krypton Reno](https://curseforge.com/projects/1269169) 
 - [ChoiceTheorem's Overhauled Village](https://curseforge.com/projects/623908) 
 - [MNS - Moog's Nether Structures](https://curseforge.com/projects/967466) 
@@ -253,6 +253,7 @@ parent: Mycelia
 - [Controlling](https://curseforge.com/projects/250398) Ⓒ
 - [Cold Sweat](https://curseforge.com/projects/506194) 
 - [Yung Structures Addon for Loot Integrations](https://curseforge.com/projects/1012211) 
+- [FTB Ultimine (NeoForge)](https://curseforge.com/projects/386134) 
 - [Lithium (Fabric/NeoForge)](https://curseforge.com/projects/360438) 
 - [Create: Stam1o Tweaks](https://curseforge.com/projects/1237495) 
 - [Create: Bits 'n' Bobs](https://curseforge.com/projects/1398383) 
