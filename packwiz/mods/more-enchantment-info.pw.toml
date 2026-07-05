@@ -1,0 +1,13 @@
+name = "More Enchantment Info"
+filename = "more-enchantment-info-0.4.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f36f0118633d45a7b2c03010aaa28880e9cb4efe"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8260759
+project-id = 1166503

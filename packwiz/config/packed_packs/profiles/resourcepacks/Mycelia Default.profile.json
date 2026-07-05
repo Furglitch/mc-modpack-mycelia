@@ -1,0 +1,13 @@
+{
+  "locked": false,
+  "name": "Mycelia Default",
+  "overrides": {},
+  "packIds": [
+    "file/Clarity-Tooltips.zip",
+    "generated/fragmentum_layer",
+    "scholar:chiseled_bookshelf_colored_books",
+    "scholar:colored_books",
+    "mod_resources",
+    "vanilla"
+  ]
+}

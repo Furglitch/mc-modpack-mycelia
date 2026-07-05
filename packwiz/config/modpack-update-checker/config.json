@@ -6,7 +6,7 @@
   "modpackReleaseType": "stable",
   "updateCheckerId": "https://raw.githubusercontent.com/furglitch/mc-modpack-mycelia/1.21.1-NeoForge/",
   "advanced": {
-    "bccEnabled": false,
+    "bccEnabled": true,
     "expandButton": false,
     "updateCheckerType": 2,
     "retroWarning": false,

@@ -1,0 +1,13 @@
+name = "Clarity Tooltips"
+filename = "Clarity-Tooltips.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b48a9b91116a057e91fc5ee411a9381f6ac4f41e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7723937
+project-id = 1443141

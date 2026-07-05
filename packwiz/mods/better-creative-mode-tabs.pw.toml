@@ -1,0 +1,13 @@
+name = "Better Creative Mode Tabs"
+filename = "better_creative_tabs-0.1.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "1d081e21954ee7fa351223cdc718af4c2b1c0e44"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5556597
+project-id = 1046557
