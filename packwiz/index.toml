@@ -62,7 +62,7 @@ hash = "ad3e5e1f8e3a25c2a532501bf3af43491c45776fe99afd45c802407f21ffe469"
 
 [[files]]
 file = "config/ftbultimine-server.snbt"
-hash = "c2bddcde7204cb95f35b506794b08bf7df6c07870c471b29537b29054f35a5a8"
+hash = "4d8c3884d3b0c79828c0a04298ff8858f566d4c13c2aad959b2fa2b9251b002d"
 
 [[files]]
 file = "config/lambdynlights.toml"
@@ -102,7 +102,7 @@ hash = "39a92289e921b611534cf99a7fdb8d6ff10319ae7b525a54dfa1a892fb698fb5"
 
 [[files]]
 file = "config/paxi/resourcepacks/Mycelia Resources/pack.mcmeta"
-hash = "fee7601901bf04ed55b6858dc5ded667c97a9293b3d39c3086a9a8461eb7d8c5"
+hash = "49eb79b7ebe683d51f0eda994c73d88333d404a4ead746e77ea7bc268fe6ddda"
 
 [[files]]
 file = "config/ponder-client.toml"
