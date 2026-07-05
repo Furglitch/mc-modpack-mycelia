@@ -1,0 +1,13 @@
+name = "Let Me Sleep"
+filename = "LetMeSleep-v21.1.0-mc1.21.1-NeoForge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7992248cc56a5071e50c0dce4b28152d5a310d2e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8351869
+project-id = 322764

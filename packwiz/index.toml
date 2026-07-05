@@ -5,6 +5,10 @@ file = "config/accessories.json5"
 hash = "7d0d0d005ad9fe0627a296f85c0e6b63ef8f3e65bb27484f4022acb49cfc0fc3"
 
 [[files]]
+file = "config/apotheosis/apothic_attributes.cfg"
+hash = "f5df71513fdbd7fdfe335388c6675a3c8dabc055fe3e41fde7cdbb5f1ddc70b7"
+
+[[files]]
 file = "config/backpacked.client.toml"
 hash = "729ac54e91d44f11f5a6165363e1495961fa91eedc385c71839807c1f24cc5c0"
 
@@ -15,6 +19,10 @@ hash = "27f1ae1e4d2c6cf43017e5a4268f68a9cd22d456b65787232ac85d460e125da0"
 [[files]]
 file = "config/biomesoplenty/biome_toggles.json"
 hash = "26abec23e54106c8dbee8fbf579e2750b935c2ba7cbc17248105fb286afa1409"
+
+[[files]]
+file = "config/biomespawnpoint/spawnbiomes.txt"
+hash = "05fc0c67dd4951a1bf311463efd8ec7ef660053f7ed741edc688ffb860d33f2d"
 
 [[files]]
 file = "config/biomeswevegone/world_generation.json"
@@ -139,6 +147,11 @@ hash = "d5048142116637b820bff30b6c5afbe83a293a71968483c6eb8c323390827e3d"
 metafile = true
 
 [[files]]
+file = "mods/apothic-attributes.pw.toml"
+hash = "014ee07aad95d234a4be89ab018d7cc72b9b41999bf0d5f45de11b509a10bd5e"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
@@ -146,6 +159,11 @@ metafile = true
 [[files]]
 file = "mods/augmented-backpacks.pw.toml"
 hash = "c36036ee91374a412059a69869f87a281c60e73398cc7a0c90501159214b992c"
+metafile = true
+
+[[files]]
+file = "mods/axes-are-weapons.pw.toml"
+hash = "4ffc80b872587b06e5d7e20efa4150de1d9baca14d76a67248c371455b368595"
 metafile = true
 
 [[files]]
@@ -184,6 +202,11 @@ hash = "5f30c1c0363dd44c10db196a8d8a7f164ff06e06b0b80234a519d9e49b2a7f84"
 metafile = true
 
 [[files]]
+file = "mods/better-combat-by-daedelus.pw.toml"
+hash = "2b75c579e6dec00700a1a8407769020370b9ba11d52bacd0ea893d564d91b965"
+metafile = true
+
+[[files]]
 file = "mods/better-compatibility-checker.pw.toml"
 hash = "55fe1f1a0b72abf4b697b3e0d8f5449e590bb519d26a29e6eeac049161003a34"
 metafile = true
@@ -196,6 +219,11 @@ metafile = true
 [[files]]
 file = "mods/better-f1-reborn.pw.toml"
 hash = "052b5d8d6aca7ef0e26f0807b8710af8cdc4cd7187cb9c5dd2a4fb28386faf91"
+metafile = true
+
+[[files]]
+file = "mods/biome-spawn-point.pw.toml"
+hash = "4eac5acc79c1dbf32c4cd6241c956b96f451c0c2501ada660147a1f8357e6903"
 metafile = true
 
 [[files]]
@@ -249,6 +277,11 @@ hash = "73392256d10dc5a21b57b65e33fa0bc14301fba174d8348759dc614cc9281bc0"
 metafile = true
 
 [[files]]
+file = "mods/collective.pw.toml"
+hash = "e95dae6d96a6fd51e34a470f3950e543434007afb9d07c3adc07507bbea33219"
+metafile = true
+
+[[files]]
 file = "mods/configured-defaults.pw.toml"
 hash = "48e86845338e9e6127ff6bb6e3c34563717d7a883719b82824720ff1c5948464"
 metafile = true
@@ -271,6 +304,11 @@ metafile = true
 [[files]]
 file = "mods/corgilib.pw.toml"
 hash = "5c0fb5558f40b2eadcda6d7035961f48fa4c7ff24b0b440e59ba505edff97930"
+metafile = true
+
+[[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "b65ee01fec17228645121952de6dec75053b0b4c59a8c8036d6fa7829819f3f9"
 metafile = true
 
 [[files]]
@@ -421,6 +459,11 @@ metafile = true
 [[files]]
 file = "mods/curios.pw.toml"
 hash = "f92e7a06645e41ea1934dc420eb2772edb1708c0d71cb427baef8cf753acb934"
+metafile = true
+
+[[files]]
+file = "mods/darksleep.pw.toml"
+hash = "157fde2866101ad91b70f154a5c51156308e30e4408dc19045762865a8f750e3"
 metafile = true
 
 [[files]]
@@ -629,6 +672,11 @@ hash = "e64b844bba321f90b915452e486945f54107f65c3416b1ca5b1f1ef63d8ce572"
 metafile = true
 
 [[files]]
+file = "mods/let-me-sleep.pw.toml"
+hash = "5fe6a063baafe63f55051b3c8a870b3468ac89fbdd029902f18aeb29db98fe21"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
 hash = "fb6171c8f7ff0d83513b3f75ee5d7a98659559c427d79fb69eb0219639af8a37"
 metafile = true
@@ -674,6 +722,11 @@ hash = "fcdfefbfe3988516993d367e4a73e8b1deb669298e2b3b07c8d39a56ecc22025"
 metafile = true
 
 [[files]]
+file = "mods/minecraftcapes-mod.pw.toml"
+hash = "f00cc04edaaa975afc3f3f4dd8f2ea9016b13f940ac23e0dbdab4853f2b105b0"
+metafile = true
+
+[[files]]
 file = "mods/moderately-enough-effect-descriptions-meed.pw.toml"
 hash = "105667604ee89692ac33d2df77e83f0c1b0fb1d94671ee40a8a1ae92e4f19c29"
 metafile = true
@@ -696,6 +749,11 @@ metafile = true
 [[files]]
 file = "mods/more-enchantment-info.pw.toml"
 hash = "671e4917243512e2c2efa83df30ef9af90427d96fb667377a7130c528988b61d"
+metafile = true
+
+[[files]]
+file = "mods/more-relics.pw.toml"
+hash = "16a263721e5689f9fc39d8baa8842c06d8cffeb6ae3011935eacad37e94d2b4f"
 metafile = true
 
 [[files]]
@@ -769,6 +827,11 @@ hash = "201e0be56d2d9430843688b4a04dea207732b6d60f8001fb9e6396d48aea287f"
 metafile = true
 
 [[files]]
+file = "mods/playeranimator.pw.toml"
+hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
+metafile = true
+
+[[files]]
 file = "mods/playerrevive.pw.toml"
 hash = "998704b5cdd52b78a94a5088c5e90b3a9318f0fd5435084da8ae6e9f6fc2671f"
 metafile = true
@@ -814,6 +877,11 @@ hash = "f449daf9f88099c8af7e9981bbbc24c2a5530ad2a3c37ef3b35b1e3c4f3299a1"
 metafile = true
 
 [[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "b8343a89b5bca7976f6aac6a977b22d477230f486b2a65dcde64649ae828da8c"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "2e8064e6ac6f707d6df65ee2738279ec31802ef70514584bb8c8a8ed2010f5f6"
 metafile = true
@@ -851,6 +919,16 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "c923ae43d9a62ea023a5641b5f144dbe8ea85715f162eb924159b8b719af1da6"
+metafile = true
+
+[[files]]
+file = "mods/simply-swords.pw.toml"
+hash = "d1256812bf0244b3914af4206cba1203dd51a3c849c5592315ac707f8941f9f2"
+metafile = true
+
+[[files]]
+file = "mods/simply-tooltips.pw.toml"
+hash = "529ad0d8a91e6cdbd8e9460f80ad9f4bcb393020749632c2ff77e6835c812a4b"
 metafile = true
 
 [[files]]
@@ -931,6 +1009,36 @@ metafile = true
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 hash = "83dae761dae86cc140fe971ce6a8cac9bfe0f9eb39417a71666441a2bcc634a8"
+metafile = true
+
+[[files]]
+file = "mods/tacz-1-21-1.pw.toml"
+hash = "39423f378f1f702a9a34b229e3060fe17a9406afe991816c087c81c38919b119"
+metafile = true
+
+[[files]]
+file = "mods/tacz-aeronautics-compat.pw.toml"
+hash = "56f8281643a4471c6e6bd5bd8d5b8b6d2984f8569f44344ce8a2bf00c97461f9"
+metafile = true
+
+[[files]]
+file = "mods/tacz-attributes-addon.pw.toml"
+hash = "694f122dbbbf2da3bd9725ff145c8226bdb44462159fcfd86b9bb70f563a4abf"
+metafile = true
+
+[[files]]
+file = "mods/tacz-attributes.pw.toml"
+hash = "0db80852f7c3f1057d6fb693244d5545198f4b64d30032613da19417bfc88f9e"
+metafile = true
+
+[[files]]
+file = "mods/tacz-durability.pw.toml"
+hash = "787ac713f3b4d21883b8ae69333d52a1f9de5b1ef3788a7a05b87b136e744699"
+metafile = true
+
+[[files]]
+file = "mods/tacz-tactical-breaching.pw.toml"
+hash = "059b9946a2fbede89973beb2d6c4d928bcd2d64d02ab3b85660f7e2dd34295a9"
 metafile = true
 
 [[files]]

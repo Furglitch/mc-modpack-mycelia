@@ -1,0 +1,13 @@
+name = "MinecraftCapes Mod"
+filename = "MinecraftCapes NeoForge 1.21.1-1.0.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "78be36390bdbf20451970d86a0bb0cb0b714dcd2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7281561
+project-id = 359836
