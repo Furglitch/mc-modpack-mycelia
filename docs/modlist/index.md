@@ -53,8 +53,10 @@ parent: Mycelia
 - [Jade Addons (Neo/Forge)](https://curseforge.com/projects/583345) 
 - [Framework](https://curseforge.com/projects/549225) 
 - [Snow Under Trees](https://curseforge.com/projects/353942) 
+- [Villager API](https://curseforge.com/projects/1396381) 
 - [Trash Cans](https://curseforge.com/projects/394535) 
 - [Simply Tooltips](https://curseforge.com/projects/1475755) 
+- [Animal  Weights](https://curseforge.com/projects/1544774) 
 - [Sable](https://curseforge.com/projects/1312371) 
 - [Cosmetic Armor Reworked](https://curseforge.com/projects/237307) 
 - [Konkrete](https://curseforge.com/projects/410295) 
@@ -77,6 +79,8 @@ parent: Mycelia
 - [ModernFix](https://curseforge.com/projects/790626) 
 - [Spyglass Improvements: Zoom, Quick Access... [Fabric/NeoForge]](https://curseforge.com/projects/571264) 
 - [Create: EasyFilling](https://curseforge.com/projects/1381155) 
+- [Respawning Animals](https://curseforge.com/projects/322765) 
+- [AttributeFix](https://curseforge.com/projects/280510) 
 - [Sophisticated Sorter](https://curseforge.com/projects/1375092) 
 - [Bandagez – Realistic Health & Bandages](https://curseforge.com/projects/1290254) 
 - [Lithostitched](https://curseforge.com/projects/936015) 
@@ -94,11 +98,16 @@ parent: Mycelia
 - [Create: Cardboard Things](https://curseforge.com/projects/1268423) 
 - [Loot Integrations: ChoiceTheorem's Overhauled Village & Immersive Structures](https://curseforge.com/projects/1135500) 
 - [FastSuite](https://curseforge.com/projects/475117) 
+- [Resourceful Lib](https://curseforge.com/projects/570073) 
 - [Create: Mobile Packages](https://curseforge.com/projects/1232978) 
+- [Enhanced Celestials - Blood, Blue, & Harvest (Super) Moons](https://curseforge.com/projects/438447) 
 - [Burnt: Cold Sweat Compat](https://curseforge.com/projects/1512898) 
 - [Curios API (Forge/NeoForge)](https://curseforge.com/projects/309927) 
+- [Savage Ender Dragon](https://curseforge.com/projects/523327) 
 - [Create Stuff 'N Additions](https://curseforge.com/projects/466792) 
+- [Data Anchor](https://curseforge.com/projects/1203668) 
 - [Create Aeronautics: Transmission & Linkage](https://curseforge.com/projects/1548056) 
+- [More Villagers : Re-employed](https://curseforge.com/projects/1147438) 
 - [Flerovium](https://curseforge.com/projects/1142875) Ⓒ
 - [Modern World Creation](https://curseforge.com/projects/485245) Ⓒ
 - [Scholar](https://curseforge.com/projects/961802) 
@@ -112,6 +121,7 @@ parent: Mycelia
 - [Accessories Compatibility Layer](https://curseforge.com/projects/1315611) 
 - [Fancy Toasts | Better Advancements](https://curseforge.com/projects/1326436) Ⓒ
 - [YUNG's Better Dungeons (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015112) 
+- [Doggy Talents Next](https://curseforge.com/projects/694492) 
 - [Just Enough Breeding (JEBr)](https://curseforge.com/projects/899386) 
 - [Spice of Life Onion](https://curseforge.com/projects/878047) 
 - [Oh The Biomes We've Gone](https://curseforge.com/projects/1070751) 
@@ -121,6 +131,7 @@ parent: Mycelia
 - [GraveStone x Backpacked Compat](https://curseforge.com/projects/1539903) 
 - [YUNG's Bridges (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015149) 
 - [Backpacked: World of Color](https://curseforge.com/projects/1027390) 
+- [Fungal Infection: Spore](https://curseforge.com/projects/678295) 
 - [Inventory Essentials](https://curseforge.com/projects/368825) 
 - [Tectonic](https://curseforge.com/projects/686836) 
 - [Create: Dragons Plus](https://curseforge.com/projects/1216624) 
@@ -137,12 +148,18 @@ parent: Mycelia
 - [Pretty Pipes](https://curseforge.com/projects/376737) 
 - [BaguetteLib](https://curseforge.com/projects/1264423) 
 - [Loot Integrations: Moog's Voyager, Soaring, End & Nether Structures](https://curseforge.com/projects/1152715) 
+- [Wildex Bestiary](https://curseforge.com/projects/1458326) 
 - [Axes Are Weapons](https://curseforge.com/projects/456457) 
 - [TerraBlender (NeoForge)](https://curseforge.com/projects/940057) 
+- [Aquaculture 2](https://curseforge.com/projects/60028) 
+- [Doggy Talents Next's Palette Of Paws](https://curseforge.com/projects/1051461) 
 - [Durability Tooltip](https://curseforge.com/projects/511040) Ⓒ
 - [[ETF] Entity Texture Features - [Fabric & Forge]](https://curseforge.com/projects/568563) Ⓒ
 - [CleanView](https://curseforge.com/projects/226889) Ⓒ
+- [Creeper Overhaul](https://curseforge.com/projects/561625) 
 - [Loot Integrations: Dungeons and Taverns](https://curseforge.com/projects/1139414) 
+- [Resourceful Config](https://curseforge.com/projects/714059) 
+- [Citadel (Unofficial Port)](https://curseforge.com/projects/1415723) 
 - [Ritchie's Projectile Library](https://curseforge.com/projects/1279407) 
 - [Fragmentum [NeoForge Edition]](https://curseforge.com/projects/1123977) 
 - [MAtmos ambient sound](https://curseforge.com/projects/548114) 
@@ -151,10 +168,12 @@ parent: Mycelia
 - [Overflowing Bars](https://curseforge.com/projects/852662) Ⓒ
 - [Mechanicals Lib](https://curseforge.com/projects/1253573) 
 - [Cursors Extended](https://curseforge.com/projects/1184736) Ⓒ
+- [Guard Villagers](https://curseforge.com/projects/360203) 
 - [Unified Crops](https://curseforge.com/projects/1222826) 
 - [ShatterLib | OctoLib](https://curseforge.com/projects/916747) 
 - [Prickle](https://curseforge.com/projects/1023259) 
 - [Hopo Better Ruined Portals](https://curseforge.com/projects/632624) 
+- [Alex's Mobs (Unofficial Port)](https://curseforge.com/projects/1415721) 
 - [FancyMenu](https://curseforge.com/projects/367706) Ⓒ
 - [Sophisticated Core](https://curseforge.com/projects/618298) 
 - [Create Mechanical Extruder](https://curseforge.com/projects/686100) 
@@ -185,6 +204,7 @@ parent: Mycelia
 - [Ambient Environment](https://curseforge.com/projects/320163) Ⓒ
 - [Obscure Tooltips](https://curseforge.com/projects/715660) Ⓒ
 - [TACZ Aeronautics compat](https://curseforge.com/projects/1530288) 
+- [AstikorCarts Redux](https://curseforge.com/projects/916493) 
 - [Fzzy Config](https://curseforge.com/projects/1005914) 
 - [Packed Packs](https://curseforge.com/projects/1260514) Ⓒ
 - [Sophisticated Storage in Motion](https://curseforge.com/projects/1166930) 
@@ -228,6 +248,7 @@ parent: Mycelia
 - [Kotlin for Forge](https://curseforge.com/projects/351264) 
 - [Architectury API](https://curseforge.com/projects/419699) 
 - [Fadeless](https://curseforge.com/projects/861310) Ⓒ
+- [Let Me Despawn](https://curseforge.com/projects/663477) 
 - [Visual Workbench](https://curseforge.com/projects/500273) 
 - [Controlling](https://curseforge.com/projects/250398) Ⓒ
 - [Cold Sweat](https://curseforge.com/projects/506194) 
@@ -236,7 +257,9 @@ parent: Mycelia
 - [Create: Stam1o Tweaks](https://curseforge.com/projects/1237495) 
 - [Create: Bits 'n' Bobs](https://curseforge.com/projects/1398383) 
 - [Create: Copycats+](https://curseforge.com/projects/968398) 
+- [Villager Names](https://curseforge.com/projects/345854) 
 - [Not Enough Recipe Book [NERB]](https://curseforge.com/projects/738663) 
+- [Almanac Lib](https://curseforge.com/projects/1115285) 
 - [Sophisticated Storage](https://curseforge.com/projects/619320) 
 - [Tips](https://curseforge.com/projects/306549) 
 - [YetAnotherConfigLib](https://curseforge.com/projects/667299) 
