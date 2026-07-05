@@ -1,0 +1,13 @@
+name = "Low Shield"
+filename = "Low Shield.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "33361c7a9e514b4dafade25b06051035b39b0196"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7415792
+project-id = 1052630

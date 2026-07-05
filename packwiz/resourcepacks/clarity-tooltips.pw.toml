@@ -1,6 +1,6 @@
 name = "Clarity Tooltips"
 filename = "Clarity-Tooltips.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

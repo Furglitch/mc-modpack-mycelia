@@ -1,0 +1,13 @@
+name = "Low Fire (by Oculie)"
+filename = "Low Fire.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "0f8e2e5f6eb9f1e2fe35da7a7a0a355760998021"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8263269
+project-id = 1406432

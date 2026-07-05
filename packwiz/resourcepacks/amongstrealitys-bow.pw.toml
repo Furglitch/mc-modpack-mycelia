@@ -1,0 +1,13 @@
+name = "AmongstReality's Bow"
+filename = "amongstreality's bow.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "250b9b938426b455d4fc4616bab6627157190719"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7921612
+project-id = 876432

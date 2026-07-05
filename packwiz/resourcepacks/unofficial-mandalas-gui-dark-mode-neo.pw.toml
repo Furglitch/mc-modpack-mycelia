@@ -1,0 +1,13 @@
+name = "(Unofficial) Mandala's GUI - Dark Mode Compatibility Neo"
+filename = "Mandala's GUI - Dark Mode Compat Neo 0.3 Fix.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "3b108d95f1830d4e8a12d46b393eb18ff51c19ec"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6386222
+project-id = 1230872

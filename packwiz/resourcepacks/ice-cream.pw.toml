@@ -1,0 +1,13 @@
+name = "Ice Cream"
+filename = "Ice Cream 0.9 BP.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "3bf199c38280219f57aa37be7c1e17e18d5b735c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7978823
+project-id = 1182183

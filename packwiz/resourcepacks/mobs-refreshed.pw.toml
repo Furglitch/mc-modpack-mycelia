@@ -1,0 +1,13 @@
+name = "Mobs Refreshed"
+filename = "mobs-refreshed-v2.2.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "8ac6542842ee61a62d9b4aa23be6cce81c29cbc0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6723916
+project-id = 870866

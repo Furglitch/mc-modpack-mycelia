@@ -1,0 +1,13 @@
+name = "Rojak"
+filename = "Rojak - 1.0.1.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "b605b0c2655e15ffdc8447a5188361a885e2ddab"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8175958
+project-id = 1550713

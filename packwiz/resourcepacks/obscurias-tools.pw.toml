@@ -1,0 +1,13 @@
+name = "Obscuria's Tools"
+filename = "Obscuria's-Tools.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "9a945b55bd8569e44ab741135f93e347a833a6cd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7243306
+project-id = 559926

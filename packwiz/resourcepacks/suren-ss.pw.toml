@@ -1,6 +1,6 @@
 name = "Suren's Sophisticated Storage"
 filename = "Suren Sophisticated Storage v2.0.0 1.21-1.21.1.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"

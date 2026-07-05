@@ -1,0 +1,13 @@
+name = "Colourful Containers Text Extension"
+filename = "colourful containers extension.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "38100653133f39d8f6f8b59a26dbd82314814fba"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5678686
+project-id = 1093961

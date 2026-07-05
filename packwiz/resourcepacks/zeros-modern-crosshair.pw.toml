@@ -1,0 +1,13 @@
+name = "Zero's Modern Crosshair"
+filename = "Modern Crosshair.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "d12529a7b7aed056afbb87ce39345c8d1e5756f7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5431288
+project-id = 896543

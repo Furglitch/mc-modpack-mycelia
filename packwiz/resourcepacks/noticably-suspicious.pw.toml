@@ -1,0 +1,13 @@
+name = "Noticably Suspicious"
+filename = "Noticably Suspicious.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "8e46656e479fb38a2cf03689c42ed365e48910a7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7415665
+project-id = 1420427

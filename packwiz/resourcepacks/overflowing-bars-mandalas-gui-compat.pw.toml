@@ -1,0 +1,13 @@
+name = "Overflowing Bars + Mandala's GUI Compat"
+filename = "OverflowingBarsMandalaGUI.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "bd1bd8cea47e7ba84b84c3d43aad3fe92f18ca0d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5954696
+project-id = 1151726

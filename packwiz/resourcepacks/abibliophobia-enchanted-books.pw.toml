@@ -1,0 +1,13 @@
+name = "Abibliophobia | Enchanted Books"
+filename = "Abibliophobia.zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "5e4d1e106708c79bbebae0c1ce49c086a86510cf"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7797633
+project-id = 1394777

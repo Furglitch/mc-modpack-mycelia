@@ -1,0 +1,13 @@
+name = "Living Dragon"
+filename = "Living_Dragon_(1.21).zip"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "6d6d896ac07deb281759687ab23bbea1a11ed82b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5550961
+project-id = 465262
