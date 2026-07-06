@@ -49,7 +49,6 @@ parent: Mycelia
 - [BlockUI](https://curseforge.com/projects/522992) 
 - [TCT Core](https://curseforge.com/projects/1060479) 
 - [Double Doors](https://curseforge.com/projects/348831) 
-- [Distant Horizons: A Level of Detail mod](https://curseforge.com/projects/508933) 
 - [Create Aeronautics](https://curseforge.com/projects/676721) 
 - [Accessorify](https://curseforge.com/projects/1169634) 
 - [NetherPortalFix](https://curseforge.com/projects/241160) 
@@ -160,6 +159,7 @@ parent: Mycelia
 - [KleeSlabs](https://curseforge.com/projects/241895) 
 - [Spice of Life Onion](https://curseforge.com/projects/878047) 
 - [Oh The Biomes We've Gone](https://curseforge.com/projects/1070751) 
+- [Euphoria Patches](https://curseforge.com/projects/915902) 
 - [Oh The Trees You'll Grow](https://curseforge.com/projects/962544) 
 - [Simple Voice Chat](https://curseforge.com/projects/416089) 
 - [Just Better Recipes](https://curseforge.com/projects/857652) 
@@ -210,6 +210,7 @@ parent: Mycelia
 - [RoadArchitect: Encounters](https://curseforge.com/projects/1337294) 
 - [Loot Integrations](https://curseforge.com/projects/580689) 
 - [Overflowing Bars](https://curseforge.com/projects/852662) Ⓒ
+- [Iris Shaders](https://curseforge.com/projects/455508) 
 - [Mechanicals Lib](https://curseforge.com/projects/1253573) 
 - [Cursors Extended](https://curseforge.com/projects/1184736) Ⓒ
 - [MineColonies](https://curseforge.com/projects/245506) 
@@ -374,3 +375,13 @@ parent: Mycelia
 - [Zero's Modern Crosshair](https://curseforge.com/projects/896543) Ⓒ
 - [AL's Boss Rush x Fresh Animations](https://curseforge.com/projects/1000702) Ⓒ
 - [Mandala's GUI - Dark mode - Utopia extension](https://curseforge.com/projects/1193697) Ⓒ
+
+## Shader Packs
+
+- [MakeUp - Ultra Fast | Shaders](https://curseforge.com/projects/431203) 
+- [Sildur's Enhanced Default Shaders](https://curseforge.com/projects/544140) 
+- [Complementary Shaders - Reimagined](https://curseforge.com/projects/627557) 
+- [Super Duper Vanilla Shaders](https://curseforge.com/projects/534748) 
+- [🎃 Insanity Shader](https://curseforge.com/projects/618217) 
+- [Complementary Shaders - Unbound](https://curseforge.com/projects/385587) 
+- [Sildur's Vibrant shaders](https://curseforge.com/projects/544096) 
