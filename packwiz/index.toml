@@ -393,6 +393,11 @@ hash = "e95dae6d96a6fd51e34a470f3950e543434007afb9d07c3adc07507bbea33219"
 metafile = true
 
 [[files]]
+file = "mods/comforts.pw.toml"
+hash = "b66c76dd9148686b0bccc5166839892b2442197504510bd9cca1306755a18ad1"
+metafile = true
+
+[[files]]
 file = "mods/configured-defaults.pw.toml"
 hash = "48e86845338e9e6127ff6bb6e3c34563717d7a883719b82824720ff1c5948464"
 metafile = true
@@ -1058,6 +1063,11 @@ hash = "a271fc14aa67bc08206873e51e1aa07bf1f3b9de5b7f9b49773e0ff8ff9a584e"
 metafile = true
 
 [[files]]
+file = "mods/midnightlib.pw.toml"
+hash = "1e7a69de13ee96b512350358c746a7b3bf67b07bc532fe5b26f7b3b3f7ee8117"
+metafile = true
+
+[[files]]
 file = "mods/minecolonies.pw.toml"
 hash = "3fb26a31eeec8302173f24461f46bc607533daba28e9918d8770a9ad30f7247a"
 metafile = true
@@ -1145,6 +1155,11 @@ metafile = true
 [[files]]
 file = "mods/multi-piston.pw.toml"
 hash = "bc9449306cb2c32f16347779291d68e5fba67f85d7aca04b4b9cc1c033ec4083"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix.pw.toml"
+hash = "78cf82fda4c8a7ea9556cf4481b43f38762151bcac0a09fd412f82d5f0883cc7"
 metafile = true
 
 [[files]]
@@ -1308,6 +1323,16 @@ hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
 metafile = true
 
 [[files]]
+file = "mods/roadarchitect-encounters.pw.toml"
+hash = "23e8385d90de57541ff464049588d778fbb60518ed0b5960d4e3312309cbaa2a"
+metafile = true
+
+[[files]]
+file = "mods/roadarchitect.pw.toml"
+hash = "23a5fd7d0c31f2256ee1e4587a9ee1d2e3c0262320c234090ff43d3cad7f5b19"
+metafile = true
+
+[[files]]
 file = "mods/sable.pw.toml"
 hash = "56c47f4f4732d86a144c8c86af80411238c3ea74f6b96b0bc5174d2f20073a98"
 metafile = true
@@ -1380,6 +1405,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "2d91f5eb645318ec44fce398d7f3587df9492cf3bb40450570a9e0e865cdceed"
+metafile = true
+
+[[files]]
+file = "mods/softer-hay-bales.pw.toml"
+hash = "962eb672eaa906c87a01a1bf9b28fea144daf3ccd59a737c97f30f8dd9411d0e"
 metafile = true
 
 [[files]]
@@ -1555,6 +1585,11 @@ metafile = true
 [[files]]
 file = "mods/unionlib.pw.toml"
 hash = "381686059e3d448c157f3fc7e0ed2993b74ad2e1eea81a1c2a63baf158234982"
+metafile = true
+
+[[files]]
+file = "mods/via-romana.pw.toml"
+hash = "6a45de33b907d780207479fb8ed1600780163de657d3516ec4d23bdb1796a400"
 metafile = true
 
 [[files]]
