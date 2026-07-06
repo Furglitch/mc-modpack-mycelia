@@ -73,7 +73,32 @@ jobs:
             cat resourcepack_entries.txt
             echo "EOF"
           } >> "$GITHUB_OUTPUT"
-      
+
+      - name: Gather shaderpack data
+        id: gather-shaderpack-data
+        run: |
+          for file in $(find packwiz/shaderpacks -name "*.pw.toml"); do
+            name=$(grep -m 1 '^name =' "$file" | cut -d '"' -f 2)
+            side=$(grep -m 1 '^side =' "$file" | cut -d '"' -f 2)
+            project_id=$(grep -m 1 '^project-id =' "$file" | sed 's/.*= *//')
+
+            if [ "$side" = "client" ]; then
+              indicator="Ⓒ"
+            elif [ "$side" = "server" ]; then
+              indicator="Ⓢ"
+            else
+              indicator=""
+            fi
+
+            echo "- [$name](https://curseforge.com/projects/${project_id}) $indicator"
+          done > shaderpack_entries.txt
+
+          {
+            echo "entries<<EOF"
+            cat shaderpack_entries.txt
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
+
       - name: Create modlist file
         run: |
           mkdir -p docs/modlist
@@ -96,9 +121,13 @@ jobs:
           echo "## Resource Packs" >> modlist.md
           echo "" >> modlist.md
           echo "${{ steps.gather-resourcepack-data.outputs.entries }}" >> modlist.md
-          rm -f modlist_entries.txt resourcepack_entries.txt
+          echo "" >> modlist.md
+          echo "## Shader Packs" >> modlist.md
+          echo "" >> modlist.md
+          echo "${{ steps.gather-shaderpack-data.outputs.entries }}" >> modlist.md
+          rm -f modlist_entries.txt resourcepack_entries.txt shaderpack_entries.txt
           mv modlist.md docs/modlist/index.md
-      
+
       - name: Commit and push modlist file
         uses: EndBug/add-and-commit@v9
         with:

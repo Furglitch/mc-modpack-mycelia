@@ -14,20 +14,27 @@ parent: Mycelia
 
 - [Paxi (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015157) Ⓒ
 - [Better Compatibility Checker](https://curseforge.com/projects/551894) 
+- [Via Romana: Infrastructure-Driven Fast Travel](https://curseforge.com/projects/1026508) 
 - [DnT Stronghold Overhaul](https://curseforge.com/projects/920416) 
 - [Cable Facades](https://curseforge.com/projects/1140577) 
 - [Backpacked](https://curseforge.com/projects/352835) 
 - [Clumps](https://curseforge.com/projects/256717) 
+- [Rechiseled](https://curseforge.com/projects/558998) 
+- [Delightful Creators [Forge] (Create and Farmer's Delight Addon)](https://curseforge.com/projects/1275340) 
 - [[EMF] Entity Model Features [Fabric & Forge]](https://curseforge.com/projects/844662) Ⓒ
 - [Memory Settings](https://curseforge.com/projects/526901) 
+- [Croptopia Delight](https://curseforge.com/projects/932098) 
+- [Farmer's Delight](https://curseforge.com/projects/398521) 
 - [Configured Defaults](https://curseforge.com/projects/930131) 
 - [Chat Heads](https://curseforge.com/projects/407206) Ⓒ
 - [Melody](https://curseforge.com/projects/938643) 
+- [Croptopia](https://curseforge.com/projects/415438) 
 - [Better F1 Reborn](https://curseforge.com/projects/959591) Ⓒ
 - [Crafting Tweaks](https://curseforge.com/projects/233071) Ⓒ
 - [Modpack Update Checker](https://curseforge.com/projects/847414) Ⓒ
 - [Serene Seasons](https://curseforge.com/projects/291874) 
 - [SuperMartijn642's Core Lib](https://curseforge.com/projects/454372) 
+- [Alex's Delight](https://curseforge.com/projects/556448) 
 - [Just Enough Professions (JEP)](https://curseforge.com/projects/417645) 
 - [YUNG's Extras (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015146) 
 - [Lootr (Forge & NeoForge)](https://curseforge.com/projects/361276) 
@@ -35,15 +42,20 @@ parent: Mycelia
 - [Create Contraption Terminals](https://curseforge.com/projects/1059879) 
 - [Bookshelf](https://curseforge.com/projects/228525) 
 - [MinecraftCapes Mod](https://curseforge.com/projects/359836) Ⓒ
+- [Citadel](https://curseforge.com/projects/331936) 
 - [Startup Time](https://curseforge.com/projects/1171760) Ⓒ
 - [ItemPhysic Lite](https://curseforge.com/projects/270441) Ⓒ
 - [Better Advancements](https://curseforge.com/projects/272515) Ⓒ
+- [BlockUI](https://curseforge.com/projects/522992) 
 - [TCT Core](https://curseforge.com/projects/1060479) 
-- [Distant Horizons: A Level of Detail mod](https://curseforge.com/projects/508933) 
+- [Double Doors](https://curseforge.com/projects/348831) 
 - [Create Aeronautics](https://curseforge.com/projects/676721) 
 - [Accessorify](https://curseforge.com/projects/1169634) 
+- [NetherPortalFix](https://curseforge.com/projects/241160) 
 - [Sound Physics Remastered](https://curseforge.com/projects/535489) Ⓒ
 - [Searchables](https://curseforge.com/projects/858542) Ⓒ
+- [FTB Teams (NeoForge)](https://curseforge.com/projects/404468) 
+- [Comforts](https://curseforge.com/projects/276951) 
 - [FerriteCore ((Neo)Forge)](https://curseforge.com/projects/429235) 
 - [MES - Moog's End Structures](https://curseforge.com/projects/892382) 
 - [Burnt Basic (Just the burn)](https://curseforge.com/projects/1001031) 
@@ -51,10 +63,15 @@ parent: Mycelia
 - [Balm](https://curseforge.com/projects/531761) 
 - [Leave My Bars Alone](https://curseforge.com/projects/281715) Ⓒ
 - [Jade Addons (Neo/Forge)](https://curseforge.com/projects/583345) 
+- [TownTalk](https://curseforge.com/projects/900364) 
+- [Unusual End](https://curseforge.com/projects/617757) 
 - [Framework](https://curseforge.com/projects/549225) 
 - [Snow Under Trees](https://curseforge.com/projects/353942) 
+- [Mech Trowel](https://curseforge.com/projects/1288799) 
 - [Villager API](https://curseforge.com/projects/1396381) 
+- [Macaw's Biomes O' Plenty](https://curseforge.com/projects/533382) 
 - [Trash Cans](https://curseforge.com/projects/394535) 
+- [Domum Ornamentum](https://curseforge.com/projects/527361) 
 - [Simply Tooltips](https://curseforge.com/projects/1475755) 
 - [Animal  Weights](https://curseforge.com/projects/1544774) 
 - [Sable](https://curseforge.com/projects/1312371) 
@@ -65,22 +82,28 @@ parent: Mycelia
 - [Just Enough Effect Descriptions (JEED)](https://curseforge.com/projects/532286) 
 - [Collective](https://curseforge.com/projects/342584) 
 - [Create Ultimine](https://curseforge.com/projects/1231381) 
+- [MidnightLib](https://curseforge.com/projects/488090) 
 - [TaCZ_Attributes](https://curseforge.com/projects/1113285) 
+- [Create Slice & Dice](https://curseforge.com/projects/659674) 
+- [Rechiseled: Create](https://curseforge.com/projects/888624) 
 - [Create: Vibrant Vaults](https://curseforge.com/projects/1251719) 
 - [Forge CIT](https://curseforge.com/projects/912099) Ⓒ
 - [Biome Spawn Point](https://curseforge.com/projects/695238) 
 - [FTB Library (NeoForge)](https://curseforge.com/projects/404465) 
+- [My Nether's Delight](https://curseforge.com/projects/1003673) 
 - [Crash Assistant](https://curseforge.com/projects/1154099) Ⓒ
 - [CreativeCore](https://curseforge.com/projects/257814) 
 - [DarkSleep - RPG Sleep Percentage](https://curseforge.com/projects/1106281) 
 - [KeybindsPurger](https://curseforge.com/projects/1099143) Ⓒ
 - [Rebind Narrator](https://curseforge.com/projects/296996) Ⓒ
+- [Structurize](https://curseforge.com/projects/298744) 
 - [[TaCZ] Tactical Breaching](https://curseforge.com/projects/1552880) 
 - [Let Me Sleep](https://curseforge.com/projects/322764) 
 - [ModernFix](https://curseforge.com/projects/790626) 
 - [Spyglass Improvements: Zoom, Quick Access... [Fabric/NeoForge]](https://curseforge.com/projects/571264) 
 - [Create: EasyFilling](https://curseforge.com/projects/1381155) 
 - [Respawning Animals](https://curseforge.com/projects/322765) 
+- [Macaw's Oh The Biomes You'll Go / We've Gone](https://curseforge.com/projects/535960) 
 - [AttributeFix](https://curseforge.com/projects/280510) 
 - [Sophisticated Sorter](https://curseforge.com/projects/1375092) 
 - [Bandagez – Realistic Health & Bandages](https://curseforge.com/projects/1290254) 
@@ -91,8 +114,11 @@ parent: Mycelia
 - [Create: Ender Link](https://curseforge.com/projects/1233526) 
 - [Sophisticated Storage Create Integration](https://curseforge.com/projects/1226755) 
 - [Loot Integrations: Hopo Better Mineshaft, Ruins & Portals](https://curseforge.com/projects/1149268) 
+- [Diagonal Fences](https://curseforge.com/projects/458048) 
 - [Loot Journal: Pickup Notifier [NeoForge Edition]](https://curseforge.com/projects/1120395) Ⓒ
 - [Jade 🔍](https://curseforge.com/projects/324717) 
+- [AddonsLib](https://curseforge.com/projects/1090999) 
+- [Macaw's Fences and Walls](https://curseforge.com/projects/453925) 
 - [YUNG's API (NeoForge) [1.20.4-1.21.1 ONLY]](https://curseforge.com/projects/1015100) 
 - [Simply Swords [Fabric & Forge]](https://curseforge.com/projects/659887) 
 - [playerAnimator](https://curseforge.com/projects/658587) 
@@ -115,7 +141,12 @@ parent: Mycelia
 - [Scholar](https://curseforge.com/projects/961802) 
 - [YUNG's Better Ocean Monuments (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015115) 
 - [Create Crafts & Additions](https://curseforge.com/projects/439890) 
+- [Blueprint](https://curseforge.com/projects/382216) 
+- [Aquaculture Delight (A Farmer's Delight Add-on)](https://curseforge.com/projects/961988) 
 - [Better Combat [Fabric & Forge]](https://curseforge.com/projects/639842) 
+- [Patchouli](https://curseforge.com/projects/306770) 
+- [Diagonal Windows](https://curseforge.com/projects/891328) 
+- [SmallColonies for Minecolonies](https://curseforge.com/projects/1232237) 
 - [Extreme sound muffler - (Neo)Forge](https://curseforge.com/projects/363363) Ⓒ
 - [[UNOFFICIAL] TaCZ NeoForge Port](https://curseforge.com/projects/1353462) 
 - [YUNG's Better End Island (NeoForge)](https://curseforge.com/projects/1015127) 
@@ -125,12 +156,15 @@ parent: Mycelia
 - [YUNG's Better Dungeons (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015112) 
 - [Doggy Talents Next](https://curseforge.com/projects/694492) 
 - [Just Enough Breeding (JEBr)](https://curseforge.com/projects/899386) 
+- [KleeSlabs](https://curseforge.com/projects/241895) 
 - [Spice of Life Onion](https://curseforge.com/projects/878047) 
 - [Oh The Biomes We've Gone](https://curseforge.com/projects/1070751) 
+- [Euphoria Patches](https://curseforge.com/projects/915902) 
 - [Oh The Trees You'll Grow](https://curseforge.com/projects/962544) 
 - [Simple Voice Chat](https://curseforge.com/projects/416089) 
 - [Just Better Recipes](https://curseforge.com/projects/857652) 
 - [Optimized Block Entities](https://curseforge.com/projects/1575743) Ⓒ
+- [Macaw's Lights and Lamps](https://curseforge.com/projects/502372) 
 - [GraveStone x Backpacked Compat](https://curseforge.com/projects/1539903) 
 - [YUNG's Bridges (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015149) 
 - [MonoLib](https://curseforge.com/projects/968432) 
@@ -143,17 +177,21 @@ parent: Mycelia
 - [Just Enough Items (JEI)](https://curseforge.com/projects/238222) 
 - [Create: Cardboarded Conveynience](https://curseforge.com/projects/1230892) 
 - [Create: Power Loader](https://curseforge.com/projects/936020) 
+- [Diagonal Walls](https://curseforge.com/projects/969422) 
 - [Create](https://curseforge.com/projects/328085) 
 - [YUNG's Better Witch Huts (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015144) 
+- [Macaw's Doors](https://curseforge.com/projects/378646) 
 - [Cupboard](https://curseforge.com/projects/326652) 
 - [Just Enough Archaeology](https://curseforge.com/projects/890755) 
 - [Lazyboy's No Global Sounds](https://curseforge.com/projects/1402788) Ⓒ
 - [Placebo](https://curseforge.com/projects/283644) 
+- [FTB Quests (NeoForge)](https://curseforge.com/projects/289412) 
 - [Pretty Pipes](https://curseforge.com/projects/376737) 
 - [BaguetteLib](https://curseforge.com/projects/1264423) 
 - [Loot Integrations: Moog's Voyager, Soaring, End & Nether Structures](https://curseforge.com/projects/1152715) 
 - [Wildex Bestiary](https://curseforge.com/projects/1458326) 
 - [Axes Are Weapons](https://curseforge.com/projects/456457) 
+- [Bridging Mod](https://curseforge.com/projects/533942) 
 - [TerraBlender (NeoForge)](https://curseforge.com/projects/940057) 
 - [Aquaculture 2](https://curseforge.com/projects/60028) 
 - [Easy Anvils](https://curseforge.com/projects/682567) 
@@ -169,19 +207,24 @@ parent: Mycelia
 - [Fragmentum [NeoForge Edition]](https://curseforge.com/projects/1123977) 
 - [MAtmos ambient sound](https://curseforge.com/projects/548114) 
 - [Create: Create O' Plenty (Create + Biomes O' Plenty Mod compat)](https://curseforge.com/projects/1351997) 
+- [RoadArchitect: Encounters](https://curseforge.com/projects/1337294) 
 - [Loot Integrations](https://curseforge.com/projects/580689) 
 - [Overflowing Bars](https://curseforge.com/projects/852662) Ⓒ
+- [Iris Shaders](https://curseforge.com/projects/455508) 
 - [Mechanicals Lib](https://curseforge.com/projects/1253573) 
 - [Cursors Extended](https://curseforge.com/projects/1184736) Ⓒ
+- [MineColonies](https://curseforge.com/projects/245506) 
 - [Sawmill](https://curseforge.com/projects/964817) 
 - [Guard Villagers](https://curseforge.com/projects/360203) 
 - [Unified Crops](https://curseforge.com/projects/1222826) 
 - [ShatterLib | OctoLib](https://curseforge.com/projects/916747) 
 - [Prickle](https://curseforge.com/projects/1023259) 
 - [Hopo Better Ruined Portals](https://curseforge.com/projects/632624) 
+- [Softer Hay Bales](https://curseforge.com/projects/344178) 
 - [Alex's Mobs (Unofficial Port)](https://curseforge.com/projects/1415721) 
 - [FancyMenu](https://curseforge.com/projects/367706) Ⓒ
 - [Sophisticated Core](https://curseforge.com/projects/618298) 
+- [Macaw's Bridges](https://curseforge.com/projects/351725) 
 - [Create Mechanical Extruder](https://curseforge.com/projects/686100) 
 - [TACZ ATTRIBUTES ADDON](https://curseforge.com/projects/1482794) 
 - [Hopo Better Underwater Ruins](https://curseforge.com/projects/632622) 
@@ -197,14 +240,20 @@ parent: Mycelia
 - [Create: Power Grid](https://curseforge.com/projects/1321420) 
 - [UnionLib](https://curseforge.com/projects/367806) 
 - [Connectivity](https://curseforge.com/projects/470193) 
+- [Project Resonance for MineColonies](https://curseforge.com/projects/1415077) 
 - [Reese's Sodium Options](https://curseforge.com/projects/511319) Ⓒ
 - [Cloth Config API (Fabric/Forge/NeoForge)](https://curseforge.com/projects/348521) 
 - [Sound​s](https://curseforge.com/projects/925889) Ⓒ
 - [Tom's Simple Storage Mod](https://curseforge.com/projects/378609) 
 - [Sodium Extra](https://curseforge.com/projects/447673) Ⓒ
+- [Cocktails Delight](https://curseforge.com/projects/1198178) 
+- [Ender's Delight](https://curseforge.com/projects/827163) 
+- [Macaw's Roofs](https://curseforge.com/projects/352039) 
 - [AllTheLeaks (Memory Leak Fix)](https://curseforge.com/projects/1091339) 
+- [NetherEx](https://curseforge.com/projects/248039) 
 - [Underground Rivers](https://curseforge.com/projects/1108285) 
 - [Structurify - Structure Control](https://curseforge.com/projects/1087551) 
+- [Macaw's Furniture](https://curseforge.com/projects/359540) 
 - [Create: Pattern Schematics](https://curseforge.com/projects/1072349) 
 - [ImmediatelyFast](https://curseforge.com/projects/686911) Ⓒ
 - [Ambient Environment](https://curseforge.com/projects/320163) Ⓒ
@@ -220,9 +269,12 @@ parent: Mycelia
 - [Keybind Atlas](https://curseforge.com/projects/1513576) 
 - [Augmented Backpacks](https://curseforge.com/projects/1532339) 
 - [GeckoLib](https://curseforge.com/projects/388172) 
+- [Stylecolonies](https://curseforge.com/projects/827507) 
 - [Puzzles Lib](https://curseforge.com/projects/495476) 
 - [More Enchantment Info](https://curseforge.com/projects/1166503) 
+- [Macaw's Windows](https://curseforge.com/projects/363569) 
 - [YUNG's Better Nether Fortresses (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015118) 
+- [Fusion (Connected Textures)](https://curseforge.com/projects/854949) 
 - [YUNG's Cave Biomes (Forge/NeoForge)](https://curseforge.com/projects/1111586) 
 - [PlayerRevive](https://curseforge.com/projects/266890) 
 - [Enchanting Infuser](https://curseforge.com/projects/551151) 
@@ -237,6 +289,8 @@ parent: Mycelia
 - [DnT Woodland Mansion Overhaul](https://curseforge.com/projects/1053222) 
 - [Rhino](https://curseforge.com/projects/416294) 
 - [Biomes O' Plenty](https://curseforge.com/projects/220318) 
+- [Construction Wands Revived](https://curseforge.com/projects/1395288) 
+- [Brewin' And Chewin'](https://curseforge.com/projects/637808) 
 - [LambDynamicLights](https://curseforge.com/projects/393442) Ⓒ
 - [Noisiumed](https://curseforge.com/projects/1430156) 
 - [Fancy Block Particles - Renewed](https://curseforge.com/projects/937011) Ⓒ
@@ -245,11 +299,17 @@ parent: Mycelia
 - [Pretty Pipes: Fluids](https://curseforge.com/projects/479142) 
 - [YUNG's Better Caves (Forge/NeoForge)](https://curseforge.com/projects/340583) 
 - [oωo (owo-lib)](https://curseforge.com/projects/532610) 
+- [Multi-Piston](https://curseforge.com/projects/303278) 
 - [Krypton Reno](https://curseforge.com/projects/1269169) 
+- [Create: Central Kitchen](https://curseforge.com/projects/820977) 
+- [EpheroLib](https://curseforge.com/projects/885449) 
 - [ChoiceTheorem's Overhauled Village](https://curseforge.com/projects/623908) 
 - [MNS - Moog's Nether Structures](https://curseforge.com/projects/967466) 
 - [Almost Unified](https://curseforge.com/projects/633823) 
 - [GraveStone Mod](https://curseforge.com/projects/238551) 
+- [RoadArchitect](https://curseforge.com/projects/1326434) 
+- [More Delight (Forge & Neoforge)](https://curseforge.com/projects/977515) 
+- [Delight Lib](https://curseforge.com/projects/1531135) 
 - [KubeJS](https://curseforge.com/projects/238086) 
 - [Kotlin for Forge](https://curseforge.com/projects/351264) 
 - [Architectury API](https://curseforge.com/projects/419699) 
@@ -266,6 +326,7 @@ parent: Mycelia
 - [Create: Bits 'n' Bobs](https://curseforge.com/projects/1398383) 
 - [Create: Copycats+](https://curseforge.com/projects/968398) 
 - [Villager Names](https://curseforge.com/projects/345854) 
+- [Macaw's Stairs](https://curseforge.com/projects/1119394) 
 - [Not Enough Recipe Book [NERB]](https://curseforge.com/projects/738663) 
 - [Almanac Lib](https://curseforge.com/projects/1115285) 
 - [Sophisticated Storage](https://curseforge.com/projects/619320) 
@@ -279,7 +340,6 @@ parent: Mycelia
 
 ## Resource Packs
 
-- [Ice Cream](https://curseforge.com/projects/1182183) Ⓒ
 - [Modded Omelet - Modern Spawn Eggs](https://curseforge.com/projects/1296468) Ⓒ
 - [Overflowing Bars + Mandala's GUI Compat](https://curseforge.com/projects/1151726) Ⓒ
 - [Fresh Moves](https://curseforge.com/projects/990406) Ⓒ
@@ -304,7 +364,6 @@ parent: Mycelia
 - [Noticably Suspicious](https://curseforge.com/projects/1420427) Ⓒ
 - [(Bee's) Fancy Crops](https://curseforge.com/projects/884709) Ⓒ
 - [AL's Boss Rush](https://curseforge.com/projects/1000607) Ⓒ
-- [Rojak](https://curseforge.com/projects/1550713) Ⓒ
 - [Low Shield](https://curseforge.com/projects/1052630) Ⓒ
 - [(Unofficial) Mandala's GUI - Dark Mode Compatibility Neo](https://curseforge.com/projects/1230872) Ⓒ
 - [Mobs Refreshed + Fresh Animations](https://curseforge.com/projects/897371) Ⓒ
@@ -316,3 +375,13 @@ parent: Mycelia
 - [Zero's Modern Crosshair](https://curseforge.com/projects/896543) Ⓒ
 - [AL's Boss Rush x Fresh Animations](https://curseforge.com/projects/1000702) Ⓒ
 - [Mandala's GUI - Dark mode - Utopia extension](https://curseforge.com/projects/1193697) Ⓒ
+
+## Shader Packs
+
+- [MakeUp - Ultra Fast | Shaders](https://curseforge.com/projects/431203) 
+- [Sildur's Enhanced Default Shaders](https://curseforge.com/projects/544140) 
+- [Complementary Shaders - Reimagined](https://curseforge.com/projects/627557) 
+- [Super Duper Vanilla Shaders](https://curseforge.com/projects/534748) 
+- [🎃 Insanity Shader](https://curseforge.com/projects/618217) 
+- [Complementary Shaders - Unbound](https://curseforge.com/projects/385587) 
+- [Sildur's Vibrant shaders](https://curseforge.com/projects/544096) 
