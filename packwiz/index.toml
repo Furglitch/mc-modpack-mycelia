@@ -780,6 +780,11 @@ hash = "bb3972a97a3915f202ce571fc7b943b2055119a0d70404424505e4dbc811958c"
 metafile = true
 
 [[files]]
+file = "mods/euphoria-patches.pw.toml"
+hash = "1010c34ac2177d15b77d843b7e514d152df73d5f0c05b59247eeaa525b23698d"
+metafile = true
+
+[[files]]
 file = "mods/extreme-sound-muffler.pw.toml"
 hash = "82d72ac4b1d62c7a1d14de30f403513dead518f1218f94ddba452f2f4bca21c2"
 metafile = true
@@ -922,6 +927,11 @@ metafile = true
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
 hash = "3a3a1797ca23ac82f89374cfa7060c27a243af1dbb16e0263338c866547ece27"
+metafile = true
+
+[[files]]
+file = "mods/irisshaders.pw.toml"
+hash = "763ed0c115b2b9a1e37e38cb153748c9c3f3c31869fd3d56acfaad54c63e78af"
 metafile = true
 
 [[files]]
@@ -1977,4 +1987,39 @@ metafile = true
 [[files]]
 file = "resourcepacks/zeros-modern-crosshair.pw.toml"
 hash = "7ad6f696098a9ba0824c54dc38623dd4b4c74fd0e81295ad26780e5e1698874e"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "335d3e0f28b42381f929c9997dd188cd656178904833c2d1b01dfd3e098b0569"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "d5bbf1d80ecd2261d38311b897469fdd2dd48029bc520193bfefbc4407f5cc81"
+metafile = true
+
+[[files]]
+file = "shaderpacks/insanity-shader.pw.toml"
+hash = "5408f2e2dc93c0ad15ceee15bd6370e1ad052887df7ef1a6c8188fd1a049b3d1"
+metafile = true
+
+[[files]]
+file = "shaderpacks/makeup-ultra-fast-shader.pw.toml"
+hash = "0cef58b04415568cb831f8a033e2510b9fee5cd3406f0f4bfd636ba0ef51d610"
+metafile = true
+
+[[files]]
+file = "shaderpacks/sildurs-enhanced-default.pw.toml"
+hash = "4a51c44c6055347221755d69f45b5d702bc813ec7af67ad722299a6ca462d8de"
+metafile = true
+
+[[files]]
+file = "shaderpacks/sildurs-vibrant-shaders.pw.toml"
+hash = "56fe2bd5200e8067be11d9b876e8aa6a4f23b73427d2457f9cffe6d639236f02"
+metafile = true
+
+[[files]]
+file = "shaderpacks/super-duper-vanilla-shaders.pw.toml"
+hash = "1a60a7729a18776968f35a1f0c5c9c56df56ecf1308cccec20fd28e544f28eba"
 metafile = true
