@@ -53,6 +53,10 @@ file = "config/create_mobile_packages-server.toml"
 hash = "4f4d15ba82f210ac556c725005b8e49c498aaf9f93c07fad39bc8730ab9bbfe1"
 
 [[files]]
+file = "config/doggytalents-client.toml"
+hash = "77030e43e1e9261af5de15347f85c0d2c57bce3fa5c38f5c2de4faaba78db371"
+
+[[files]]
 file = "config/fancymenu/customizablemenus.txt"
 hash = "b8fa77247f48ced774c2c01f14c0a13a28b8ffbfebe29b0354091f24525848c6"
 
