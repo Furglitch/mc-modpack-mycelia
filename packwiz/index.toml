@@ -1875,11 +1875,6 @@ hash = "311d340e38a6f57f8ac98d121ecc4954be1e2db09f51de66b164e5023c100845"
 metafile = true
 
 [[files]]
-file = "resourcepacks/ice-cream.pw.toml"
-hash = "fc2c85e9718dabef9d146ebfa4caa90b8ed8f6d94b2197970dbb1b96f70c4ba8"
-metafile = true
-
-[[files]]
 file = "resourcepacks/living-dragon.pw.toml"
 hash = "cc3bf7b3af55120514e5fe90262f1ed0d2199aa720afe51fce042c2eee539236"
 metafile = true
@@ -1942,11 +1937,6 @@ metafile = true
 [[files]]
 file = "resourcepacks/pretty-pretty-pipes.pw.toml"
 hash = "acd6294a14d11f4b43d08e08ad71f63aa14fd6d026a7f931b8c1f06a5f3b32bb"
-metafile = true
-
-[[files]]
-file = "resourcepacks/rojak.pw.toml"
-hash = "92113715b07baea2d4fbe6424f16742ce0d7c2316fe12f8e42487faee25a8387"
 metafile = true
 
 [[files]]
