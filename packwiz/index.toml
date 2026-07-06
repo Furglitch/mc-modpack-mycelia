@@ -89,6 +89,18 @@ file = "config/packed_packs/profiles/resourcepacks/Mycelia Default.profile.json"
 hash = "bea4b9b7e2a8a6f40e9d9ccc34c7d2d456bb54cbc54cb0080b88bb8017fa5f49"
 
 [[files]]
+file = "config/paxi/datapacks/ProjectResonance-NoBook/data/ancientcity/loot_table/grant_book_on_first_join.json"
+hash = "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
+
+[[files]]
+file = "config/paxi/datapacks/ProjectResonance-NoBook/pack.mcmeta"
+hash = "2f2e3f5a568724e4879f6a72a316e6e818306f255494060fa8a4d9030b2a6476"
+
+[[files]]
+file = "config/paxi/datapacks/ProjectResonance-NoBook/pack.png"
+hash = "137d1207961effd2803ba4a7d50c84a878ecead6254a21e34f847f7093fb659d"
+
+[[files]]
 file = "config/paxi/resourcepacks/Mycelia Resources/assets/mycelia/textures/gui/skills/coldsweat_cold.png"
 hash = "03ba14301b3dcf6ff2ac067740105e8627bdd2872ea53704a219e7a4f02e1863"
 
@@ -1780,11 +1792,6 @@ metafile = true
 [[files]]
 file = "mods/yungs-extras-neoforge.pw.toml"
 hash = "cd321f6365bc3938e0671450aadcd40c8e03af5cb24d0a545fb07c890b4793ac"
-metafile = true
-
-[[files]]
-file = "project-resonance-book-removal.pw.toml"
-hash = "3218b560f2e65ceb59aa4166fc84975b3afd008fd688706a3c6b5343145b988c"
 metafile = true
 
 [[files]]
