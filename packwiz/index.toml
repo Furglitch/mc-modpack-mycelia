@@ -89,6 +89,10 @@ file = "config/modpack-update-checker/config.json"
 hash = "37435548ed0995eac8a59ea203d6922e56ea1c652a33f26e3aea20e53b9a4ee8"
 
 [[files]]
+file = "config/modpack-update-checker/modpack-info.txt"
+hash = "20825c4f6682633672d89986b64fd16b47391773a36bb6f81402946957d79479"
+
+[[files]]
 file = "config/obscuria/loot_journal-client.toml"
 hash = "f6ba999903594420c2edb7c3f5c0c844742330313af4874b9f1c2e1268591047"
 
