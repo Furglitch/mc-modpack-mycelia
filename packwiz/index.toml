@@ -700,11 +700,6 @@ hash = "a35abc9918ab470587cb18f05a37918a921ec0ae59f1c256ebec3c20d819904e"
 metafile = true
 
 [[files]]
-file = "mods/distant-horizons.pw.toml"
-hash = "563e9267e594bec6a5c32843b34ac8a188ebc8f09e1936d700a9db185cba394b"
-metafile = true
-
-[[files]]
 file = "mods/dnt-stronghold-overhaul.pw.toml"
 hash = "88901e62bd4c195ae07dc7b53bf54f52d1a330b0c84da0edd24e938d1022f8b1"
 metafile = true
