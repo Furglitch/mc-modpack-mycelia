@@ -654,7 +654,7 @@ metafile = true
 
 [[files]]
 file = "mods/data-anchor.pw.toml"
-hash = "269ec2e84dda586fcc3bcf843c23357e3f9cc5bcb075fb7a04b7cbc50f5b6836"
+hash = "c96a979047088d50a4e397213a834ca6f2aaeb55b89e9a003529a06aaed1e9de"
 metafile = true
 
 [[files]]
