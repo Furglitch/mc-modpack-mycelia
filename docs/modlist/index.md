@@ -111,6 +111,7 @@ parent: Mycelia
 - [More Villagers : Re-employed](https://curseforge.com/projects/1147438) 
 - [Flerovium](https://curseforge.com/projects/1142875) Ⓒ
 - [Modern World Creation](https://curseforge.com/projects/485245) Ⓒ
+- [Moonlight Lib](https://curseforge.com/projects/499980) 
 - [Scholar](https://curseforge.com/projects/961802) 
 - [YUNG's Better Ocean Monuments (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015115) 
 - [Create Crafts & Additions](https://curseforge.com/projects/439890) 
@@ -128,9 +129,11 @@ parent: Mycelia
 - [Oh The Biomes We've Gone](https://curseforge.com/projects/1070751) 
 - [Oh The Trees You'll Grow](https://curseforge.com/projects/962544) 
 - [Simple Voice Chat](https://curseforge.com/projects/416089) 
+- [Just Better Recipes](https://curseforge.com/projects/857652) 
 - [Optimized Block Entities](https://curseforge.com/projects/1575743) Ⓒ
 - [GraveStone x Backpacked Compat](https://curseforge.com/projects/1539903) 
 - [YUNG's Bridges (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015149) 
+- [MonoLib](https://curseforge.com/projects/968432) 
 - [Backpacked: World of Color](https://curseforge.com/projects/1027390) 
 - [Fungal Infection: Spore](https://curseforge.com/projects/678295) 
 - [Inventory Essentials](https://curseforge.com/projects/368825) 
@@ -153,6 +156,7 @@ parent: Mycelia
 - [Axes Are Weapons](https://curseforge.com/projects/456457) 
 - [TerraBlender (NeoForge)](https://curseforge.com/projects/940057) 
 - [Aquaculture 2](https://curseforge.com/projects/60028) 
+- [Easy Anvils](https://curseforge.com/projects/682567) 
 - [Doggy Talents Next's Palette Of Paws](https://curseforge.com/projects/1051461) 
 - [Durability Tooltip](https://curseforge.com/projects/511040) Ⓒ
 - [[ETF] Entity Texture Features - [Fabric & Forge]](https://curseforge.com/projects/568563) Ⓒ
@@ -169,6 +173,7 @@ parent: Mycelia
 - [Overflowing Bars](https://curseforge.com/projects/852662) Ⓒ
 - [Mechanicals Lib](https://curseforge.com/projects/1253573) 
 - [Cursors Extended](https://curseforge.com/projects/1184736) Ⓒ
+- [Sawmill](https://curseforge.com/projects/964817) 
 - [Guard Villagers](https://curseforge.com/projects/360203) 
 - [Unified Crops](https://curseforge.com/projects/1222826) 
 - [ShatterLib | OctoLib](https://curseforge.com/projects/916747) 
@@ -220,6 +225,7 @@ parent: Mycelia
 - [YUNG's Better Nether Fortresses (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015118) 
 - [YUNG's Cave Biomes (Forge/NeoForge)](https://curseforge.com/projects/1111586) 
 - [PlayerRevive](https://curseforge.com/projects/266890) 
+- [Enchanting Infuser](https://curseforge.com/projects/551151) 
 - [Sodium](https://curseforge.com/projects/394468) Ⓒ
 - [YUNG's Better Mineshafts (NeoForge)](https://curseforge.com/projects/1015096) 
 - [YUNG's Better Jungle Temples (NeoForge) [1.20.4 - 1.21.1 ONLY]](https://curseforge.com/projects/1015123) 
@@ -252,6 +258,7 @@ parent: Mycelia
 - [Visual Workbench](https://curseforge.com/projects/500273) 
 - [Controlling](https://curseforge.com/projects/250398) Ⓒ
 - [Cold Sweat](https://curseforge.com/projects/506194) 
+- [DarkSmithing - RPG Smithing Template Recipes (Armor Trims)](https://curseforge.com/projects/883709) 
 - [Yung Structures Addon for Loot Integrations](https://curseforge.com/projects/1012211) 
 - [FTB Ultimine (NeoForge)](https://curseforge.com/projects/386134) 
 - [Lithium (Fabric/NeoForge)](https://curseforge.com/projects/360438) 
@@ -263,6 +270,7 @@ parent: Mycelia
 - [Almanac Lib](https://curseforge.com/projects/1115285) 
 - [Sophisticated Storage](https://curseforge.com/projects/619320) 
 - [Tips](https://curseforge.com/projects/306549) 
+- [Dis-Enchanting Table](https://curseforge.com/projects/933354) 
 - [YetAnotherConfigLib](https://curseforge.com/projects/667299) 
 - [Create : Misc & Things](https://curseforge.com/projects/652202) 
 - [spark](https://curseforge.com/projects/361579) Ⓒ
