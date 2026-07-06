@@ -13,10 +13,6 @@ file = "config/animalweights.json"
 hash = "eac717b3780423a000d891801a69eb4bbb4f61f8477649c52e4695d5fd85cad7"
 
 [[files]]
-file = "config/apotheosis/apothic_attributes.cfg"
-hash = "f5df71513fdbd7fdfe335388c6675a3c8dabc055fe3e41fde7cdbb5f1ddc70b7"
-
-[[files]]
 file = "config/backpacked.client.toml"
 hash = "729ac54e91d44f11f5a6165363e1495961fa91eedc385c71839807c1f24cc5c0"
 
