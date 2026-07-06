@@ -129,7 +129,7 @@ jobs:
           mv modlist.md docs/modlist/index.md
 
       - name: Commit and push modlist file
-        uses: EndBug/add-and-commit@v9
+        uses: EndBug/add-and-commit@v10
         with:
           author_name: "github-actions"
           author_email: "github-actions[bot]@users.noreply.github.com"
