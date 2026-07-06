@@ -1,6 +1,7 @@
 name = "Relics"
 filename = "relics-1.21.1-0.10.7.8.jar"
 side = "both"
+pin = true
 
 [download]
 hash-format = "sha1"
