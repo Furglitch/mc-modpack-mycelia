@@ -364,6 +364,7 @@ parent: Mycelia
 - [Noticably Suspicious](https://curseforge.com/projects/1420427) Ⓒ
 - [(Bee's) Fancy Crops](https://curseforge.com/projects/884709) Ⓒ
 - [AL's Boss Rush](https://curseforge.com/projects/1000607) Ⓒ
+- [Beautiful Enchanted Books](https://curseforge.com/projects/969926) 
 - [Low Shield](https://curseforge.com/projects/1052630) Ⓒ
 - [(Unofficial) Mandala's GUI - Dark Mode Compatibility Neo](https://curseforge.com/projects/1230872) Ⓒ
 - [Mobs Refreshed + Fresh Animations](https://curseforge.com/projects/897371) Ⓒ
@@ -371,6 +372,7 @@ parent: Mycelia
 - [Bibliophilia | Enchanted Books](https://curseforge.com/projects/657574) Ⓒ
 - [Abibliophobia | Enchanted Books](https://curseforge.com/projects/1394777) Ⓒ
 - [Mandala's GUI - Dark mode](https://curseforge.com/projects/664719) Ⓒ
+- [Zomboid Ambience](https://curseforge.com/projects/1522055) 
 - [Colourful Containers: Modded Dark Mode GUI Compat](https://curseforge.com/projects/1160244) Ⓒ
 - [Zero's Modern Crosshair](https://curseforge.com/projects/896543) Ⓒ
 - [AL's Boss Rush x Fresh Animations](https://curseforge.com/projects/1000702) Ⓒ
