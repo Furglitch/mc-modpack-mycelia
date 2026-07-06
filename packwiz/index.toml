@@ -794,7 +794,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "84cc0d40e518c782dbed6f582163b034d4d7f82d1e41e38dc907ed77e2836eaa"
+hash = "9da306595f004f5d27687749317953a6497aaee29959eebb0deb394d7120f83e"
 metafile = true
 
 [[files]]
@@ -1139,7 +1139,7 @@ metafile = true
 
 [[files]]
 file = "mods/relics-mod.pw.toml"
-hash = "b8343a89b5bca7976f6aac6a977b22d477230f486b2a65dcde64649ae828da8c"
+hash = "a63a24d0d6357d1ca0f72dc60351ff2c18d708be6ee1f6f8f9dcfd5f25983ceb"
 metafile = true
 
 [[files]]
@@ -1239,7 +1239,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "87d5466a7b458cd6ef5cf22c87be38ad51d0f684d6c400fa66c551db1a0aab1d"
+hash = "03243ab5e329a9050831f5f57bf281a09b38849528d2024ed82f0c6b6e28735d"
 metafile = true
 
 [[files]]
@@ -1259,7 +1259,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-storage.pw.toml"
-hash = "0feac0d169ba331a3d64a0133656b38da864d589d0d19a464774a1e066183286"
+hash = "fa295247bba91122b891f9a8639689804ffe78bf5f3253daca78d1549ff59408"
 metafile = true
 
 [[files]]
@@ -1394,7 +1394,7 @@ metafile = true
 
 [[files]]
 file = "mods/unionlib.pw.toml"
-hash = "381686059e3d448c157f3fc7e0ed2993b74ad2e1eea81a1c2a63baf158234982"
+hash = "9b2c9d9df7f854001468ddd68fcebe7a09ce13a74359436ac45c5aae8daf0fae"
 metafile = true
 
 [[files]]
@@ -1524,7 +1524,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/clarity-tooltips.pw.toml"
-hash = "b13d51c1f44759e88947278e6d09a7cfc5a469d0d82f6879cc2050a0e493920e"
+hash = "cb8b0139cd1d92d397936c0ef6c1e2320beedbdbd1765da0800e867cffa03e11"
 metafile = true
 
 [[files]]
