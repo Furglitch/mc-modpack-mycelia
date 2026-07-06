@@ -845,6 +845,16 @@ hash = "5fb287ddb204cc2460dc51984099b0010462f781d00b2d6ed2a37046accf2560"
 metafile = true
 
 [[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "d1cd2e49985872d923864aa44e4ff8b4d97e3ab9e78bf2c5fd57d2275a62901b"
+metafile = true
+
+[[files]]
+file = "mods/ftb-teams-forge.pw.toml"
+hash = "e717bb275a54a5caadaa7cf82bc34df3589f49402074adf93c31eaac43860313"
+metafile = true
+
+[[files]]
 file = "mods/ftb-ultimine-forge.pw.toml"
 hash = "3529bc9c3a7b54933869be1d1d84a948d091c3d6064bbb6b17874d7c153b4dca"
 metafile = true
