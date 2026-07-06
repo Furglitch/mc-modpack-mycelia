@@ -1,0 +1,13 @@
+name = "Zomboid Ambience"
+filename = "zomboid-ambience.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2781091b8ec8d981d4e21bf8e1e72967f1451701"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7969645
+project-id = 1522055

@@ -57,6 +57,26 @@ file = "config/create_mobile_packages-server.toml"
 hash = "4f4d15ba82f210ac556c725005b8e49c498aaf9f93c07fad39bc8730ab9bbfe1"
 
 [[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "b8fa77247f48ced774c2c01f14c0a13a28b8ffbfebe29b0354091f24525848c6"
+
+[[files]]
+file = "config/fancymenu/customization/join_multiplayer_screen_layout.txt"
+hash = "30f8d17a9159f43fc760b61fa8c152ef4f08b67788541a3bf4be703237bd7943"
+
+[[files]]
+file = "config/fancymenu/customization/options_screen_layout.txt"
+hash = "8f2fd040cf83f824b79636bf879f9a4d3043e354c43d43a71136f09a556bb6f1"
+
+[[files]]
+file = "config/fancymenu/customization/title_screen_layout.txt"
+hash = "699a1fce6999d866f12cc6cd6ceebc14146ab5aac2a5acad9fa7aca653b5691d"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "eb76da72c37b3ef0ff8f0316a731290797bbed6080f6f72546f31a3b93e7e5e3"
+
+[[files]]
 file = "config/fbp/config.json"
 hash = "ad3e5e1f8e3a25c2a532501bf3af43491c45776fe99afd45c802407f21ffe469"
 
@@ -86,7 +106,7 @@ hash = "47d725e2c061cab8e41afdb8714777112dfcef337e5cc2d2daf42514441cb5da"
 
 [[files]]
 file = "config/packed_packs/profiles/resourcepacks/Mycelia Default.profile.json"
-hash = "bea4b9b7e2a8a6f40e9d9ccc34c7d2d456bb54cbc54cb0080b88bb8017fa5f49"
+hash = "bee52e4524fe7d9f9af1f1ee150136266a7edb43ffc4ee6955d6542c515be0e8"
 
 [[files]]
 file = "config/paxi/datapacks/ProjectResonance-NoBook/data/ancientcity/loot_table/grant_book_on_first_join.json"
@@ -99,6 +119,34 @@ hash = "2f2e3f5a568724e4879f6a72a316e6e818306f255494060fa8a4d9030b2a6476"
 [[files]]
 file = "config/paxi/datapacks/ProjectResonance-NoBook/pack.png"
 hash = "137d1207961effd2803ba4a7d50c84a878ecead6254a21e34f847f7093fb659d"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/minecraft/textures/gui/title/background/panorama_0.png"
+hash = "54dcbefff86619d6aa191b5a49fdc22f20912bcbacec0c53926e689a89a1ad96"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/minecraft/textures/gui/title/background/panorama_1.png"
+hash = "70734bed0f01ad4d445e3a5164bc109f5533849b11a0f82179d5d968fa6de945"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/minecraft/textures/gui/title/background/panorama_2.png"
+hash = "c8e0918f33878e366f8220f9dbcb0a542150633aff795b2da815b66a47e5e99d"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/minecraft/textures/gui/title/background/panorama_3.png"
+hash = "cbe5cedcb2d395317d8533160837f5f64fba9fdaac567cb54502f15394089626"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/minecraft/textures/gui/title/background/panorama_4.png"
+hash = "e8665a3444dd1023b800adf5a14566f9adae28c6723b72470507d02f69d9711b"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/minecraft/textures/gui/title/background/panorama_5.png"
+hash = "4938014b7d9113c981fcf334b313abf02f42acd62cd5b0638caee642b890c24c"
+
+[[files]]
+file = "config/paxi/resourcepacks/Mycelia Resources/assets/mycelia/textures/gui/menu/wabbanode.png"
+hash = "0f8d1c81bcac8751cb0d675ca501a58e31d44625a742f0b5d6c47c5c50960843"
 
 [[files]]
 file = "config/paxi/resourcepacks/Mycelia Resources/assets/mycelia/textures/gui/skills/coldsweat_cold.png"
@@ -178,7 +226,7 @@ hash = "604a8e26c9cccc0e5d89edde7af3d07d85f6dae1382ce1ec84818d620acfe9ba"
 
 [[files]]
 file = "configureddefaults/options.txt"
-hash = "93617976d882baf46c3c540e05704ab483f1b79ddb03d28bfa510d427188951e"
+hash = "4f035998eee02a07ca9a9cd93825acb79e5b7f480aa92feb638d238f1518ce4a"
 
 [[files]]
 file = "kubejs/server_scripts/spawns.spore.cold.js"
@@ -1830,6 +1878,11 @@ hash = "10dd102db98de83d93690877888ea1994b5155bf712b5202240c94617ac22d13"
 metafile = true
 
 [[files]]
+file = "resourcepacks/beautiful-enchanted-books.pw.toml"
+hash = "2330fdab3ef22224eeecbc4e849bfb1bd3dd1d26b0b1e8feeb668ed7e95e4b6b"
+metafile = true
+
+[[files]]
 file = "resourcepacks/better-sophisticated-backpack-upgrades-bsbu.pw.toml"
 hash = "39ed61483db2feaafd2a2c7e01d45c2731bc338c64badf702b50ae5a60fc2880"
 metafile = true
@@ -1982,6 +2035,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/zeros-modern-crosshair.pw.toml"
 hash = "7ad6f696098a9ba0824c54dc38623dd4b4c74fd0e81295ad26780e5e1698874e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/zomboid-ambience.pw.toml"
+hash = "8186125451d59a6ad85e3ddd85d8530e2a9d2acb72294c8b2582264e9530ab88"
 metafile = true
 
 [[files]]

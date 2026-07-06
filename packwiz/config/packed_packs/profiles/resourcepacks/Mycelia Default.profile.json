@@ -3,6 +3,8 @@
   "name": "Mycelia Default",
   "overrides": {},
   "packIds": [
+    "Mycelia Resources",
+    "file/zomboid-ambience.zip",
     "file/Better SB Upgrades.zip",
     "file/Suren Sophisticated Storage v2.0.0 1.21-1.21.1.zip",
     "file/Pretty Pretty Pipes.zip",
@@ -39,10 +41,13 @@
     "file/Fancy Crops v1.3.zip",
     "file/Noticably Suspicious.zip",
     "file/Stay_True_1.21.zip",
+    "moonlight:merged_pack",
+    "mod/towntalk:respack",
     "generated/fragmentum_layer",
     "scholar:chiseled_bookshelf_colored_books",
     "scholar:colored_books",
     "mod_resources",
-    "vanilla"
+    "vanilla",
+    "tacz_resources"
   ]
 }
