@@ -328,6 +328,11 @@ hash = "05abf6fafe4a8adf5aaa24f09b7dedfbe199a8727d925e816fc608d6357f5ba8"
 metafile = true
 
 [[files]]
+file = "mods/blueprint.pw.toml"
+hash = "cb564821fb109f3cd53c9e82d3604685d5a9414098c293bc95618e6776315dce"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "cf914684c4151076b726116a66f7bc81a6116655551bcce70a9e64e34e5aa308"
 metafile = true
@@ -1158,6 +1163,11 @@ hash = "bc9449306cb2c32f16347779291d68e5fba67f85d7aca04b4b9cc1c033ec4083"
 metafile = true
 
 [[files]]
+file = "mods/netherex.pw.toml"
+hash = "353e95c0412e5877b35eec6ebd071cf2197284fb691c00c112c604afc01ae8b2"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "78cf82fda4c8a7ea9556cf4481b43f38762151bcac0a09fd412f82d5f0883cc7"
 metafile = true
@@ -1585,6 +1595,11 @@ metafile = true
 [[files]]
 file = "mods/unionlib.pw.toml"
 hash = "381686059e3d448c157f3fc7e0ed2993b74ad2e1eea81a1c2a63baf158234982"
+metafile = true
+
+[[files]]
+file = "mods/unusual-end.pw.toml"
+hash = "40ae9f7e00bbc76b271c5cf46297db1d828c89341c7879572a5649f1c6ae6b67"
 metafile = true
 
 [[files]]
