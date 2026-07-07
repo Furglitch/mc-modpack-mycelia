@@ -1,0 +1,4 @@
+[Container]
+	#Defineds drinks will be influenced by purity
+	#Format: ["examplemod:example_item_1", "examplemod:example_item_2"]
+	Containers = ["cold_sweat:filled_waterskin"]

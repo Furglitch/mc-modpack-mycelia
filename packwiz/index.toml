@@ -205,6 +205,10 @@ file = "config/structurify.json"
 hash = "a8dc3f4ee2bfee2625a55c98e985205387ea51a580bec498a65923082cde99fc"
 
 [[files]]
+file = "config/thrist/config.toml"
+hash = "92443559eead935175e7a1b47cc8ac5bd94ec26ca7dd9219e79a7e9397335e56"
+
+[[files]]
 file = "config/tyzs_skills/skills/custom/cold_sweat/cold_resist.json"
 hash = "a47b5becf805258b7afb50888a16e1a4db619b5be1157e4cabe90efdb9d4a05f"
 
