@@ -1,13 +1,13 @@
 name = "Scholar"
-filename = "scholar-neoforge-1.21.1-1.2.3.jar"
+filename = "scholar-neoforge-1.21.1-1.2.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0177a835b9d1d885a7f83a30fa70988e0d1f77c5"
+hash = "c00a239520937aff35fe4660786f4d1b22d6d42e"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8278034
+file-id = 8554061
 project-id = 961802
