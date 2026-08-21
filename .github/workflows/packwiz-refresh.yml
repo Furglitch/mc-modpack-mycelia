@@ -40,7 +40,7 @@ jobs:
         run: git pull --rebase
 
       - name: Download packwiz binary
-        uses: dawidd6/action-download-artifact@v21
+        uses: dawidd6/action-download-artifact@v23
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           workflow: go.yml
