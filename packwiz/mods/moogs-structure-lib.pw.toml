@@ -1,13 +1,13 @@
 name = "Moog's Structure Lib (moogs_structures)"
-filename = "MoogsStructureLib-neoforge-1.21.1-3.1.1.jar"
+filename = "MoogsStructureLib-neoforge-1.21.1-3.1.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "0f412c984ec0b66ba4ac2574303d8ad9a1d3a6c5"
+hash = "627a970a8cdf09ef86d36c97cb85b161459c04d3"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8686061
+file-id = 8731537
 project-id = 1337167
