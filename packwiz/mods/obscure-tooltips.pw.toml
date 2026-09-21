@@ -1,13 +1,13 @@
 name = "Obscure Tooltips"
-filename = "obscure_tooltips-neoforge-1.21.1-4.2.4.jar"
+filename = "obscure_tooltips-neoforge-1.21.1-4.2.5.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "3ff84162783758da0af3bfb67def80d79b442acd"
+hash = "35469a3b86c85e2e535b559280e3a140d1acdc74"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8687679
+file-id = 8922038
 project-id = 715660
