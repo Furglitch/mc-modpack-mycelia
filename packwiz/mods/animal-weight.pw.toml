@@ -1,13 +1,13 @@
 name = "Animal  Weights"
-filename = "animalweights-1.21.1-NeoForge-1.1.0.jar"
+filename = "animalweights-1.21.1-NeoForge-1.2.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7ee4c578e0b32dbadc5bc82b9444e44b30b30d2f"
+hash = "1baa1ff796e21ba5177f5968a926d71c391be963"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8396769
+file-id = 8974822
 project-id = 1544774
