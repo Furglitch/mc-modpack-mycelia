@@ -1,13 +1,13 @@
 name = "Softer Hay Bales"
-filename = "softerhaybales-1.21.1-3.4.jar"
+filename = "softerhaybales-1.21.1-3.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d7468da32a14e8559573e64aa3745b55d86e1fd5"
+hash = "1c34032a1b94c22fe17ddddaf5ae45d07b2f1804"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6185126
+file-id = 9032724
 project-id = 344178

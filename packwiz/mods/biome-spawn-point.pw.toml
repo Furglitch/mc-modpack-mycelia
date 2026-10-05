@@ -1,13 +1,13 @@
 name = "Biome Spawn Point"
-filename = "biomespawnpoint-1.21.1-2.4.jar"
+filename = "biomespawnpoint-1.21.1-2.6.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7e0b120679be73711eac3330dad5ec20f79356f4"
+hash = "02d420b495b89c19be789f2dc023fbf9dae64aa0"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 6186421
+file-id = 9034865
 project-id = 695238

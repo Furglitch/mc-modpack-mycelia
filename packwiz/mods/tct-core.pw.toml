@@ -1,13 +1,13 @@
 name = "TCT Core"
-filename = "TCTcore-1.21.1.jar"
+filename = "tctcore-2.3-neoforge-1.21.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "3c647fdcaa5e9aebc45a61287696ac57ce369359"
+hash = "a5384428a223cd255c2ed55b4bfc3363635e280d"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 7377772
+file-id = 8623154
 project-id = 1060479

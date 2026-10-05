@@ -1,13 +1,13 @@
 name = "Augmented Backpacks"
-filename = "AugmentedBackpacks-1.1.0.jar"
+filename = "AugmentedBackpacks-1.1.3.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "47f6fa048593a4c3be1bab225072b78eec942c77"
+hash = "f1e055f695de7d8d6def14b0c3dfba8d8d8dbdb5"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8269007
+file-id = 8585425
 project-id = 1532339
