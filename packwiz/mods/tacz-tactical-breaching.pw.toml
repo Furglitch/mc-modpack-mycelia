@@ -1,13 +1,13 @@
-name = "[TaCZ] Tactical Breaching"
-filename = "tacz_tactical_breaching-neoforge-1.21.1-1.0.5.jar"
+name = "[TaCZ] [SBW] Tactical Breaching"
+filename = "tactical_breaching-tacz-sbw-neoforge-1.21.1-1.0.5.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "feaf93042b1a295419f4570d09bf3d431bbdb34f"
+hash = "2646be193c9a701e2201923dcf8b4db26fcc9383"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 8752892
+file-id = 9001109
 project-id = 1552880
